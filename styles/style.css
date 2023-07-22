@@ -225,3 +225,148 @@ template {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: rgb(250, 250, 250);
+  background-color: rgb(18, 18, 18);
+}
+
+body, h1, h2, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  background-color: rgb(255, 179, 16);
+  color: rgb(18, 18, 18);
+  padding: 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.34rem;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 5;
+}
+header .bgImg {
+  background-image: url("../assets/erikaHeroImg.png");
+  background-position: right 35% bottom 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .topNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+}
+header .topNav nav ul {
+  display: flex;
+  margin-left: 1rem;
+}
+header .topNav nav ul li {
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+header .hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .hero h1 {
+  font-size: 3.36rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+header .hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.68rem;
+  letter-spacing: 0.1rem;
+}
+header .hero h2 span {
+  text-transform: uppercase;
+  color: rgb(250, 250, 250);
+}
+header .hero button {
+  text-transform: uppercase;
+  color: rgb(255, 179, 16);
+  border: 2px solid rgb(255, 179, 16);
+  padding: 0.5rem;
+  height: 2rem;
+  width: 120px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  background-color: rgb(18, 18, 18);
+}
+header .headerBackText {
+  font-size: 25rem;
+  text-transform: uppercase;
+  color: rgb(101, 101, 101);
+  opacity: 0.3;
+  font-weight: 700;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 10%;
+  z-index: -5;
+}
+
+.feedback {
+  margin-top: 10rem;
+  background-color: rgb(255, 179, 16);
+  color: rgb(18, 18, 18);
+  font-style: italic;
+  height: 45vh;
+  position: relative;
+}
+.feedback .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+}
+.feedback .wrapper .quoteSymbol {
+  color: rgb(250, 250, 250);
+  font-size: 6rem;
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-style: normal;
+  position: absolute;
+  top: 15%;
+}
+.feedback .wrapper .quote {
+  font-weight: 500;
+  padding-top: 2rem;
+  text-align: center;
+}
+.feedback .wrapper .quoteCredit {
+  width: 100%;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  text-align: right;
+}
