@@ -375,3 +375,51 @@ header .headerBackText {
   padding-top: 1rem;
   text-align: right;
 }
+
+.about {
+  height: 120vh;
+}
+.about .ourStoryCover {
+  height: 80vh;
+  position: relative;
+}
+.about .ourStoryCover .blackStrip {
+  height: 30vh;
+}
+.about .ourStoryCover .purpleStrip {
+  height: 50vh;
+  background-color: rgb(240, 186, 240);
+  color: rgb(18, 18, 18);
+}
+.about .ourStoryCover .purpleStrip h2 {
+  font-size: 5.04rem;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.about .ourStoryCover img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+}
+.about .ourStory {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+}
+.about .ourStory .ourStoryTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 35vh;
+}
+.about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
+  width: 30%;
+  text-align: right;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.68rem;
+  text-transform: uppercase;
+}
+.about .ourStory .ourStoryTextContainer .ourStoryTextRight {
+  width: 60%;
+}

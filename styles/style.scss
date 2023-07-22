@@ -172,6 +172,56 @@ header {
             text-align: right;
         }
     }
+}
 
+//about
+
+.about {
+    height: 120vh;
+    .ourStoryCover {
+        height: 80vh;
+        position: relative;
+        .blackStrip {
+            height: 30vh;
+        }
+        .purpleStrip {
+            height: 50vh;
+            background-color: $purple;
+            color: $black;
+            h2 {
+                font-size: 5.04rem;
+                text-transform: uppercase;
+                font-family: $secondaryFont;
+            }
+        }
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 60%
+        }
+    }
+    .ourStory {
+        display: flex;
+        height: 60vh;
+        align-items: center;
+        .ourStoryTextContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            height: 35vh;
+            .ourStoryTextLeft {
+                width: 30%;
+                text-align: right;
+                font-family: $secondaryFont;
+                font-size: 1.68rem;
+                text-transform: uppercase;
+            }
+            .ourStoryTextRight {
+                width: 60%;
+            }
+        }
+    }
+    
 }
 
