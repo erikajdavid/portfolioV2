@@ -129,6 +129,12 @@ header {
     }
 }
 
+//projects
+
+.projects {
+    height: 100vh;
+}
+
 //feedback
 
 .feedback {
@@ -157,6 +163,7 @@ header {
             font-weight: 500;
             padding-top: 2rem;
             text-align: center;
+            line-height: 1.34rem;
         }
         .quoteCredit {
             width: 100%;

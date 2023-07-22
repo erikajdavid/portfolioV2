@@ -335,6 +335,10 @@ header .headerBackText {
   z-index: -5;
 }
 
+.projects {
+  height: 100vh;
+}
+
 .feedback {
   margin-top: 10rem;
   background-color: rgb(255, 179, 16);
@@ -363,6 +367,7 @@ header .headerBackText {
   font-weight: 500;
   padding-top: 2rem;
   text-align: center;
+  line-height: 1.34rem;
 }
 .feedback .wrapper .quoteCredit {
   width: 100%;
