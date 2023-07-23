@@ -233,7 +233,7 @@ html {
   background-color: rgb(18, 18, 18);
 }
 
-body, h1, h2, ul, p {
+body, h1, h2, h3, ul, p {
   margin: 0;
   padding: 0;
 }
@@ -340,7 +340,6 @@ header .headerBackText {
 }
 
 .feedback {
-  margin-top: 10rem;
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
   font-style: italic;
@@ -361,13 +360,13 @@ header .headerBackText {
   font-family: "BIZ UDPGothic", sans-serif;
   font-style: normal;
   position: absolute;
-  top: 15%;
+  top: 12%;
 }
 .feedback .wrapper .quote {
   font-weight: 500;
   padding-top: 2rem;
   text-align: center;
-  line-height: 1.34rem;
+  line-height: 1.68rem;
 }
 .feedback .wrapper .quoteCredit {
   width: 100%;
@@ -376,11 +375,7 @@ header .headerBackText {
   text-align: right;
 }
 
-.about {
-  height: 120vh;
-}
 .about .ourStoryCover {
-  height: 80vh;
   position: relative;
 }
 .about .ourStoryCover .blackStrip {
@@ -404,14 +399,13 @@ header .headerBackText {
 }
 .about .ourStory {
   display: flex;
-  height: 60vh;
-  align-items: center;
+  justify-content: center;
 }
 .about .ourStory .ourStoryTextContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 35vh;
+  padding: 7rem 0;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
   width: 30%;
@@ -420,6 +414,15 @@ header .headerBackText {
   font-size: 1.68rem;
   text-transform: uppercase;
 }
+.about .ourStory .ourStoryTextContainer .ourStoryTextLeft h3 {
+  margin-bottom: 2rem;
+}
+.about .ourStory .ourStoryTextContainer .ourStoryTextLeft p {
+  line-height: 2.36rem;
+}
 .about .ourStory .ourStoryTextContainer .ourStoryTextRight {
   width: 60%;
+}
+.about .ourStory .ourStoryTextContainer .ourStoryTextRight p {
+  line-height: 1.34rem;
 }
