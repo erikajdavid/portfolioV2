@@ -333,10 +333,15 @@ header .headerBackText {
   transform: rotate(-90deg);
   top: 10%;
   z-index: -5;
+  -webkit-text-stroke: 0.4px rgb(250, 250, 250);
 }
 
 .projects {
   height: 100vh;
+}
+
+.firstQuote {
+  margin-top: 7rem;
 }
 
 .feedback {
@@ -373,6 +378,7 @@ header .headerBackText {
   font-size: 0.8rem;
   padding-top: 1rem;
   text-align: right;
+  line-height: 1.17rem;
 }
 
 .about .ourStoryCover {
@@ -381,10 +387,31 @@ header .headerBackText {
 .about .ourStoryCover .blackStrip {
   height: 30vh;
 }
+.about .ourStoryCover .blackStrip .storyBackText {
+  font-size: 20rem;
+  text-transform: uppercase;
+  color: rgb(101, 101, 101);
+  font-weight: 700;
+  position: absolute;
+  top: -6%;
+  right: 0;
+  z-index: -5;
+  opacity: 0.3;
+  -webkit-text-stroke: 0.4px rgb(250, 250, 250);
+}
 .about .ourStoryCover .purpleStrip {
-  height: 50vh;
+  height: 45vh;
   background-color: rgb(240, 186, 240);
   color: rgb(18, 18, 18);
+  display: flex;
+  align-items: center;
+}
+.about .ourStoryCover .purpleStrip p {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+  padding-left: 0.3rem;
+  font-size: 1.34rem;
 }
 .about .ourStoryCover .purpleStrip h2 {
   font-size: 5.04rem;
@@ -404,7 +431,7 @@ header .headerBackText {
 .about .ourStory .ourStoryTextContainer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 7rem 0;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
@@ -416,13 +443,32 @@ header .headerBackText {
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextLeft h3 {
   margin-bottom: 2rem;
+  font-size: 2.02rem;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextLeft p {
-  line-height: 2.36rem;
+  line-height: 2.7rem;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextRight {
   width: 60%;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextRight p {
   line-height: 1.34rem;
+}
+
+footer {
+  height: 100vh;
+}
+footer .wrapper {
+  height: 95vh;
+}
+
+.copyright {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgb(101, 101, 101);
+  font-size: 0.8rem;
+  border-top: 1px solid rgb(101, 101, 101);
 }
