@@ -125,7 +125,7 @@ header {
         font-size: 25rem;
         text-transform: uppercase;
         color: $grey;
-        opacity: 0.3;
+        opacity: 0.15;
         font-weight: 700;
         position: absolute;
         transform: rotate(-90deg);
@@ -195,7 +195,7 @@ header {
         .blackStrip {
             height: 30vh;
             .storyBackText {
-                font-size: 18rem;
+                font-size: 17rem;
                 text-transform: uppercase;
                 color: $grey;
                 font-weight: 700;
@@ -203,7 +203,7 @@ header {
                 top: 0;
                 right: 0;
                 z-index: -5;
-                opacity: 0.3;
+                opacity: 0.15;
                 -webkit-text-stroke: 0.4px $white;
             }
         }
@@ -269,6 +269,7 @@ header {
 
 footer {
     height: 100vh;
+    position: relative;
     .wrapper {
         height: 95vh;
         display: flex;
@@ -397,16 +398,28 @@ footer {
             }
         }
     }  
+    .footerBackText {
+        font-size: 17rem;
+        font-weight: 700;
+        color: $grey;
+        opacity: 0.15;
+        text-transform: uppercase;
+        -webkit-text-stroke: 0.4px $white;
+        position: absolute;
+        right: -5%;
+        top: 25%;
+    }
+    .copyright {
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: $grey;
+        font-size: 0.8rem;
+        border-top: 1px solid $grey;
+    }
 }
 
-.copyright {
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: $grey;
-    font-size: 0.8rem;
-    border-top: 1px solid $grey;
-}
+
 
