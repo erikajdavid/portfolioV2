@@ -228,7 +228,7 @@ template {
 
 html {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: rgb(250, 250, 250);
   background-color: rgb(18, 18, 18);
   scroll-behavior: smooth;
@@ -588,7 +588,8 @@ footer .formContainer form button {
   margin: 0 auto;
   padding: 0.5rem;
   text-transform: uppercase;
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
+  letter-spacing: 0.3;
 }
 footer .formContainer .erikaCredit {
   text-transform: uppercase;
@@ -625,4 +626,20 @@ footer .copyright {
   color: rgb(101, 101, 101);
   font-size: 0.8rem;
   border-top: 1px solid rgb(101, 101, 101);
+}
+footer .backToTopBtn {
+  font-size: 1.25rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 179, 16);
+  background-color: rgb(18, 18, 18);
+  border: 2px solid rgb(255, 179, 16);
+  position: fixed;
+  bottom: 7vh;
+  right: 5%;
+  padding: 1.5rem;
+  border-radius: 20rem;
 }

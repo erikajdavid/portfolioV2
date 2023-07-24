@@ -20,7 +20,7 @@ $purple: rgb(240, 186, 240);
 
 html {
     font-family: $primaryFont;
-    font-size: 18px;
+    font-size: 16px;
     color: $white;
     background-color: $black;
     scroll-behavior: smooth;
@@ -385,7 +385,8 @@ footer {
                 margin: 0 auto;
                 padding: 0.5rem;
                 text-transform: uppercase;
-                margin-bottom: 6rem;
+                margin-bottom: 7rem;
+                letter-spacing: 0.3;
             }
         }
         .erikaCredit {
@@ -424,6 +425,22 @@ footer {
         color: $grey;
         font-size: 0.8rem;
         border-top: 1px solid $grey;
+    }
+    .backToTopBtn {
+        font-size: 1.25rem;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $yellow;
+        background-color: $black;
+        border: 2px solid $yellow;
+        position: fixed; 
+        bottom: 7vh;
+        right: 5%;
+        padding: 1.5rem;
+        border-radius: 20rem;
     }
 }
 
