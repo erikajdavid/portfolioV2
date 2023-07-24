@@ -469,6 +469,7 @@ footer .wrapper {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  padding: 5rem 0 3rem 0;
 }
 footer .wrapper .handImg {
   position: absolute;
@@ -481,16 +482,16 @@ footer .col1 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 footer .col1 .footerTextContainer {
-  height: 25%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 footer .col1 .yellowBlock {
-  height: 25%;
+  height: 30%;
   background-color: rgb(255, 179, 16);
   border-radius: 10px;
 }
@@ -499,13 +500,13 @@ footer .col2 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 footer .col2 .blankBlock {
-  height: 25%;
+  height: 30%;
 }
 footer .col2 .yellowBlock {
-  height: 25%;
+  height: 30%;
   background-color: rgb(255, 179, 16);
   border-radius: 10px;
 }
@@ -514,19 +515,77 @@ footer .col3 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 footer .col3 .blankBlock {
-  height: 25%;
+  height: 30%;
 }
 footer .col3 .yellowBlock {
-  height: 25%;
+  height: 30%;
   background-color: rgb(255, 179, 16);
   border-radius: 10px;
 }
 footer .formContainer {
   width: 38%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+footer .formContainer h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  font-size: 1.34rem;
+  margin-bottom: 1.5rem;
+}
+footer .formContainer h2 span {
+  font-size: 5.04rem;
+  font-family: "Oswald", sans-serif;
+}
+footer .formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+footer .formContainer form input, footer .formContainer form textarea {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+footer .formContainer form input[type=text]::-moz-placeholder, footer .formContainer form textarea::-moz-placeholder {
+  font-size: 0.8rem;
+}
+footer .formContainer form input[type=text]::placeholder,
+footer .formContainer form textarea::placeholder {
+  font-size: 0.8rem;
+}
+footer .formContainer form textarea {
+  height: 20vh;
+}
+footer .formContainer form button {
+  border: 3px solid rgb(255, 179, 16);
+  color: rgb(255, 179, 16);
+  background-color: rgb(18, 18, 18);
+  width: 30%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+footer .formContainer .erikaCredit {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 0.9rem;
+  color: rgb(101, 101, 101);
+}
+footer .formContainer .dimpleCredit {
+  text-align: right;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  color: rgb(101, 101, 101);
+}
+footer .formContainer .dimpleCredit a {
+  color: rgb(101, 101, 101);
 }
 
 .copyright {

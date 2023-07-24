@@ -272,6 +272,7 @@ footer {
         align-items: center;
         justify-content: space-between;
         position: relative;
+        padding: 5rem 0 3rem 0;
         .handImg {
             position: absolute;
             left: 5%;
@@ -284,15 +285,15 @@ footer {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         .footerTextContainer {
-            height: 25%;
+            height: 30%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
         .yellowBlock {
-            height: 25%;
+            height: 30%;
             background-color: $yellow;
             border-radius: 10px;
         }
@@ -302,12 +303,12 @@ footer {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         .blankBlock {
-            height: 25%;
+            height: 30%;
         }
         .yellowBlock {
-            height: 25%;
+            height: 30%;
             background-color: $yellow;
             border-radius: 10px;
         }
@@ -317,12 +318,12 @@ footer {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         .blankBlock {
-            height: 25%;
+            height: 30%;
         }
         .yellowBlock {
-            height: 25%;
+            height: 30%;
             background-color: $yellow;
             border-radius: 10px;
         }
@@ -330,6 +331,61 @@ footer {
     .formContainer {
         width: 38%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        h2 {
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 0.3rem;
+            font-size: 1.34rem;
+            margin-bottom: 1.5rem;
+            span {
+                font-size: 5.04rem;
+                font-family: $secondaryFont;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            input, textarea {
+                padding: 0.75rem;
+                margin-bottom: 1rem;
+                border-radius: 6px;
+            }
+            input[type=text]::placeholder,
+            textarea::placeholder {
+                font-size: 0.8rem;
+            }
+            textarea {
+                height: 20vh;
+            }
+            button {
+                border: 3px solid $yellow;
+                color: $yellow;
+                background-color: $black;
+                width: 30%;
+                margin: 0 auto;
+                padding: 0.5rem;
+                text-transform: uppercase;
+                margin-bottom: 6rem;
+            }
+        }
+        .erikaCredit {
+            text-transform: uppercase;
+            text-align: right;
+            font-size: 0.9rem;
+            color: $grey;
+        }
+        .dimpleCredit {
+            text-align: right;
+            padding-top: 1rem;
+            font-size: 0.75rem;
+            color: $grey;
+            a {
+                color: $grey;
+            }
+        }
     }  
 }
 
