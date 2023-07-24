@@ -58,7 +58,7 @@ ul {
     border-radius: 32.5px;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
 }
 
 .fakeBtn {
@@ -88,78 +88,114 @@ header {
     width: 100vw;
     position: relative;
     z-index: 5;
-    .topNav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 12vh;
-        nav ul {
+    .wrapper {
+        display: relative;
+        .topNav {
             display: flex;
-            margin-left: 1rem;
-            li {
+            justify-content: space-between;
+            align-items: center;
+            height: 12vh;
+            nav ul {
+                display: flex;
                 margin-left: 1rem;
-                text-transform: uppercase;
-                font-size: 14px;
-                letter-spacing: 0.05rem;
-                a {
-                    transition: all 0.25s ease;
-                    &:hover {
-                        color: $yellow;
+                li {
+                    margin-left: 1rem;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    letter-spacing: 0.05rem;
+                    a {
+                        transition: all 0.25s ease;
+                        &:hover {
+                            color: $yellow;
+                        }
                     }
                 }
             }
         }
-    }
-    .hero {
-        height: 88vh;
-        display: flex;
-        .heroText {
-            width: 35%;
-            height: 100%;
+        .hero {
+            height: 88vh;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            h1 {
-                font-size: 3.7rem;
-                font-family: $secondaryFont;
-                text-transform: uppercase;
-                padding: 1rem 0;
-                margin-bottom: 1rem;
-            }
-            h2 {
-                font-family: $primaryFont;
-                font-weight: 400;
-                font-size: 1.68rem;
-                letter-spacing: 0.1rem;
-                line-height: 2.25rem;
-                span {
+            .heroText {
+                width: 35%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h1 {
+                    font-size: 3.7rem;
+                    font-family: $secondaryFont;
                     text-transform: uppercase;
-                    color: $white;
+                    padding: 1rem 0;
+                    margin-bottom: 1rem;
+                }
+                h2 {
+                    font-family: $primaryFont;
+                    font-weight: 400;
+                    font-size: 1.68rem;
+                    letter-spacing: 0.1rem;
+                    line-height: 2.25rem;
+                    span {
+                        text-transform: uppercase;
+                        color: $white;
+                    }
+                }
+            }
+            .heroImg {
+                width: 65%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: right;
                 }
             }
         }
-        .heroImg {
-            width: 65%;
-            height: 100%;
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: right;
+        .socialIcons {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            bottom: 10%;
+            right: 5%;
+            .faIcons {
+                color: $yellow;
+                font-size: 1.25rem;
+                background-color: $black;
+                padding: 0.5rem;
+                border-radius: 10rem;
+                margin-bottom: 0.5rem;
+            }
+            .backToTopBtn {
+                font-size: 1.25rem;
+                padding: 0.5rem;
+                border-radius: 10rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $yellow;
+                background-color: $black;
+                cursor: pointer;
+                transition: opacity 0.5s ease;
+                opacity: 0;
+                margin-top: 3rem;
+                border: 1px solid $yellow;
+                &:hover {
+                    background-color: $grey;
+                }
             }
         }
-    }
-    .headerBackText {
-        font-size: 25rem;
-        text-transform: uppercase;
-        color: $grey;
-        opacity: 0.15;
-        font-weight: 700;
-        position: absolute;
-        transform: rotate(-90deg);
-        top: 10%;
-        z-index: -5;
-        -webkit-text-stroke: 0.4px $white;
+        .headerBackText {
+            font-size: 25rem;
+            text-transform: uppercase;
+            color: $grey;
+            opacity: 0.15;
+            font-weight: 700;
+            position: absolute;
+            transform: rotate(-90deg);
+            top: 10%;
+            z-index: -5;
+            -webkit-text-stroke: 0.4px $white;
+        }
     }
 }
 
@@ -488,27 +524,6 @@ footer {
         color: $grey;
         font-size: 0.8rem;
         border-top: 1px solid $grey;
-    }
-    .backToTopBtn {
-        font-size: 1.25rem;
-        width: 1.5rem;
-        height: 1.5rem;
-        padding: 1.25rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $yellow;
-        background-color: $black;
-        border: 2px solid $yellow;
-        position: fixed; 
-        bottom: 7vh;
-        right: 4%;
-        border-radius: 20rem;
-        cursor: pointer;
-        transition: opacity 0.5s ease;
-        &:hover {
-            background-color: $grey;
-        }
     }
 }
 
