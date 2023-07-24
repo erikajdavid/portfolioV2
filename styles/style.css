@@ -256,10 +256,15 @@ ul {
 .logo {
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
-  padding: 1rem;
   border-radius: 50px;
   font-weight: 600;
   font-size: 1.34rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -368,7 +373,7 @@ header .headerBackText {
   top: 12%;
 }
 .feedback .wrapper .quote {
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 2rem;
   text-align: center;
   line-height: 1.68rem;
@@ -388,12 +393,12 @@ header .headerBackText {
   height: 30vh;
 }
 .about .ourStoryCover .blackStrip .storyBackText {
-  font-size: 20rem;
+  font-size: 18rem;
   text-transform: uppercase;
   color: rgb(101, 101, 101);
   font-weight: 700;
   position: absolute;
-  top: -6%;
+  top: 0;
   right: 0;
   z-index: -5;
   opacity: 0.3;
@@ -460,6 +465,68 @@ footer {
 }
 footer .wrapper {
   height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+footer .wrapper .handImg {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 55%;
+}
+footer .col1 {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer .col1 .footerTextContainer {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .col1 .yellowBlock {
+  height: 25%;
+  background-color: rgb(255, 179, 16);
+  border-radius: 10px;
+}
+footer .col2 {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer .col2 .blankBlock {
+  height: 25%;
+}
+footer .col2 .yellowBlock {
+  height: 25%;
+  background-color: rgb(255, 179, 16);
+  border-radius: 10px;
+}
+footer .col3 {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer .col3 .blankBlock {
+  height: 25%;
+}
+footer .col3 .yellowBlock {
+  height: 25%;
+  background-color: rgb(255, 179, 16);
+  border-radius: 10px;
+}
+footer .formContainer {
+  width: 38%;
+  height: 100%;
 }
 
 .copyright {

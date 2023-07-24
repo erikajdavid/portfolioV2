@@ -48,10 +48,15 @@ ul {
 .logo {
     background-color: $yellow;
     color: $black;
-    padding: 1rem;
     border-radius: 50px;
     font-weight: 600;
     font-size: 1.34rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
 }
 
 //header
@@ -164,7 +169,7 @@ header {
             top: 12%;
         }
         .quote {
-            font-weight: 500;
+            font-weight: 600;
             padding-top: 2rem;
             text-align: center;
             line-height: 1.68rem;
@@ -187,12 +192,12 @@ header {
         .blackStrip {
             height: 30vh;
             .storyBackText {
-                font-size: 20rem;
+                font-size: 18rem;
                 text-transform: uppercase;
                 color: $grey;
                 font-weight: 700;
                 position: absolute;
-                top: -6%;
+                top: 0;
                 right: 0;
                 z-index: -5;
                 opacity: 0.3;
@@ -263,7 +268,69 @@ footer {
     height: 100vh;
     .wrapper {
         height: 95vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        .handImg {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 55%;
+        }
     }
+    .col1 {
+        width: 18%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .footerTextContainer {
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .yellowBlock {
+            height: 25%;
+            background-color: $yellow;
+            border-radius: 10px;
+        }
+    }
+    .col2 {
+        width: 18%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .blankBlock {
+            height: 25%;
+        }
+        .yellowBlock {
+            height: 25%;
+            background-color: $yellow;
+            border-radius: 10px;
+        }
+    } 
+    .col3 {
+        width: 18%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .blankBlock {
+            height: 25%;
+        }
+        .yellowBlock {
+            height: 25%;
+            background-color: $yellow;
+            border-radius: 10px;
+        }
+    } 
+    .formContainer {
+        width: 38%;
+        height: 100%;
+    }  
 }
 
 .copyright {
