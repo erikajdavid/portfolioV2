@@ -386,8 +386,8 @@ header .wrapper .socialIcons .backToTopBtn {
   color: rgb(255, 179, 16);
   background-color: rgb(18, 18, 18);
   cursor: pointer;
-  transition: opacity 0.5s ease;
   opacity: 0;
+  transition: opacity 0.5s ease;
   margin-top: 3rem;
   border: 1px solid rgb(255, 179, 16);
 }

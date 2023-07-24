@@ -175,8 +175,8 @@ header {
                 color: $yellow;
                 background-color: $black;
                 cursor: pointer;
-                transition: opacity 0.5s ease;
                 opacity: 0;
+                transition: opacity 0.5s ease;
                 margin-top: 3rem;
                 border: 1px solid $yellow;
                 &:hover {
