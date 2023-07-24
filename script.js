@@ -7,10 +7,10 @@ function handleBackToTopClick() {
 }
 
 function toggleBackToTopBtnVisibility() {
-    if (window.scrollY > 200 && !homeEl.contains(backToTopEl)) {
-        backToTopEl.style.opacity = "0"; // Show the button when the user scrolls 200px or more and is not in the header
+    if (window.scrollY > 200) {
+        backToTopEl.style.opacity = "1"; // Show the button when the user scrolls past the header/home
     } else {
-        backToTopEl.style.opacity = "1"; // Hide the button if the user is near the top or in the header
+        backToTopEl.style.opacity = "0"; // Hide the button if the user is near the top or in the header/home
     }
 }
 
@@ -21,6 +21,11 @@ window.addEventListener('scroll', () => {
     // Toggle the button visibility
     toggleBackToTopBtnVisibility();
 });
+
+// Call the toggleBackToTopBtnVisibility function immediately to update the visibility on page load
+toggleBackToTopBtnVisibility();
+
+
 
 //scroll reveal for projects
 
