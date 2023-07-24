@@ -8,9 +8,9 @@ function handleBackToTopClick() {
 
 function toggleBackToTopBtnVisibility() {
     if (window.scrollY > 200 && !homeEl.contains(backToTopEl)) {
-        backToTopEl.style.opacity = "1"; // Show the button when the user scrolls 200px or more and is not in the header
+        backToTopEl.style.opacity = "0"; // Show the button when the user scrolls 200px or more and is not in the header
     } else {
-        backToTopEl.style.opacity = "0"; // Hide the button if the user is near the top or in the header
+        backToTopEl.style.opacity = "1"; // Hide the button if the user is near the top or in the header
     }
 }
 
