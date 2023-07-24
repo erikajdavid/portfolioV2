@@ -120,10 +120,13 @@
             </div>
             <div class="formContainer">
                 <h2><span>Work</span> with me</h2>
-                <form>
-                    <input type="text" placeholder="Name:">
-                    <input type="text" placeholder="Email:">
-                    <textarea placeholder="Message:"></textarea>
+                <form action="#" method="#" name="contactForm">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Name:" required>
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="Email:" required>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" cols="30" rows="10" minlength="5" maxlength="200" placeholder="Message:" required></textarea>
                     <button type="submit">Submit</button>
                 </form>
                 <p class="erikaCredit">Website designed and developer by Erika David</p>
@@ -132,10 +135,10 @@
             </div>
         </div>
         <p class="copyright">All rights reserved 2023</p>
+        <div class="backToTopBtn">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
     </footer>
-
-
-
     <script src="./script.js"></script>
 
 </body>
