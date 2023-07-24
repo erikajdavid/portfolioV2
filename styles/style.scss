@@ -199,6 +199,10 @@ header {
             padding-top: 1rem;
             text-align: right;
             line-height: 1.17rem;
+            a {
+                color: $black;
+                font-weight: 700;
+            }
         }
     }
 }

@@ -405,6 +405,10 @@ header .headerBackText {
   text-align: right;
   line-height: 1.17rem;
 }
+.feedback .wrapper .quoteCredit a {
+  color: rgb(18, 18, 18);
+  font-weight: 700;
+}
 
 .about .ourStoryCover {
   position: relative;
