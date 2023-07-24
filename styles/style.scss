@@ -60,6 +60,25 @@ ul {
     align-items: center;;
 }
 
+.fakeBtn {
+    width: 140px;
+    text-transform: uppercase;
+    border: 2px solid $yellow;
+    height: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    background-color: $black;
+    color: $yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    &:hover {
+        background-color: $yellow;
+        color: $black;
+    }
+}
+
 //header
 
 header {
@@ -67,12 +86,12 @@ header {
     width: 100vw;
     position: relative;
     z-index: 5;
-    .bgImg {
-        background-image: url("../assets/erikaHeroImg.png");
-        background-position: right 35% bottom 0%;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+    //.bgImg {
+        //background-image: url("../assets/erikaHeroImg.png");
+        //background-position: right 35% bottom 0%;
+        //background-size: contain;
+        //background-repeat: no-repeat;
+    //}
     .topNav {
         display: flex;
         justify-content: flex-start;
@@ -108,19 +127,6 @@ header {
             span {
                 text-transform: uppercase;
                 color: $white;
-            }
-        }
-        button {
-            text-transform: uppercase;
-            border: 2px solid $yellow;
-            padding: 0.5rem;
-            height: 2rem;
-            width: 120px;
-            font-size: 0.8rem;
-            letter-spacing: 0.1rem;
-            background-color: $black;
-            a {
-                color: $yellow;
             }
         }
     }
@@ -260,6 +266,10 @@ header {
             }
             .ourStoryTextRight {
                 width: 60%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 p {
                     line-height: 1.34rem;
                 }
