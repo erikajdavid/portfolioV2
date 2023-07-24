@@ -51,9 +51,9 @@ ul {
     border-radius: 50px;
     font-weight: 600;
     font-size: 1.34rem;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     display: flex;
     justify-content: center;
     align-items: center;;
@@ -146,6 +146,9 @@ header {
 .firstQuote {
     margin-top: 7rem;
 }
+.secondQuote {
+    margin-bottom: 7rem;
+}
 
 .feedback {
     background-color: $yellow;
@@ -237,7 +240,7 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 7rem 0;
+            padding: 9rem 0;
             .ourStoryTextLeft {
                 width: 30%;
                 text-align: right;
@@ -275,8 +278,8 @@ footer {
         padding: 5rem 0 3rem 0;
         .handImg {
             position: absolute;
-            left: 5%;
-            top: 5%;
+            left: 6%;
+            top: 8%;
             width: 55%;
         }
     }
@@ -287,14 +290,21 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         .footerTextContainer {
-            height: 30%;
+            height: 28%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            nav {
+                text-transform: uppercase;
+                a {
+                    color: $grey;
+                    font-size: 0.8rem;
+                }
+            }
         }
         .yellowBlock {
-            height: 30%;
-            background-color: $yellow;
+            height: 28%;
+            background-color: $purple;
             border-radius: 10px;
         }
     }
@@ -305,11 +315,11 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         .blankBlock {
-            height: 30%;
+            height: 28%;
         }
         .yellowBlock {
-            height: 30%;
-            background-color: $yellow;
+            height: 28%;
+            background-color: $purple;
             border-radius: 10px;
         }
     } 
@@ -320,16 +330,16 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         .blankBlock {
-            height: 30%;
+            height: 28%;
         }
         .yellowBlock {
-            height: 30%;
-            background-color: $yellow;
+            height: 28%;
+            background-color: $purple;
             border-radius: 10px;
         }
     } 
     .formContainer {
-        width: 38%;
+        width: 35%;
         height: 100%;
         display: flex;
         flex-direction: column;

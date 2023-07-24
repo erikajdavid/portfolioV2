@@ -259,9 +259,9 @@ ul {
   border-radius: 50px;
   font-weight: 600;
   font-size: 1.34rem;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,6 +347,10 @@ header .headerBackText {
 
 .firstQuote {
   margin-top: 7rem;
+}
+
+.secondQuote {
+  margin-bottom: 7rem;
 }
 
 .feedback {
@@ -437,7 +441,7 @@ header .headerBackText {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 7rem 0;
+  padding: 9rem 0;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
   width: 30%;
@@ -473,8 +477,8 @@ footer .wrapper {
 }
 footer .wrapper .handImg {
   position: absolute;
-  left: 5%;
-  top: 5%;
+  left: 6%;
+  top: 8%;
   width: 55%;
 }
 footer .col1 {
@@ -485,14 +489,21 @@ footer .col1 {
   justify-content: space-between;
 }
 footer .col1 .footerTextContainer {
-  height: 30%;
+  height: 28%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+footer .col1 .footerTextContainer nav {
+  text-transform: uppercase;
+}
+footer .col1 .footerTextContainer nav a {
+  color: rgb(101, 101, 101);
+  font-size: 0.8rem;
+}
 footer .col1 .yellowBlock {
-  height: 30%;
-  background-color: rgb(255, 179, 16);
+  height: 28%;
+  background-color: rgb(240, 186, 240);
   border-radius: 10px;
 }
 footer .col2 {
@@ -503,11 +514,11 @@ footer .col2 {
   justify-content: space-between;
 }
 footer .col2 .blankBlock {
-  height: 30%;
+  height: 28%;
 }
 footer .col2 .yellowBlock {
-  height: 30%;
-  background-color: rgb(255, 179, 16);
+  height: 28%;
+  background-color: rgb(240, 186, 240);
   border-radius: 10px;
 }
 footer .col3 {
@@ -518,15 +529,15 @@ footer .col3 {
   justify-content: space-between;
 }
 footer .col3 .blankBlock {
-  height: 30%;
+  height: 28%;
 }
 footer .col3 .yellowBlock {
-  height: 30%;
-  background-color: rgb(255, 179, 16);
+  height: 28%;
+  background-color: rgb(240, 186, 240);
   border-radius: 10px;
 }
 footer .formContainer {
-  width: 38%;
+  width: 35%;
   height: 100%;
   display: flex;
   flex-direction: column;
