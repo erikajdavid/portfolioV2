@@ -293,6 +293,12 @@ header {
   position: relative;
   z-index: 5;
 }
+header .bgImg {
+  background-image: url("../assets/erikaHeroImg.png");
+  background-position: right 35% bottom 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 header .topNav {
   display: flex;
   justify-content: flex-start;
@@ -308,6 +314,12 @@ header .topNav nav ul li {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.05rem;
+}
+header .topNav nav ul li a {
+  transition: all 0.25s ease;
+}
+header .topNav nav ul li a:hover {
+  color: rgb(255, 179, 16);
 }
 header .hero {
   height: 90vh;
@@ -444,7 +456,7 @@ header .headerBackText {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 9rem 0;
+  padding: 12rem 0;
 }
 .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
   width: 30%;
@@ -511,6 +523,10 @@ footer .col1 .footerTextContainer nav li {
 footer .col1 .footerTextContainer nav a {
   color: rgb(101, 101, 101);
   font-size: 0.8rem;
+  transition: all 0.25s ease;
+}
+footer .col1 .footerTextContainer nav a:hover {
+  color: rgb(255, 179, 16);
 }
 footer .col1 .yellowBlock {
   height: 28%;
@@ -568,11 +584,16 @@ footer .formContainer h2 span {
 footer .formContainer form {
   display: flex;
   flex-direction: column;
+  font-size: 0.8rem;
 }
 footer .formContainer form input, footer .formContainer form textarea {
   padding: 0.75rem;
   margin-bottom: 1rem;
   border-radius: 6px;
+  outline: none;
+}
+footer .formContainer form input:focus, footer .formContainer form textarea:focus {
+  border: 3px solid rgb(255, 179, 16);
 }
 footer .formContainer form input[type=text]::-moz-placeholder, footer .formContainer form textarea::-moz-placeholder {
   font-size: 0.8rem;
@@ -588,18 +609,29 @@ footer .formContainer form button {
   border: 3px solid rgb(255, 179, 16);
   color: rgb(255, 179, 16);
   background-color: rgb(18, 18, 18);
-  width: 30%;
+  width: 115px;
   margin: 0 auto;
   padding: 0.5rem;
   text-transform: uppercase;
   margin-bottom: 7rem;
-  letter-spacing: 0.3;
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .formContainer .erikaCredit {
   text-transform: uppercase;
   text-align: right;
   font-size: 0.9rem;
   color: rgb(101, 101, 101);
+}
+footer .formContainer .erikaCredit a {
+  color: rgb(101, 101, 101);
+  transition: all 0.25s ease;
+}
+footer .formContainer .erikaCredit a:hover {
+  color: rgb(255, 179, 16);
 }
 footer .formContainer .dimpleCredit {
   text-align: right;
@@ -609,6 +641,10 @@ footer .formContainer .dimpleCredit {
 }
 footer .formContainer .dimpleCredit a {
   color: rgb(101, 101, 101);
+  transition: all 0.25s ease;
+}
+footer .formContainer .dimpleCredit a:hover {
+  color: rgb(255, 179, 16);
 }
 footer .footerBackText {
   font-size: 17rem;
@@ -633,8 +669,9 @@ footer .copyright {
 }
 footer .backToTopBtn {
   font-size: 1.25rem;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -643,7 +680,11 @@ footer .backToTopBtn {
   border: 2px solid rgb(255, 179, 16);
   position: fixed;
   bottom: 7vh;
-  right: 5%;
-  padding: 1.5rem;
+  right: 4%;
   border-radius: 20rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+footer .backToTopBtn:hover {
+  background-color: rgb(101, 101, 101);
 }

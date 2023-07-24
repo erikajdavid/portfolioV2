@@ -86,12 +86,12 @@ header {
     width: 100vw;
     position: relative;
     z-index: 5;
-    //.bgImg {
-        //background-image: url("../assets/erikaHeroImg.png");
-        //background-position: right 35% bottom 0%;
-        //background-size: contain;
-        //background-repeat: no-repeat;
-    //}
+    .bgImg {
+        background-image: url("../assets/erikaHeroImg.png");
+        background-position: right 35% bottom 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .topNav {
         display: flex;
         justify-content: flex-start;
@@ -105,6 +105,12 @@ header {
                 text-transform: uppercase;
                 font-size: 14px;
                 letter-spacing: 0.05rem;
+                a {
+                    transition: all 0.25s ease;
+                    &:hover {
+                        color: $yellow;
+                    }
+                }
             }
         }
     }
@@ -249,7 +255,7 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 9rem 0;
+            padding: 12rem 0;
             .ourStoryTextLeft {
                 width: 30%;
                 text-align: right;
@@ -316,6 +322,10 @@ footer {
                 a {
                     color: $grey;
                     font-size: 0.8rem;
+                    transition: all 0.25s ease;
+                    &:hover {
+                        color: $yellow;
+                    }
                 }
             }
         }
@@ -375,10 +385,15 @@ footer {
         form {
             display: flex;
             flex-direction: column;
+            font-size: 0.8rem;
             input, textarea {
                 padding: 0.75rem;
                 margin-bottom: 1rem;
                 border-radius: 6px;
+                outline: none;
+                &:focus {
+                    border: 3px solid $yellow;
+                }
             }
             input[type=text]::placeholder,
             textarea::placeholder {
@@ -391,12 +406,16 @@ footer {
                 border: 3px solid $yellow;
                 color: $yellow;
                 background-color: $black;
-                width: 30%;
+                width: 115px;
                 margin: 0 auto;
                 padding: 0.5rem;
                 text-transform: uppercase;
                 margin-bottom: 7rem;
-                letter-spacing: 0.3;
+                letter-spacing: 0.3rem;
+                font-size: 0.8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
         .erikaCredit {
@@ -404,6 +423,13 @@ footer {
             text-align: right;
             font-size: 0.9rem;
             color: $grey;
+            a {
+                color: $grey;
+                transition: all 0.25s ease;
+                &:hover {
+                    color: $yellow;
+                }
+            }
         }
         .dimpleCredit {
             text-align: right;
@@ -412,6 +438,10 @@ footer {
             color: $grey;
             a {
                 color: $grey;
+                transition: all 0.25s ease;
+                &:hover {
+                    color: $yellow;
+                }
             }
         }
     }  
@@ -438,8 +468,9 @@ footer {
     }
     .backToTopBtn {
         font-size: 1.25rem;
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 1.25rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -448,9 +479,13 @@ footer {
         border: 2px solid $yellow;
         position: fixed; 
         bottom: 7vh;
-        right: 5%;
-        padding: 1.5rem;
+        right: 4%;
         border-radius: 20rem;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        &:hover {
+            background-color: $grey;
+        }
     }
 }
 
