@@ -23,6 +23,7 @@ html {
     font-size: 18px;
     color: $white;
     background-color: $black;
+    scroll-behavior: smooth;
 }
 
 body, h1, h2, h3, ul, p {
@@ -111,7 +112,6 @@ header {
         }
         button {
             text-transform: uppercase;
-            color: $yellow;
             border: 2px solid $yellow;
             padding: 0.5rem;
             height: 2rem;
@@ -119,6 +119,9 @@ header {
             font-size: 0.8rem;
             letter-spacing: 0.1rem;
             background-color: $black;
+            a {
+                color: $yellow;
+            }
         }
     }
     .headerBackText {
@@ -297,6 +300,9 @@ footer {
             justify-content: space-between;
             nav {
                 text-transform: uppercase;
+                li {
+                    line-height: 1.34rem;
+                }
                 a {
                     color: $grey;
                     font-size: 0.8rem;

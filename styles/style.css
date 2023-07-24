@@ -231,6 +231,7 @@ html {
   font-size: 18px;
   color: rgb(250, 250, 250);
   background-color: rgb(18, 18, 18);
+  scroll-behavior: smooth;
 }
 
 body, h1, h2, h3, ul, p {
@@ -319,7 +320,6 @@ header .hero h2 span {
 }
 header .hero button {
   text-transform: uppercase;
-  color: rgb(255, 179, 16);
   border: 2px solid rgb(255, 179, 16);
   padding: 0.5rem;
   height: 2rem;
@@ -327,6 +327,9 @@ header .hero button {
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   background-color: rgb(18, 18, 18);
+}
+header .hero button a {
+  color: rgb(255, 179, 16);
 }
 header .headerBackText {
   font-size: 25rem;
@@ -497,6 +500,9 @@ footer .col1 .footerTextContainer {
 }
 footer .col1 .footerTextContainer nav {
   text-transform: uppercase;
+}
+footer .col1 .footerTextContainer nav li {
+  line-height: 1.34rem;
 }
 footer .col1 .footerTextContainer nav a {
   color: rgb(101, 101, 101);
