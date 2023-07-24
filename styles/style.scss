@@ -315,7 +315,7 @@ footer {
         padding: 5rem 0 3rem 0;
         .handImg {
             position: absolute;
-            left: 6%;
+            left: 3%;
             top: 8%;
             width: 55%;
         }
@@ -327,21 +327,21 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         .footerTextContainer {
-            height: 28%;
+            height: 20%;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            nav {
+            justify-content: space-evenly;
+            align-items: flex-end;
+            nav ul {
                 text-transform: uppercase;
                 li {
                     line-height: 1.34rem;
-                }
-                a {
-                    color: $grey;
-                    font-size: 0.8rem;
-                    transition: all 0.25s ease;
-                    &:hover {
-                        color: $yellow;
+                    a {
+                        color: $grey;
+                        font-size: 0.8rem;
+                        transition: all 0.25s ease;
+                        &:hover {
+                            color: $yellow;
+                        }
                     }
                 }
             }
