@@ -85,10 +85,14 @@ ul {
         0% {
             transform: scale(1, 1) translateY(0);
             opacity: 0;
+            color: $white;
+            border: 2px solid $white;
         }
         50% {
             transform: scale(1.05, 0.95) translateY(-1vh);
             opacity: 0.5;
+            color: $white;
+            border: 2px solid $white;
         }
         100% {
             transform: scale(1, 1) translateY(0);
@@ -154,6 +158,7 @@ header {
                     50% {
                         transform: scale(1.05, 0.95) translateY(-1vh);
                         opacity: 0.5;
+                        color: $yellow;
                     }
                     100% {
                         transform: scale(1, 1) translateY(0);
@@ -170,7 +175,6 @@ header {
                     animation: 1.25s ease-in-out 0s forwards h2-slideIn;
                     span {
                         text-transform: uppercase;
-                        color: $white;
                     }
                 }
                 @keyframes h2-slideIn {
@@ -181,6 +185,7 @@ header {
                     50% {
                         transform: scale(1.05, 0.95) translateY(-1vh);
                         opacity: 0.5;
+                        color: $yellow;
                     }
                     100% {
                         transform: scale(1, 1) translateY(0);
