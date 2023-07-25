@@ -356,9 +356,9 @@ footer {
         padding: 5rem 0 3rem 0;
         .handImg {
             position: absolute;
-            left: 3%;
-            top: 8%;
-            width: 55%;
+            left: 8%;
+            top: 12%;
+            width: 45%;
         }
     }
     .col1 {
@@ -368,10 +368,10 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         .footerTextContainer {
-            height: 20%;
+            height: 28%;
             display: flex;
             justify-content: space-evenly;
-            align-items: flex-end;
+            align-items: center;
             nav ul {
                 text-transform: uppercase;
                 li {
@@ -388,7 +388,7 @@ footer {
             }
         }
         .yellowBlock {
-            height: 28%;
+            height: 30%;
             background-color: $purple;
             border-radius: 10px;
         }
@@ -403,7 +403,7 @@ footer {
             height: 28%;
         }
         .yellowBlock {
-            height: 28%;
+            height: 30%;
             background-color: $purple;
             border-radius: 10px;
         }
@@ -418,7 +418,7 @@ footer {
             height: 28%;
         }
         .yellowBlock {
-            height: 28%;
+            height:30%;
             background-color: $purple;
             border-radius: 10px;
         }
