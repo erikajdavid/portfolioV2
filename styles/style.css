@@ -370,9 +370,9 @@ header .wrapper .socialIcons {
 }
 header .wrapper .socialIcons .faIcons {
   color: rgb(255, 179, 16);
-  font-size: 1rem;
+  font-size: 1.25rem;
   background-color: rgb(18, 18, 18);
-  padding: 0.5rem;
+  padding: 0.65rem;
   border-radius: 10rem;
   margin-bottom: 0.5rem;
   width: 2rem;
@@ -380,10 +380,15 @@ header .wrapper .socialIcons .faIcons {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.25s ease;
+}
+header .wrapper .socialIcons .faIcons:hover {
+  background-color: rgb(255, 179, 16);
+  color: rgb(18, 18, 18);
 }
 header .wrapper .socialIcons .backToTopBtn {
   font-size: 1.25rem;
-  padding: 0.5rem;
+  padding: 0.65rem;
   border-radius: 10rem;
   display: flex;
   justify-content: center;
@@ -397,7 +402,8 @@ header .wrapper .socialIcons .backToTopBtn {
   border: 1px solid rgb(255, 179, 16);
 }
 header .wrapper .socialIcons .backToTopBtn:hover {
-  background-color: rgb(101, 101, 101);
+  background-color: rgb(255, 179, 16);
+  color: rgb(18, 18, 18);
 }
 header .wrapper .headerBackText {
   font-size: 25rem;

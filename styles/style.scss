@@ -159,9 +159,9 @@ header {
             right: 5%;
             .faIcons {
                 color: $yellow;
-                font-size: 1rem;
+                font-size: 1.25rem;
                 background-color: $black;
-                padding: 0.5rem;
+                padding: 0.65rem;
                 border-radius: 10rem;
                 margin-bottom: 0.5rem;
                 width: 2rem;
@@ -169,10 +169,15 @@ header {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transition: all 0.25s ease;
+                &:hover {
+                    background-color: $yellow;
+                    color: $black;
+                }
             }
             .backToTopBtn {
                 font-size: 1.25rem;
-                padding: 0.5rem;
+                padding: 0.65rem;
                 border-radius: 10rem;
                 display: flex;
                 justify-content: center;
@@ -185,7 +190,8 @@ header {
                 margin-top: 2rem;
                 border: 1px solid $yellow;
                 &:hover {
-                    background-color: $grey;
+                    background-color: $yellow;
+                    color: $black;
                 }
             }
         }
