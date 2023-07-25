@@ -159,11 +159,16 @@ header {
             right: 5%;
             .faIcons {
                 color: $yellow;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 background-color: $black;
                 padding: 0.5rem;
                 border-radius: 10rem;
                 margin-bottom: 0.5rem;
+                width: 2rem;
+                height: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .backToTopBtn {
                 font-size: 1.25rem;
