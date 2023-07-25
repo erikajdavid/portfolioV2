@@ -340,9 +340,9 @@ header .wrapper .hero .heroText h1 {
 }
 header .wrapper .hero .heroText h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.68rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   line-height: 2.25rem;
 }
 header .wrapper .hero .heroText h2 span {
@@ -393,7 +393,7 @@ header .wrapper .socialIcons .backToTopBtn {
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.5s ease;
-  margin-top: 3rem;
+  margin-top: 2rem;
   border: 1px solid rgb(255, 179, 16);
 }
 header .wrapper .socialIcons .backToTopBtn:hover {
@@ -553,11 +553,11 @@ footer .wrapper {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding: 5rem 0 3rem 0;
+  padding: 5rem 0 5rem 0;
 }
 footer .wrapper .handImg {
   position: absolute;
-  left: 8%;
+  left: 12%;
   top: 12%;
   width: 45%;
 }
@@ -579,6 +579,7 @@ footer .col1 .footerTextContainer nav ul {
 }
 footer .col1 .footerTextContainer nav ul li {
   line-height: 1.34rem;
+  letter-spacing: 0.05rem;
 }
 footer .col1 .footerTextContainer nav ul li a {
   color: rgb(101, 101, 101);

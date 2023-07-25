@@ -130,9 +130,9 @@ header {
                 }
                 h2 {
                     font-family: $primaryFont;
-                    font-weight: 400;
+                    font-weight: 500;
                     font-size: 1.68rem;
-                    letter-spacing: 0.1rem;
+                    letter-spacing: 0.2rem;
                     line-height: 2.25rem;
                     span {
                         text-transform: uppercase;
@@ -182,7 +182,7 @@ header {
                 cursor: pointer;
                 opacity: 0;
                 transition: opacity 0.5s ease;
-                margin-top: 3rem;
+                margin-top: 2rem;
                 border: 1px solid $yellow;
                 &:hover {
                     background-color: $grey;
@@ -353,10 +353,10 @@ footer {
         align-items: center;
         justify-content: space-between;
         position: relative;
-        padding: 5rem 0 3rem 0;
+        padding: 5rem 0 5rem 0;
         .handImg {
             position: absolute;
-            left: 8%;
+            left: 12%;
             top: 12%;
             width: 45%;
         }
@@ -376,6 +376,7 @@ footer {
                 text-transform: uppercase;
                 li {
                     line-height: 1.34rem;
+                    letter-spacing: 0.05rem;
                     a {
                         color: $grey;
                         font-size: 0.8rem;
