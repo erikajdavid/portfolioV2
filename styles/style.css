@@ -283,10 +283,26 @@ ul {
   align-items: center;
   transition: all 0.2s ease;
   font-weight: 500;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: 1s ease-in 0.85s forwards myWork-rise; /* Use 'forwards' to keep the final state of the animation */
 }
 .fakeBtn:hover {
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
+}
+@keyframes myWork-rise {
+  0% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(-1vh);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 1;
+  }
 }
 
 header {
@@ -337,6 +353,22 @@ header .wrapper .hero .heroText h1 {
   text-transform: uppercase;
   padding: 1rem 0;
   margin-bottom: 1rem;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: 1.15s ease-in 0.5s forwards h1-rise; /* Use 'forwards' to keep the final state of the animation */
+}
+@keyframes h1-rise {
+  0% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(-1vh);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 1;
+  }
 }
 header .wrapper .hero .heroText h2 {
   font-family: "Poppins", sans-serif;
@@ -344,10 +376,26 @@ header .wrapper .hero .heroText h2 {
   font-size: 1.68rem;
   letter-spacing: 0.2rem;
   line-height: 2.25rem;
+  opacity: 0;
+  animation: 1.25s ease-in-out 0s forwards h2-slideIn;
 }
 header .wrapper .hero .heroText h2 span {
   text-transform: uppercase;
   color: rgb(250, 250, 250);
+}
+@keyframes h2-slideIn {
+  0% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(-1vh);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 1;
+  }
 }
 header .wrapper .hero .heroImg {
   width: 65%;
