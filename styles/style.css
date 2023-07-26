@@ -472,8 +472,42 @@ header .wrapper .headerBackText {
   -webkit-text-stroke: 0.4px rgb(250, 250, 250);
 }
 
-.projects {
-  height: 100vh;
+.projects .projectTitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12rem 0 5rem;
+  position: relative;
+}
+.projects .projectTitle .projectAdjs {
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 0.5rem;
+}
+.projects .projectTitle .projectAdjs p {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  padding-left: 0.3rem;
+  font-size: 1.34rem;
+}
+.projects .projectTitle h2 {
+  font-size: 5.04rem;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
+}
+.projects .projectTitle .projectBackText {
+  font-size: 17rem;
+  text-transform: uppercase;
+  color: rgb(101, 101, 101);
+  opacity: 0.15;
+  font-weight: 700;
+  position: absolute;
+  top: 22%;
+  right: -88%;
+  z-index: -5;
+  -webkit-text-stroke: 0.4px rgb(250, 250, 250);
 }
 
 .firstQuote {
@@ -561,6 +595,7 @@ header .wrapper .headerBackText {
   font-size: 5.04rem;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
 }
 .about .ourStoryCover img {
   position: absolute;

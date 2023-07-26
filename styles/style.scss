@@ -191,7 +191,7 @@ header {
                         transform: scale(1, 1) translateY(0);
                         opacity: 1;
                     }
-                }             
+                }         
             }
             .heroImg {
                 width: 65%;
@@ -267,7 +267,43 @@ header {
 //projects
 
 .projects {
-    height: 100vh;
+    .projectTitle {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 12rem 0 5rem;
+        position: relative;
+        .projectAdjs {
+            text-align: right;
+            text-transform: uppercase;
+            padding-right: 0.5rem;
+            p {
+                text-transform: uppercase;
+                letter-spacing: 0.3rem;
+                font-weight: 400;
+                padding-left: 0.3rem;
+                font-size: 1.34rem;
+            }
+        }
+        h2 {
+            font-size: 5.04rem;
+            text-transform: uppercase;
+            font-family: $secondaryFont;
+            letter-spacing: 0.3rem;
+        }
+        .projectBackText {
+            font-size: 17rem;
+            text-transform: uppercase;
+            color: $grey;
+            opacity: 0.15;
+            font-weight: 700;
+            position: absolute;
+            top: 22%;
+            right: -88%;
+            z-index: -5;
+            -webkit-text-stroke: 0.4px $white;
+        }
+    }
 }
 
 //feedback
@@ -357,6 +393,7 @@ header {
                 font-size: 5.04rem;
                 text-transform: uppercase;
                 font-family: $secondaryFont;
+                letter-spacing: 0.3rem;
             }
         }
         img {
