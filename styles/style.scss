@@ -299,7 +299,7 @@ header {
             font-weight: 700;
             position: absolute;
             top: 22%;
-            right: 0;
+            right: -88%;
             z-index: -5;
             -webkit-text-stroke: 0.4px $white;
         }
@@ -647,7 +647,7 @@ footer {
         text-transform: uppercase;
         -webkit-text-stroke: 0.4px $white;
         position: absolute;
-        right: 0;
+        right: -5%;
         top: 25%;
     }
     .copyright {
