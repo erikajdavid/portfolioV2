@@ -544,8 +544,8 @@ footer {
         padding: 5rem 0 5rem 0;
         .handImg {
             position: absolute;
-            left: 10%;
-            top: 8%;
+            left: 8%;
+            top: 6%;
             width: 45%;
         }
     }
@@ -617,17 +617,17 @@ footer {
         height: 100%;
         display: flex;
         flex-direction: column;
-        h2 {
-            text-transform: uppercase;
-            font-weight: 500;
-            letter-spacing: 0.3rem;
-            font-size: 1.34rem;
-            margin-bottom: 1.5rem;
-            span {
-                font-size: 5.04rem;
-                font-family: $secondaryFont;
-            }
-        }
+        justify-content: space-between;
+        //h2 {
+            //text-transform: uppercase;
+            //font-weight: 500;
+            //letter-spacing: 0.3rem;
+            //font-size: 1.34rem;
+            //margin-bottom: 1.5rem;
+            //span {
+                //font-size: 5.04rem;
+                //font-family: $secondaryFont;
+            //}
         form {
             display: flex;
             flex-direction: column;
@@ -686,7 +686,6 @@ footer {
         }
         .dimpleCredit {
             text-align: right;
-            padding-top: 1rem;
             font-size: 0.75rem;
             color: $grey;
             letter-spacing: 0.03rem;
@@ -708,7 +707,7 @@ footer {
         -webkit-text-stroke: 0.4px $white;
         position: absolute;
         right: -5%;
-        top: 60%;
+        top: 50%;
     }
     .copyright {
         height: 5vh;

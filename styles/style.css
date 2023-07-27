@@ -744,8 +744,8 @@ footer .wrapper {
 }
 footer .wrapper .handImg {
   position: absolute;
-  left: 10%;
-  top: 8%;
+  left: 8%;
+  top: 6%;
   width: 45%;
 }
 footer .col1 {
@@ -816,17 +816,7 @@ footer .formContainer {
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-footer .formContainer h2 {
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 0.3rem;
-  font-size: 1.34rem;
-  margin-bottom: 1.5rem;
-}
-footer .formContainer h2 span {
-  font-size: 5.04rem;
-  font-family: "Oswald", sans-serif;
+  justify-content: space-between;
 }
 footer .formContainer form {
   display: flex;
@@ -889,7 +879,6 @@ footer .formContainer .erikaCredit a:hover {
 }
 footer .formContainer .dimpleCredit {
   text-align: right;
-  padding-top: 1rem;
   font-size: 0.75rem;
   color: rgb(101, 101, 101);
   letter-spacing: 0.03rem;
@@ -910,7 +899,7 @@ footer .footerBackText {
   -webkit-text-stroke: 0.4px rgb(250, 250, 250);
   position: absolute;
   right: -5%;
-  top: 60%;
+  top: 50%;
 }
 footer .copyright {
   height: 5vh;
