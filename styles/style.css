@@ -509,6 +509,32 @@ header .wrapper .headerBackText {
   z-index: -5;
   -webkit-text-stroke: 0.4px rgb(250, 250, 250);
 }
+.projects .projectContainer {
+  display: flex;
+  flex-direction: column;
+  color: rgb(18, 18, 18);
+  padding: 5rem 0;
+}
+.projects .projectContainer .project {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 179, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects .projectContainer .projectLinks {
+  display: flex;
+  justify-content: flex-end;
+  width: 500px;
+  padding-top: 1rem;
+}
+.projects .projectContainer .projectLinks a {
+  margin-left: 1rem;
+}
+.projects .projectRight {
+  align-items: flex-end;
+}
 
 .firstQuote {
   margin-top: 7rem;
