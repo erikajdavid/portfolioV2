@@ -27,7 +27,33 @@ toggleBackToTopBtnVisibility();
 
 
 
-//scroll reveal for projects
+
+function revealElements(className, revealPoint) {
+    const elements = document.querySelectorAll(className);
+    const windowHeight = window.innerHeight;
+  
+    elements.forEach(element => {
+      const revealTop = element.getBoundingClientRect().top;
+  
+      if (revealTop < windowHeight - revealPoint) {
+        element.classList.add('active');
+      } else {
+        element.classList.remove('active');
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', () => {
+    revealElements('.slowReveal', 350);
+  });
+  
+  window.addEventListener('scroll', () => {
+    revealElements('.quickReveal', 100);
+  });
+  
+
+
+
 
 //hamburger menu for tablet and mobile
 
