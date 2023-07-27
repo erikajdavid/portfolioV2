@@ -48,7 +48,7 @@ function revealElements(className, revealPoint) {
   });
   
   window.addEventListener('scroll', () => {
-    revealElements('.quickReveal', 100);
+    revealElements('.quickReveal', 125);
   });
   
 
