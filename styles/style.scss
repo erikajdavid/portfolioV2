@@ -315,6 +315,7 @@ header {
             text-transform: uppercase;
             font-family: $secondaryFont;
             letter-spacing: 0.3rem;
+            font-weight: 700;
         }
         .projectBackText {
             font-size: 17rem;
@@ -474,6 +475,7 @@ header {
                 text-transform: uppercase;
                 font-family: $secondaryFont;
                 letter-spacing: 0.3rem;
+                font-weight: 700;
             }
         }
         img {
@@ -524,6 +526,15 @@ header {
 footer {
     height: 100vh;
     position: relative;
+    .footerMainTitle {
+        font-size: 5.04rem;
+        text-transform: uppercase;
+        font-family: $secondaryFont;
+        letter-spacing: 0.3rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 10rem 0 8rem 0;
+    }
     .wrapper {
         height: 95vh;
         display: flex;
@@ -548,7 +559,7 @@ footer {
             height: 28%;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: space-between;
             nav ul {
                 text-transform: uppercase;
                 li {
@@ -606,7 +617,6 @@ footer {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
         h2 {
             text-transform: uppercase;
             font-weight: 500;
@@ -636,7 +646,7 @@ footer {
                 font-size: 0.8rem;
             }
             textarea {
-                height: 20vh;
+                height: 30vh;
             }
             button {
                 color: $yellow;
@@ -665,6 +675,7 @@ footer {
             text-align: right;
             font-size: 0.9rem;
             color: $grey;
+            letter-spacing: 0.03rem;
             a {
                 color: $grey;
                 transition: all 0.25s ease;
@@ -678,6 +689,7 @@ footer {
             padding-top: 1rem;
             font-size: 0.75rem;
             color: $grey;
+            letter-spacing: 0.03rem;
             a {
                 color: $grey;
                 transition: all 0.25s ease;
@@ -696,7 +708,7 @@ footer {
         -webkit-text-stroke: 0.4px $white;
         position: absolute;
         right: -5%;
-        top: 25%;
+        top: 60%;
     }
     .copyright {
         height: 5vh;
@@ -707,6 +719,7 @@ footer {
         color: $grey;
         font-size: 0.8rem;
         border-top: 1px solid $grey;
+        letter-spacing: 0.03rem;
     }
 }
 
