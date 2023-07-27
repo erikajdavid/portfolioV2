@@ -101,6 +101,30 @@ ul {
     }
 }
 
+.slowReveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.25s ease-in-out;
+}
+
+.slowReveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.quickReveal {
+    position: relative;
+    transform: translateY(75px);
+    opacity: 0;
+    transition: all 1.5s ease-in-out;
+}
+
+.quickReveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 //header
 
 header {
@@ -240,7 +264,7 @@ header {
                 background-color: $black;
                 cursor: pointer;
                 opacity: 0;
-                transition: opacity 0.5s ease;
+                transition: opacity 1s ease;
                 margin-top: 2rem;
                 border: 1px solid $yellow;
                 &:hover {
