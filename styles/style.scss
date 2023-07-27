@@ -351,6 +351,12 @@ header {
             a {
                 color: $black;
                 font-weight: 700;
+                
+                &:hover {
+                    font-style: normal;
+                    text-decoration: underline;
+                    text-decoration-thickness: 1.5px;
+                }
             }
         }
     }

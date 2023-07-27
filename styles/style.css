@@ -558,6 +558,11 @@ header .wrapper .headerBackText {
   color: rgb(18, 18, 18);
   font-weight: 700;
 }
+.feedback .wrapper .quoteCredit a:hover {
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
 
 .about .ourStoryCover {
   position: relative;
