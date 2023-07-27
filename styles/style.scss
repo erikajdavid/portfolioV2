@@ -534,6 +534,9 @@ footer {
         font-weight: 700;
         text-align: center;
         padding: 10rem 0 8rem 0;
+        span {
+            color: $yellow;
+        }
     }
     .wrapper {
         height: 95vh;
