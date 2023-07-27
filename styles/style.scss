@@ -441,17 +441,18 @@ header {
 
 .about {
     .ourStoryCover {
-        position: relative;
+        position: relative; 
         .blackStrip {
             height: 30vh;
+            position: relative;
             .storyBackText {
                 font-size: 17rem;
                 text-transform: uppercase;
                 color: $grey;
                 font-weight: 700;
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: 10%;
+                right: -10%;
                 z-index: -5;
                 opacity: 0.15;
                 -webkit-text-stroke: 0.4px $white;
@@ -621,6 +622,20 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        position: relative;
+        z-index: 5;
+        .footerBackText {
+            font-size: 17rem;
+            font-weight: 700;
+            color: $grey;
+            opacity: 0.15;
+            text-transform: uppercase;
+            -webkit-text-stroke: 0.4px $white;
+            position: absolute;
+            right: -50%;
+            top: -20%;
+            z-index: -5;
+        }
         //h2 {
             //text-transform: uppercase;
             //font-weight: 500;
@@ -701,17 +716,6 @@ footer {
             }
         }
     }  
-    .footerBackText {
-        font-size: 17rem;
-        font-weight: 700;
-        color: $grey;
-        opacity: 0.15;
-        text-transform: uppercase;
-        -webkit-text-stroke: 0.4px $white;
-        position: absolute;
-        right: -5%;
-        top: 50%;
-    }
     .copyright {
         height: 5vh;
         display: flex;
