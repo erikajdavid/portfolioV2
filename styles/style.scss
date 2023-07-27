@@ -105,7 +105,7 @@ ul {
 
 header {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     z-index: 5;
     .wrapper {
@@ -299,7 +299,7 @@ header {
             font-weight: 700;
             position: absolute;
             top: 22%;
-            right: -88%;
+            right: 0;
             z-index: -5;
             -webkit-text-stroke: 0.4px $white;
         }
@@ -647,7 +647,7 @@ footer {
         text-transform: uppercase;
         -webkit-text-stroke: 0.4px $white;
         position: absolute;
-        right: -5%;
+        right: 0;
         top: 25%;
     }
     .copyright {
