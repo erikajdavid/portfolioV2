@@ -267,12 +267,13 @@ header {
 //projects
 
 .projects {
+    padding: 5rem 0 10rem 0;
     .projectTitle {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding: 12rem 0 5rem;
         position: relative;
+        padding-top: 11rem;
         .projectAdjs {
             text-align: right;
             text-transform: uppercase;
@@ -307,28 +308,46 @@ header {
     .projectContainer {
         display: flex;
         flex-direction: column;
-        color: $black;
-        padding: 5rem 0;
+        align-items: center;
+        color: $white;
+        padding-top: 15rem;
         .project {
-            width: 500px;
+            width: 1100px;
             height: 500px;
-            background-color: $yellow;
             display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .projectLinks {
-            display: flex;
-            justify-content: flex-end;
-            width: 500px;
-            padding-top: 1rem;
-            a {
-                margin-left: 1rem;
+            justify-content: space-between;
+            .mockUp {
+                width: 500px;
+                background-color: $yellow;
+            }
+            .projectInfo {
+                width: 500px;
+                padding: 2rem 2rem 2rem 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                position: relative;
+                .arrowUpRight {
+                    font-size: 5rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    color: $yellow;
+                }
+                h3 {
+                    text-transform: uppercase;
+                    font-family: $secondaryFont;
+                    font-size: 2.7rem;
+                }
+                p {
+                    line-height: 1.34rem;
+                    letter-spacing: 0.1rem;
+                }
+                ul {
+                    display: flex;
+                }
             }
         }
-    }
-    .projectRight {
-        align-items: flex-end;
     }
 }
 
