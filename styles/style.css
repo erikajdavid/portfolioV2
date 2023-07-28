@@ -878,41 +878,45 @@ footer .formContainer form button:hover {
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
 }
-footer .formContainer .erikaCredit {
-  text-transform: uppercase;
-  text-align: right;
-  font-size: 0.9rem;
-  color: rgb(101, 101, 101);
-  letter-spacing: 0.03rem;
-}
-footer .formContainer .erikaCredit a {
-  color: rgb(101, 101, 101);
-  transition: all 0.25s ease;
-}
-footer .formContainer .erikaCredit a:hover {
-  color: rgb(255, 179, 16);
-}
-footer .formContainer .dimpleCredit {
-  text-align: right;
-  font-size: 0.75rem;
-  color: rgb(101, 101, 101);
-  letter-spacing: 0.03rem;
-}
-footer .formContainer .dimpleCredit a {
-  color: rgb(101, 101, 101);
-  transition: all 0.25s ease;
-}
-footer .formContainer .dimpleCredit a:hover {
-  color: rgb(255, 179, 16);
-}
-footer .copyright {
-  height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
+footer .copyrightContainer {
   color: rgb(101, 101, 101);
   font-size: 0.8rem;
   border-top: 1px solid rgb(101, 101, 101);
   letter-spacing: 0.03rem;
+  padding: 1rem 0;
+}
+footer .copyrightContainer .wrapper {
+  height: 100%;
+  padding: 0;
+  text-transform: uppercase;
+}
+footer .copyrightContainer .wrapper .creditsContainter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copyrightContainer .wrapper .creditsContainter .erikaCredit {
+  font-size: 0.9rem;
+  color: rgb(101, 101, 101);
+  letter-spacing: 0.03rem;
+  padding-bottom: 0.5rem;
+}
+footer .copyrightContainer .wrapper .creditsContainter .erikaCredit a {
+  color: rgb(101, 101, 101);
+  transition: all 0.25s ease;
+}
+footer .copyrightContainer .wrapper .creditsContainter .erikaCredit a:hover {
+  color: rgb(255, 179, 16);
+}
+footer .copyrightContainer .wrapper .creditsContainter .dimpleCredit {
+  font-size: 0.75rem;
+  color: rgb(101, 101, 101);
+  letter-spacing: 0.03rem;
+}
+footer .copyrightContainer .wrapper .creditsContainter .dimpleCredit a {
+  color: rgb(101, 101, 101);
+  transition: all 0.25s ease;
+}
+footer .copyrightContainer .wrapper .creditsContainter .dimpleCredit a:hover {
+  color: rgb(255, 179, 16);
 }
