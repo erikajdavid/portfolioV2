@@ -634,6 +634,16 @@ footer {
             top: -20%;
             z-index: -5;
         }
+        //h2 {
+            //text-transform: uppercase;
+            //font-weight: 500;
+            //letter-spacing: 0.3rem;
+            //font-size: 1.34rem;
+            //margin-bottom: 1.5rem;
+            //span {
+                //font-size: 5.04rem;
+                //font-family: $secondaryFont;
+            //}
         form {
             display: flex;
             flex-direction: column;
@@ -660,7 +670,7 @@ footer {
                 border: 2px solid $yellow;
                 text-transform: uppercase;
                 padding: 0.5rem;
-                margin: 0 auto;
+                margin: 0 auto 9rem auto;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -676,49 +686,44 @@ footer {
                 }
             }
         }
+        .erikaCredit {
+            text-transform: uppercase;
+            text-align: right;
+            font-size: 0.9rem;
+            color: $grey;
+            letter-spacing: 0.03rem;
+            a {
+                color: $grey;
+                transition: all 0.25s ease;
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+        .dimpleCredit {
+            text-align: right;
+            font-size: 0.75rem;
+            color: $grey;
+            letter-spacing: 0.03rem;
+            a {
+                color: $grey;
+                transition: all 0.25s ease;
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
     }  
-    .copyrightContainer {
+    .copyright {
         height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-transform: uppercase;
         color: $grey;
         font-size: 0.8rem;
         border-top: 1px solid $grey;
         letter-spacing: 0.03rem;
-        .wrapper {
-            height: 100%;
-            padding: 2rem 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .credits {
-                line-height: 1.34rem;
-            }
-            .erikaCredit {
-                text-transform: uppercase;
-                font-size: 0.9rem;
-                color: $grey;
-                letter-spacing: 0.03rem;
-                a {
-                    color: $grey;
-                    transition: all 0.25s ease;
-                    &:hover {
-                        color: $yellow;
-                    }
-                }
-            }
-            .dimpleCredit {
-                font-size: 0.75rem;
-                color: $grey;
-                letter-spacing: 0.03rem;
-                a {
-                    color: $grey;
-                    transition: all 0.25s ease;
-                    &:hover {
-                        color: $yellow;
-                    }
-                }
-            }
-        }
     }
 }
 
