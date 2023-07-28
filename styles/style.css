@@ -773,10 +773,10 @@ footer .wrapper .footerMainContainer .footerImgContainer img {
   width: 90%;
   padding-bottom: 5rem;
 }
-footer .wrapper .footerMainContainer .footerImgContainer .yellowStrip {
+footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
   height: 250px;
   width: 100%;
-  background-color: rgb(255, 179, 16);
+  background-color: rgb(240, 186, 240);
   border-radius: 10px;
   position: absolute;
   top: 50%;
