@@ -721,6 +721,7 @@ header .wrapper .headerBackText {
 
 footer {
   position: relative;
+  padding-top: 3rem;
 }
 footer .footerMainTitle {
   font-size: 5.04rem;
