@@ -53,6 +53,33 @@ function revealElements(className, revealPoint) {
   
 
 
+  //GSAP
+
+  gsap.registerPlugin(ScrollTrigger)
+
+  const splitTypes = document.querySelectorAll('.revealType') 
+
+  splitTypes.forEach((char, i) => {
+    const text= new SplitType(char, { types: 'chars, words'} );
+    console.log(text);
+
+    gsap.from(text.chars, {
+      scrollTrigger: {
+        trigger: char,
+        start: 'top 80%',
+        end: 'top 20%',
+        scrub: false,
+        markers: false
+      },
+      scaleY: 0,
+      y: -20,
+      transformOrigin: 'top',
+      opacity: 0,
+      stagger: 0.1,
+      duration: 1
+    })
+
+  });
 
 
 //hamburger menu for tablet and mobile
