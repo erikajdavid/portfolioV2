@@ -1,3 +1,5 @@
+//Back To Top Button
+
 const backToTopEl = document.querySelector('.backToTopBtn');
 const homeEl = document.querySelector('.home');
 
@@ -26,60 +28,55 @@ window.addEventListener('scroll', () => {
 toggleBackToTopBtnVisibility();
 
 
-
+//JS animation
 
 function revealElements(className, revealPoint) {
-    const elements = document.querySelectorAll(className);
-    const windowHeight = window.innerHeight;
-  
-    elements.forEach(element => {
-      const revealTop = element.getBoundingClientRect().top;
-  
-      if (revealTop < windowHeight - revealPoint) {
-        element.classList.add('active');
-      } else {
-        element.classList.remove('active');
-      }
-    });
-  }
-  
-  window.addEventListener('scroll', () => {
-    revealElements('.slowReveal', 350);
+  const elements = document.querySelectorAll(className);
+  const windowHeight = window.innerHeight;
+
+  elements.forEach(element => {
+    const revealTop = element.getBoundingClientRect().top;
+
+    if (revealTop < windowHeight - revealPoint) {
+      element.classList.add('active');
+    } else {
+      element.classList.remove('active');
+    }
   });
-  
-  window.addEventListener('scroll', () => {
-    revealElements('.quickReveal', 125);
-  });
-  
+}
+
+window.addEventListener('scroll', () => {
+  revealElements('.quickReveal', 125);
+});
 
 
-  //GSAP
+//GSAP animation
 
-  gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger)
 
-  const splitTypes = document.querySelectorAll('.revealType') 
+const splitTypes = document.querySelectorAll('.revealType') 
 
-  splitTypes.forEach((char, i) => {
-    const text= new SplitType(char, { types: 'chars, words'} );
-    console.log(text);
+splitTypes.forEach((char, i) => {
+  const text= new SplitType(char, { types: 'chars, words'} );
+  console.log(text);
 
-    gsap.from(text.chars, {
-      scrollTrigger: {
-        trigger: char,
-        start: 'top 80%',
-        end: 'top 20%',
-        scrub: false,
-        markers: false
-      },
-      scaleY: 0,
-      y: -20,
-      transformOrigin: 'top',
-      opacity: 0,
-      stagger: 0.1,
-      duration: 0.8
-    })
+  gsap.from(text.chars, {
+    scrollTrigger: {
+      trigger: char,
+      start: 'top 80%',
+      end: 'top 20%',
+      scrub: false,
+      markers: false
+    },
+    scaleY: 0,
+    y: -20,
+    transformOrigin: 'top',
+    opacity: 0,
+    stagger: 0.1,
+    duration: 0.8
+  })
 
-  });
+});
 
 
 //hamburger menu for tablet and mobile
