@@ -68,14 +68,14 @@ function revealElements(className, revealPoint) {
         trigger: char,
         start: 'top 80%',
         end: 'top 20%',
-        scrub: false,
+        scrub: true,
         markers: false
       },
       scaleY: 0,
       y: -20,
       transformOrigin: 'top',
       opacity: 0,
-      stagger: 0.1,
+      stagger: 0.3,
       duration: 1
     })
 
