@@ -865,28 +865,28 @@ footer .copyrightContainer .wrapper {
   justify-content: space-between;
   align-items: center;
 }
-footer .copyrightContainer .wrapper .creditsContainter .erikaCredit {
+footer .copyrightContainer .wrapper .creditsContainer .erikaCredit {
   font-size: 0.9rem;
   color: rgb(101, 101, 101);
   letter-spacing: 0.03rem;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-footer .copyrightContainer .wrapper .creditsContainter .erikaCredit a {
+footer .copyrightContainer .wrapper .creditsContainer .erikaCredit a {
   color: rgb(101, 101, 101);
   transition: all 0.25s ease;
 }
-footer .copyrightContainer .wrapper .creditsContainter .erikaCredit a:hover {
+footer .copyrightContainer .wrapper .creditsContainer .erikaCredit a:hover {
   color: rgb(255, 179, 16);
 }
-footer .copyrightContainer .wrapper .creditsContainter .dimpleCredit {
+footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit {
   font-size: 0.75rem;
   color: rgb(101, 101, 101);
   letter-spacing: 0.03rem;
 }
-footer .copyrightContainer .wrapper .creditsContainter .dimpleCredit a {
+footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a {
   color: rgb(101, 101, 101);
   transition: all 0.25s ease;
 }
-footer .copyrightContainer .wrapper .creditsContainter .dimpleCredit a:hover {
+footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   color: rgb(255, 179, 16);
 }
