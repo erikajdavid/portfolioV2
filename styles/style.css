@@ -559,14 +559,15 @@ header .wrapper .headerBackText {
   font-family: "Oswald", sans-serif;
   font-size: 2.7rem;
 }
-.projects .projectContainer .project .projectInfo p {
+.projects .projectContainer .project .projectInfo .projectDescription p {
   line-height: 1.34rem;
   letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
 }
-.projects .projectContainer .project .projectInfo .tools {
+.projects .projectContainer .project .projectInfo .projectDescription .tools {
   display: flex;
 }
-.projects .projectContainer .project .projectInfo .tools li {
+.projects .projectContainer .project .projectInfo .projectDescription .tools li {
   margin-right: 1rem;
   font-size: 1.5rem;
   color: rgb(240, 186, 240);
