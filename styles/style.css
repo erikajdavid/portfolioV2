@@ -309,18 +309,6 @@ ul {
   }
 }
 
-.slowReveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: all 1.25s ease-in-out;
-}
-
-.slowReveal.active {
-  transform: translateY(0);
-  opacity: 1;
-}
-
 .quickReveal {
   position: relative;
   transform: translateY(75px);
@@ -441,7 +429,7 @@ header .wrapper .socialIcons {
   align-items: center;
   position: fixed;
   bottom: 10%;
-  right: 5%;
+  right: 1.5%;
 }
 header .wrapper .socialIcons .faIcons {
   color: rgb(255, 179, 16);
