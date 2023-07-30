@@ -1,0 +1,177 @@
+@use "./variables" as *;
+
+//footer
+
+footer {
+    position: relative;
+    padding-top: 3rem;
+    .footerMainTitle {
+        font-size: 5.04rem;
+        text-transform: uppercase;
+        font-family: $secondaryFont;
+        letter-spacing: 0.3rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 9rem 0;
+        span {
+            color: $yellow;
+        }
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        .contactNav {
+            display: flex;
+            align-items: center;
+            nav {
+                margin-left: 1.5rem;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                line-height: 1.15rem;
+                a {
+                    color: $grey;
+                    transition: all 0.25s ease;
+                    &:hover {
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+        .footerMainContainer {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            .footerImgContainer {
+                width: 55%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                }
+                .colorStrip {
+                    height: 250px;
+                    width: 100%;
+                    background-color: $purple;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translate(-40%, -50%);
+                    z-index: -5;
+                }
+            }
+            .formContainer {
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                z-index: 5;
+                .footerBackText {
+                    font-size: 17rem;
+                    font-weight: 700;
+                    color: $grey;
+                    opacity: 0.15;
+                    text-transform: uppercase;
+                    -webkit-text-stroke: 0.4px $white;
+                    position: absolute;
+                    right: -50%;
+                    top: -45%;
+                    z-index: -10;
+                }
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 0.8rem;
+                    input, textarea {
+                        padding: 0.75rem;
+                        margin-bottom: 1rem;
+                        border-radius: 6px;
+                        outline: none;
+                        &:focus {
+                            border: 3px solid $yellow;
+                        }
+                    }
+                    input[type=text]::placeholder,
+                    textarea::placeholder {
+                        font-size: 0.8rem;
+                    }
+                    textarea {
+                        height: 30vh;
+                    }
+                    button {
+                        color: $yellow;
+                        background-color: $black;
+                        border: 2px solid $yellow;
+                        text-transform: uppercase;
+                        padding: 0.5rem;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        transition: all 0.25s ease;
+                        letter-spacing: 0.1rem;
+                        width: 100px;
+                        font-weight: 500;
+                        &:hover {
+                            font-weight: 500;
+                            background-color: $yellow;
+                            color: $black;
+                        }
+                    }
+                }
+            }  
+        }
+    }
+    .copyrightContainer {
+        color: $grey;
+        font-size: 0.8rem;
+        border-top: 1px solid $grey;
+        letter-spacing: 0.03rem;
+        padding: 1rem 0;
+        .wrapper {
+            height: 100%;
+            padding: 0;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .creditsContainer {
+                .erikaCredit {
+                    font-size: 0.9rem;
+                    color: $grey;
+                    letter-spacing: 0.03rem;
+                    margin-bottom: 0.5rem;
+                    a {
+                        color: $grey;
+                        transition: all 0.25s ease;
+                        &:hover {
+                            color: $yellow;
+                        }
+                    }
+                }
+                .dimpleCredit {
+                    font-size: 0.75rem;
+                    color: $grey;
+                    letter-spacing: 0.03rem;
+                    a {
+                        color: $grey;
+                        transition: all 0.25s ease;
+                        &:hover {
+                            color: $yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

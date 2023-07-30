@@ -1,0 +1,163 @@
+@use "./variables" as *;
+
+//header
+
+header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    .wrapper {
+        display: relative;
+        .topNav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 12vh;
+            nav ul {
+                display: flex;
+                margin-left: 1rem;
+                li {
+                    margin-left: 1rem;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    letter-spacing: 0.05rem;
+                    a {
+                        transition: all 0.25s ease;
+                        &:hover {
+                            color: $yellow;
+                        }
+                    }
+                }
+            }
+        }
+        .hero {
+            height: 88vh;
+            display: flex;
+            .heroText {
+                width: 35%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h1 {
+                    font-size: 3.7rem;
+                    font-family: $secondaryFont;
+                    text-transform: uppercase;
+                    padding: 1rem 0;
+                    margin-bottom: 1rem;
+                    opacity: 0; 
+                    animation: 1.15s ease-in 0.5s forwards h1-rise; 
+                }
+                @keyframes h1-rise {
+                    0% {
+                        transform: scale(1, 1) translateY(0);
+                        opacity: 0;
+                    }
+                    50% {
+                        transform: scale(1.05, 0.95) translateY(-1vh);
+                        opacity: 0.5;
+                        color: $yellow;
+                    }
+                    100% {
+                        transform: scale(1, 1) translateY(0);
+                        opacity: 1;
+                    }
+                }
+                h2 {
+                    font-family: $primaryFont;
+                    font-weight: 500;
+                    font-size: 1.68rem;
+                    letter-spacing: 0.2rem;
+                    line-height: 2.25rem;
+                    opacity: 0;
+                    animation: 1.25s ease-in-out 0s forwards h2-slideIn;
+                    span {
+                        text-transform: uppercase;
+                    }
+                }
+                @keyframes h2-slideIn {
+                    0% {
+                        transform: scale(1, 1) translateY(0);
+                        opacity: 0;
+                    }
+                    50% {
+                        transform: scale(1.05, 0.95) translateY(-1vh);
+                        opacity: 0.5;
+                        color: $yellow;
+                    }
+                    100% {
+                        transform: scale(1, 1) translateY(0);
+                        opacity: 1;
+                    }
+                }         
+            }
+            .heroImg {
+                width: 65%;
+                height: 100%;
+                display: flex;
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        .sideBarIcons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            bottom: 10%;
+            right: 1.5%;
+            .faIcons {
+                color: $yellow;
+                font-size: 1.25rem;
+                background-color: $black;
+                padding: 0.65rem;
+                border-radius: 10rem;
+                margin-bottom: 0.5rem;
+                width: 2rem;
+                height: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.25s ease;
+                &:hover {
+                    background-color: $yellow;
+                    color: $black;
+                }
+            }
+            .backToTopBtn {
+                font-size: 1.25rem;
+                padding: 0.65rem;
+                border-radius: 10rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $yellow;
+                background-color: $black;
+                cursor: pointer;
+                opacity: 0;
+                transition: opacity 1s ease;
+                margin-top: 2rem;
+                border: 1px solid $yellow;
+                &:hover {
+                    background-color: $yellow;
+                    color: $black;
+                }
+            }
+        }
+        .headerBackText {
+            font-size: 25rem;
+            text-transform: uppercase;
+            color: $grey;
+            opacity: 0.15;
+            font-weight: 700;
+            position: absolute;
+            transform: rotate(-90deg);
+            top: 10%;
+            z-index: -5;
+            -webkit-text-stroke: 0.4px $white;
+        }
+    }
+}

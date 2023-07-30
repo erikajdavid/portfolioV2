@@ -1,0 +1,104 @@
+@use "./variables" as *;
+
+html {
+    font-family: $primaryFont;
+    font-size: 16px;
+    color: $white;
+    background-color: $black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 5.04rem;
+    text-transform: uppercase;
+    font-family: $secondaryFont;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+}
+
+.logo {
+    background-color: $yellow;
+    color: $black;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.34rem;
+    width: 65px;
+    height: 65px;
+    border-radius: 32.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fakeBtn {
+    width: 140px;
+    text-transform: uppercase;
+    border: 2px solid $yellow;
+    height: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    background-color: $black;
+    color: $yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    opacity: 0; 
+    animation: 1s ease-in 0.85s forwards myWork-rise; 
+    &:hover {
+        background-color: $yellow;
+        color: $black;
+    }
+    @keyframes myWork-rise {
+        0% {
+            transform: scale(1, 1) translateY(0);
+            opacity: 0;
+            color: $white;
+            border: 2px solid $white;
+        }
+        50% {
+            transform: scale(1.05, 0.95) translateY(-1vh);
+            opacity: 0.5;
+            color: $white;
+            border: 2px solid $white;
+        }
+        100% {
+            transform: scale(1, 1) translateY(0);
+            opacity: 1;
+        }
+    }
+}
+
+.quickReveal {
+    position: relative;
+    transform: translateY(75px);
+    opacity: 0;
+    transition: all 1.15s ease-in-out;
+}
+
+.quickReveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
