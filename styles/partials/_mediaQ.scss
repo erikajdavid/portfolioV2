@@ -1,5 +1,61 @@
 @use "./variables" as *;
 
-@media (max-width: 1200px) {
-    
+@media (max-width: 1199px) {
+    header .wrapper .sideBarIcons {
+        right: 0.5%;
+        .faIcons {
+            font-size: 1rem;
+        }
+        .backToTopBtn {
+            padding: 0.45rem;
+        }
+    }
+
+    .projects {
+        padding: 3rem 0 7rem 0;
+    }
+
+    .projects .projectTitle {
+        justify-content: center;
+    }
+
+    .projects .projectContainer {
+        padding-top: 8rem;
+        .project {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .projectInfo {
+                padding: 0;
+                margin-top: 5rem;
+                .arrowUpRight {
+                    font-size: 1.68rem;
+                }
+                h3 {
+                    margin-bottom: 3.5rem;
+                }
+            }
+        }
+    }
+
+    .about .ourStoryCover img {
+        width: 80%;
+    }
+
+    .about .ourStory .ourStoryTextContainer {
+        padding: 7rem 0;
+        .ourStoryTextLeft {
+            width: 47%;
+        }
+        .ourStoryTextRight {
+            width: 47%;
+            p {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    footer {
+        padding: 0;
+    }
 }

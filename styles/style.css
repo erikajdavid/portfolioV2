@@ -532,13 +532,14 @@ header .wrapper .headerBackText {
   padding-top: 15rem;
 }
 .projects .projectContainer .project {
-  width: 1100px;
-  height: 500px;
+  width: 85%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
 .projects .projectContainer .project .mockUp {
   width: 500px;
+  height: 500px;
   background-color: rgb(255, 179, 16);
 }
 .projects .projectContainer .project .projectInfo {
@@ -873,4 +874,58 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a {
 }
 footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   color: rgb(255, 179, 16);
+}
+
+@media (max-width: 1199px) {
+  header .wrapper .sideBarIcons {
+    right: 0.5%;
+  }
+  header .wrapper .sideBarIcons .faIcons {
+    font-size: 1rem;
+  }
+  header .wrapper .sideBarIcons .backToTopBtn {
+    padding: 0.45rem;
+  }
+  .projects {
+    padding: 3rem 0 7rem 0;
+  }
+  .projects .projectTitle {
+    justify-content: center;
+  }
+  .projects .projectContainer {
+    padding-top: 8rem;
+  }
+  .projects .projectContainer .project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects .projectContainer .project .projectInfo {
+    padding: 0;
+    margin-top: 5rem;
+  }
+  .projects .projectContainer .project .projectInfo .arrowUpRight {
+    font-size: 1.68rem;
+  }
+  .projects .projectContainer .project .projectInfo h3 {
+    margin-bottom: 3.5rem;
+  }
+  .about .ourStoryCover img {
+    width: 80%;
+  }
+  .about .ourStory .ourStoryTextContainer {
+    padding: 7rem 0;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
+    width: 47%;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextRight {
+    width: 47%;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextRight p {
+    margin-bottom: 2rem;
+  }
+  footer {
+    padding: 0;
+  }
 }

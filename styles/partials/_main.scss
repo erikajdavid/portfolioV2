@@ -42,12 +42,13 @@
         color: $white;
         padding-top: 15rem;
         .project {
-            width: 1100px;
-            height: 500px;
+            width: 85%;
+            height: 100%;
             display: flex;
             justify-content: space-between;
             .mockUp {
                 width: 500px;
+                height: 500px;
                 background-color: $yellow;
             }
             .projectInfo {
