@@ -51,7 +51,7 @@ window.addEventListener('scroll', () => {
 
 //Lenis Smooth Scroll
 
-/*const lenis = new Lenis()
+const lenis = new Lenis()
 
 lenis.on('scroll', (e) => {
   console.log(e)
@@ -63,7 +63,7 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
-*/
+
 
 //GSAP animation
 
