@@ -417,11 +417,12 @@ header .wrapper .hero .heroText h2 span {
 header .wrapper .hero .heroImg {
   width: 65%;
   height: 100%;
+  display: flex;
 }
 header .wrapper .hero .heroImg img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 header .wrapper .socialIcons {
   display: flex;

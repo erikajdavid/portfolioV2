@@ -208,9 +208,10 @@ header {
             .heroImg {
                 width: 65%;
                 height: 100%;
+                display: flex;
                 img {
                     width: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
                 }
             }
         }
