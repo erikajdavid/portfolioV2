@@ -255,6 +255,14 @@ ul {
   list-style: none;
 }
 
+h2 {
+  font-size: 5.04rem;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+}
+
 .logo {
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
@@ -424,7 +432,7 @@ header .wrapper .hero .heroImg img {
   -o-object-fit: contain;
      object-fit: contain;
 }
-header .wrapper .socialIcons {
+header .wrapper .sideBarIcons {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -432,7 +440,7 @@ header .wrapper .socialIcons {
   bottom: 10%;
   right: 1.5%;
 }
-header .wrapper .socialIcons .faIcons {
+header .wrapper .sideBarIcons .faIcons {
   color: rgb(255, 179, 16);
   font-size: 1.25rem;
   background-color: rgb(18, 18, 18);
@@ -446,11 +454,11 @@ header .wrapper .socialIcons .faIcons {
   align-items: center;
   transition: all 0.25s ease;
 }
-header .wrapper .socialIcons .faIcons:hover {
+header .wrapper .sideBarIcons .faIcons:hover {
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
 }
-header .wrapper .socialIcons .backToTopBtn {
+header .wrapper .sideBarIcons .backToTopBtn {
   font-size: 1.25rem;
   padding: 0.65rem;
   border-radius: 10rem;
@@ -465,7 +473,7 @@ header .wrapper .socialIcons .backToTopBtn {
   margin-top: 2rem;
   border: 1px solid rgb(255, 179, 16);
 }
-header .wrapper .socialIcons .backToTopBtn:hover {
+header .wrapper .sideBarIcons .backToTopBtn:hover {
   background-color: rgb(255, 179, 16);
   color: rgb(18, 18, 18);
 }
@@ -503,13 +511,6 @@ header .wrapper .headerBackText {
   font-weight: 400;
   padding-left: 0.3rem;
   font-size: 1.34rem;
-}
-.projects .projectTitle h2 {
-  font-size: 5.04rem;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 0.3rem;
-  font-weight: 700;
 }
 .projects .projectTitle .projectBackText {
   font-size: 17rem;
@@ -660,13 +661,6 @@ header .wrapper .headerBackText {
   font-weight: 500;
   padding-left: 0.3rem;
   font-size: 1.34rem;
-}
-.about .ourStoryCover .purpleStrip h2 {
-  font-size: 5.04rem;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 0.3rem;
-  font-weight: 700;
 }
 .about .ourStoryCover img {
   position: absolute;

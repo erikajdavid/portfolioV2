@@ -47,6 +47,14 @@ ul {
     list-style: none;
 }
 
+h2 {
+    font-size: 5.04rem;
+    text-transform: uppercase;
+    font-family: $secondaryFont;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+}
+
 .logo {
     background-color: $yellow;
     color: $black;
@@ -215,7 +223,7 @@ header {
                 }
             }
         }
-        .socialIcons {
+        .sideBarIcons {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -296,13 +304,6 @@ header {
                 padding-left: 0.3rem;
                 font-size: 1.34rem;
             }
-        }
-        h2 {
-            font-size: 5.04rem;
-            text-transform: uppercase;
-            font-family: $secondaryFont;
-            letter-spacing: 0.3rem;
-            font-weight: 700;
         }
         .projectBackText {
             font-size: 17rem;
@@ -460,13 +461,6 @@ header {
                 font-weight: 500;
                 padding-left: 0.3rem;
                 font-size: 1.34rem;
-            }
-            h2 {
-                font-size: 5.04rem;
-                text-transform: uppercase;
-                font-family: $secondaryFont;
-                letter-spacing: 0.3rem;
-                font-weight: 700;
             }
         }
         img {
