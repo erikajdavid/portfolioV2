@@ -1,9 +1,14 @@
 @use "./variables" as *;
 
 @media (max-width: 1179px) {
+    header {
+        height: 70vh;
+        .wrapper {
+            height: 100%;
+        }
+    }
     header .wrapper .hero {
         display: flex;
-        flex-direction: column;
         height: 100%;
         .heroText {
             padding: 4rem 0;
@@ -103,7 +108,7 @@
     }
 
     footer .wrapper .footerMainContainer {
-        border: 1px solid red;
+        //border: 1px solid red;
         flex-direction: column;
     }
 }
