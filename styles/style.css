@@ -714,7 +714,8 @@ footer .footerMainTitle {
   letter-spacing: 0.3rem;
   font-weight: 700;
   text-align: center;
-  margin: 9rem 0;
+  margin: 9rem auto;
+  width: 60%;
 }
 footer .footerMainTitle span {
   color: rgb(255, 179, 16);
@@ -905,6 +906,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .sideBarIcons .backToTopBtn {
     padding: 0.45rem;
   }
+  .feedback .wrapper {
+    padding: 0 4rem;
+  }
   .projects {
     padding: 3rem 0 7rem 0;
   }
@@ -933,7 +937,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     width: 80%;
   }
   .about .ourStory .ourStoryTextContainer {
-    padding: 7rem 0;
+    padding: 7rem 3rem;
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
     width: 47%;
@@ -946,5 +950,24 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   footer {
     padding: 0;
+  }
+  footer .footerMainTitle {
+    width: 80%;
+  }
+}
+@media (max-width: 940px) {
+  .about .ourStoryCover .blackStrip .storyBackText {
+    right: -17%;
+    top: 10%;
+  }
+  .about .ourStory .ourStoryTextContainer {
+    padding: 8rem 1.5rem;
+  }
+  footer .footerMainTitle {
+    padding: 0 5rem;
+  }
+  footer .wrapper .footerMainContainer {
+    border: 1px solid red;
+    flex-direction: column;
   }
 }

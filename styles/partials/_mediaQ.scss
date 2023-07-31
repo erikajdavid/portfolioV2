@@ -32,6 +32,10 @@
         }
     }
 
+    .feedback .wrapper {
+        padding: 0 4rem;
+    }
+
     .projects {
         padding: 3rem 0 7rem 0;
     }
@@ -64,7 +68,7 @@
     }
 
     .about .ourStory .ourStoryTextContainer {
-        padding: 7rem 0;
+        padding: 7rem 3rem;
         .ourStoryTextLeft {
             width: 47%;
         }
@@ -78,5 +82,28 @@
 
     footer {
         padding: 0;
+        .footerMainTitle {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 940px) {
+
+    .about .ourStoryCover .blackStrip .storyBackText {
+        right: -17%;
+        top: 10%;
+    }
+    .about .ourStory .ourStoryTextContainer {
+        padding: 8rem 1.5rem;
+    }
+
+    footer .footerMainTitle {
+        padding: 0 5rem;
+    }
+
+    footer .wrapper .footerMainContainer {
+        border: 1px solid red;
+        flex-direction: column;
     }
 }
