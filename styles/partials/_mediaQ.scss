@@ -95,6 +95,23 @@
 
 @media (max-width: 940px) {
 
+    header .wrapper .hero .heroText {
+        width: 32%;
+        h1 {
+            font-size: 3.36rem;
+        }
+        h2 {
+            font-size: 1.34rem;
+            span {
+                font-size: 1.68rem;
+            }
+        }
+    }
+
+    header .wrapper .hero .heroImg{
+        width: 60%;
+    }
+
     .about .ourStoryCover .blackStrip .storyBackText {
         right: -17%;
         top: 10%;
