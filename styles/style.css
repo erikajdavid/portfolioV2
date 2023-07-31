@@ -1057,10 +1057,11 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   footer .footerMainTitle {
     font-size: 3.36rem;
-    width: 89%;
+    width: 90%;
+    padding: 0 5rem;
   }
 }
-@media (max-width: 549px) {
+@media (max-width: 505px) {
   .projects .wrapper .projectContainer .project .mockUp {
     width: 375px;
     height: 375px;

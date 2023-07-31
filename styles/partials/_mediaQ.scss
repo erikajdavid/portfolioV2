@@ -202,11 +202,12 @@
 
     footer .footerMainTitle {
         font-size: 3.36rem;
-        width: 89%;
+        width: 90%;
+        padding: 0 5rem;
     }
 }
 
-@media (max-width: 549px) {
+@media (max-width: 505px) {
 
     .projects .wrapper .projectContainer .project .mockUp {
         width: 375px;
@@ -216,5 +217,9 @@
     .projects .wrapper .projectContainer .project .projectInfo {
         width: 375px;
     }
+
+}
+
+@media (max-width: 478px) {
 
 }
