@@ -1031,6 +1031,13 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     font-size: 3.36rem;
     width: 70%;
   }
+  footer .copyrightContainer .wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  footer .copyrightContainer .wrapper .erikaCredit {
+    padding-top: 0.5rem;
+  }
 }
 @media (max-width: 628px) {
   header {
@@ -1109,9 +1116,13 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     width: 90%;
     padding: 0;
     justify-content: center;
-    border: 1px solid red;
   }
   footer .wrapper .footerMainContainer .formContainer {
     width: 90%;
+  }
+  footer .copyrightContainer .wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 70%;
   }
 }
