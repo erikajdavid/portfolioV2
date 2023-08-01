@@ -177,6 +177,9 @@
 @media (max-width: 628px) {
     header {
         height: 100%;
+        .wrapper .topNav nav {
+            display: none;
+        }
     }
 
     header .wrapper .hero {
@@ -198,6 +201,9 @@
         .projectAdjs {
             text-align: center;
         }
+        h2 {
+            font-size: 3.36rem;
+        }
     }
 
     footer .footerMainTitle {
@@ -217,9 +223,50 @@
     .projects .wrapper .projectContainer .project .projectInfo {
         width: 375px;
     }
-
 }
 
-@media (max-width: 478px) {
+@media (max-width: 479px) {
 
+    .feedback .wrapper {
+        padding: 0 2rem;
+    }
+
+    .projects .wrapper .projectContainer .project .mockUp {
+        width: 300px;
+        height: 300px;
+    }
+
+    .projects .wrapper .projectContainer .project .projectInfo {
+        width: 300px;
+    }
+
+    .about .ourStory .ourStoryTextContainer {
+        flex-direction: column;
+        .ourStoryTextLeft {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2rem;
+            p {
+                font-size: 1.34rem;
+            }
+        }
+        .ourStoryTextRight {
+            width: 100%;
+            .fakeBtn {
+               margin: 0 auto;
+            }
+        }
+    }
+
+    footer .footerMainTitle {
+        font-size: 3.36rem;
+        width: 90%;
+        padding: 0;
+        justify-content: center;
+        border: 1px solid red;
+    }
+
+    footer .wrapper .footerMainContainer .formContainer {
+        width: 90%;
+    } 
 }

@@ -1036,6 +1036,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header {
     height: 100%;
   }
+  header .wrapper .topNav nav {
+    display: none;
+  }
   header .wrapper .hero {
     flex-direction: column-reverse;
     width: 100%;
@@ -1055,6 +1058,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   .projects .wrapper .projectTitle .projectAdjs {
     text-align: center;
   }
+  .projects .wrapper .projectTitle h2 {
+    font-size: 3.36rem;
+  }
   footer .footerMainTitle {
     font-size: 3.36rem;
     width: 90%;
@@ -1068,5 +1074,44 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .wrapper .projectContainer .project .projectInfo {
     width: 375px;
+  }
+}
+@media (max-width: 479px) {
+  .feedback .wrapper {
+    padding: 0 2rem;
+  }
+  .projects .wrapper .projectContainer .project .mockUp {
+    width: 300px;
+    height: 300px;
+  }
+  .projects .wrapper .projectContainer .project .projectInfo {
+    width: 300px;
+  }
+  .about .ourStory .ourStoryTextContainer {
+    flex-direction: column;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextLeft p {
+    font-size: 1.34rem;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextRight {
+    width: 100%;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextRight .fakeBtn {
+    margin: 0 auto;
+  }
+  footer .footerMainTitle {
+    font-size: 3.36rem;
+    width: 90%;
+    padding: 0;
+    justify-content: center;
+    border: 1px solid red;
+  }
+  footer .wrapper .footerMainContainer .formContainer {
+    width: 90%;
   }
 }
