@@ -33,6 +33,7 @@
             right: -88%;
             z-index: -5;
             -webkit-text-stroke: 0.4px $white;
+            overflow-x: hidden;
         }
     }
     .projectContainer {
@@ -165,6 +166,7 @@
                 z-index: -5;
                 opacity: 0.15;
                 -webkit-text-stroke: 0.4px $white;
+                overflow-x: hidden;
             }
         }
         .purpleStrip {
