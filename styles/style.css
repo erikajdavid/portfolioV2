@@ -1120,6 +1120,10 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
 }
 @media (max-width: 505px) {
+  header .wrapper .headerBackText {
+    font-size: 18rem;
+    right: -35%;
+  }
   .projects .wrapper .projectContainer .project .mockUp {
     width: 375px;
     height: 375px;
@@ -1129,6 +1133,10 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
 }
 @media (max-width: 479px) {
+  header .wrapper .headerBackText {
+    font-size: 15rem;
+    left: -13%;
+  }
   .feedback .wrapper {
     padding: 0 2rem;
   }
