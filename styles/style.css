@@ -766,12 +766,12 @@ footer .wrapper .footerMainContainer .footerImgContainer img {
 }
 footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
   height: 250px;
-  width: 2000px;
+  width: 200%;
   background-color: rgb(211, 170, 252);
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: -75%;
+  left: -10%;
   transform: translate(-40%, -50%);
   z-index: 5;
 }
@@ -1007,6 +1007,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 200px;
     top: 30%;
+    left: 10%;
   }
   footer .wrapper .footerMainContainer .formContainer {
     width: 80%;
@@ -1093,6 +1094,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     width: 90%;
     padding: 0 5rem;
   }
+  footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+    top: 40%;
+  }
 }
 @media (max-width: 505px) {
   .projects .wrapper .projectContainer .project .mockUp {
@@ -1136,6 +1140,10 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     width: 90%;
     padding: 0;
     justify-content: center;
+  }
+  footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+    top: 40%;
+    height: 100px;
   }
   footer .wrapper .footerMainContainer .formContainer {
     width: 90%;

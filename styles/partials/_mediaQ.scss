@@ -138,6 +138,7 @@
             .colorStrip {
                 height: 200px;
                 top: 30%;
+                left: 10%;
             }
         }
         .formContainer {
@@ -237,6 +238,10 @@
         width: 90%;
         padding: 0 5rem;
     }
+
+    footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+        top: 40%;
+    }
 }
 
 @media (max-width: 505px) {
@@ -289,6 +294,11 @@
         width: 90%;
         padding: 0;
         justify-content: center;
+    }
+
+    footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+        top: 40%;
+        height: 100px;
     }
 
     footer .wrapper .footerMainContainer .formContainer {
