@@ -14,9 +14,10 @@
             padding: 4rem 0;
             width: 100%;
             text-align: center;
+            width: 40%;
         }
         .heroImg {
-            width: 80%;
+            width: 60%;
             margin: 0 auto;
             img {
                 width: 100%;
@@ -194,24 +195,40 @@
     header .wrapper .hero {
         flex-direction: column-reverse;
         width: 100%;
-        height: 100%;
         .heroText {
             width: 90%;
             margin: 0 auto;
+            h1 {
+                width: 80%;
+                margin: 0 auto;
+                padding-bottom: 1.5rem;
+            }
         }
         .heroImg {
             width: 100%;
         }
     }
 
-    .projects .wrapper .projectTitle {
-        flex-direction: column-reverse;
-        justify-content: center;
-        .projectAdjs {
-            text-align: center;
+    .firstQuote {
+        margin-top: 0;
+    }
+
+    .projects {
+        padding-top: 0;
+        padding-bottom: 3rem;
+        .projectTitle {
+            flex-direction: column-reverse;
+            justify-content: center;
+            padding-top: 10rem;
+            .projectAdjs {
+                text-align: center;
+            }
+            h2 {
+                font-size: 3.36rem;
+            }
         }
-        h2 {
-            font-size: 3.36rem;
+        .projectsContainer {
+            padding-top: 10rem;
         }
     }
 
