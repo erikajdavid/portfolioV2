@@ -755,21 +755,25 @@ footer .wrapper .footerMainContainer {
 footer .wrapper .footerMainContainer .footerImgContainer {
   width: 55%;
   height: 100%;
+  position: relative;
+  z-index: 6;
 }
 footer .wrapper .footerMainContainer .footerImgContainer img {
   width: 100%;
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 6;
 }
 footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
   height: 250px;
-  width: 100%;
+  width: 2000px;
   background-color: rgb(211, 170, 252);
   border-radius: 10px;
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -75%;
   transform: translate(-40%, -50%);
-  z-index: -5;
+  z-index: 5;
 }
 footer .wrapper .footerMainContainer .formContainer {
   width: 35%;

@@ -50,20 +50,24 @@ footer {
             .footerImgContainer {
                 width: 55%;
                 height: 100%;
+                position: relative;
+                z-index: 6;
                 img {
                     width: 100%;
                     margin-bottom: 2rem;
+                    position: relative;
+                    z-index: 6;
                 }
                 .colorStrip {
                     height: 250px;
-                    width: 100%;
+                    width: 2000px;
                     background-color: $purple;
                     border-radius: 10px;
                     position: absolute;
                     top: 50%;
-                    left: 0;
+                    left: -75%;
                     transform: translate(-40%, -50%);
-                    z-index: -5;
+                    z-index: 5;
                 }
             }
             .formContainer {
