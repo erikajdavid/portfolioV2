@@ -277,6 +277,10 @@
         right: -35%;
     }
 
+    header .wrapper .sideBarIcons {
+        display: none;
+    }
+
     .projects .wrapper .projectContainer .project .mockUp {
         width: 375px;
         height: 375px;
@@ -285,6 +289,8 @@
     .projects .wrapper .projectContainer .project .projectInfo {
         width: 375px;
     }
+
+
 }
 
 @media (max-width: 479px) {

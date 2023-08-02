@@ -1125,6 +1125,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     font-size: 18rem;
     right: -35%;
   }
+  header .wrapper .sideBarIcons {
+    display: none;
+  }
   .projects .wrapper .projectContainer .project .mockUp {
     width: 375px;
     height: 375px;
