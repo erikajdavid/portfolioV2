@@ -1128,6 +1128,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .sideBarIcons {
     display: none;
   }
+  .project .projectTitle .projectBackText {
+    display: none;
+  }
   .projects .wrapper .projectContainer .project .mockUp {
     width: 375px;
     height: 375px;
