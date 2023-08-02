@@ -1188,9 +1188,11 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextLeft p {
     font-size: 1.34rem;
+    line-height: 1.68rem;
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextRight {
     width: 100%;
+    text-align: center;
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextRight .fakeBtn {
     margin: 0 auto;
