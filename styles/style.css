@@ -1138,6 +1138,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   .projects .wrapper .projectContainer .project .projectInfo {
     width: 375px;
   }
+  footer .wrapper .footerMainContainer .formContainer .footerBackText {
+    display: none;
+  }
 }
 @media (max-width: 479px) {
   header .wrapper .headerBackText {
