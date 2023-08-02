@@ -1021,6 +1021,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
 }
 @media (max-width: 750px) {
+  header {
+    height: 100%;
+  }
   header .wrapper .hero .heroText {
     width: 40%;
   }
