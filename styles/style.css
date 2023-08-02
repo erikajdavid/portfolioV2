@@ -233,6 +233,7 @@ html {
   background-color: rgb(18, 18, 18);
   scroll-behavior: smooth;
   overflow-x: hidden;
+  width: 100%;
 }
 
 body, h1, h2, h3, ul, p {
