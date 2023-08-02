@@ -236,6 +236,11 @@ html {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body, h1, h2, h3, ul, p {
   margin: 0;
   padding: 0;
@@ -1183,6 +1188,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     top: 40%;
     height: 100px;
+    display: none;
   }
   footer .wrapper .footerMainContainer .formContainer {
     width: 90%;
