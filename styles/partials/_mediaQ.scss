@@ -322,6 +322,26 @@
         width: 300px;
     }
 
+    .about .ourStoryCover .blackStrip {
+        display: none;
+    }
+
+    .about .ourStoryCover .blackStrip {
+        display: none;
+    }
+
+    .about .ourStoryCover .purpleStrip {
+        height: 50vh;
+        align-items: flex-start;
+        padding-top: 2rem;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .about .ourStoryCover img {
+        width: 100%;
+    }
+
     .about .ourStory .ourStoryTextContainer {
         flex-direction: column;
         .ourStoryTextLeft {
