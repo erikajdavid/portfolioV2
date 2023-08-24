@@ -435,8 +435,8 @@ header .wrapper .hero .heroImg {
 }
 header .wrapper .hero .heroImg img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: auto;
+     object-fit: auto;
 }
 header .wrapper .sideBarIcons {
   display: flex;
