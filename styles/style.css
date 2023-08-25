@@ -355,7 +355,7 @@ header .wrapper .topNav nav ul {
   margin-left: 1rem;
 }
 header .wrapper .topNav nav ul li {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.05rem;
@@ -371,14 +371,14 @@ header .wrapper .hero {
   display: flex;
 }
 header .wrapper .hero .heroText {
-  width: 35%;
+  width: 37%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 header .wrapper .hero .heroText h1 {
-  font-size: 3.7rem;
+  font-size: 3.5rem;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   padding: 1rem 0;
@@ -429,7 +429,7 @@ header .wrapper .hero .heroText h2 span {
   }
 }
 header .wrapper .hero .heroImg {
-  width: 75%;
+  width: 68%;
   height: 100%;
   display: flex;
 }
@@ -485,7 +485,7 @@ header .wrapper .sideBarIcons .backToTopBtn:hover {
   color: rgb(18, 18, 18);
 }
 header .wrapper .headerBackText {
-  font-size: 25rem;
+  font-size: 27rem;
   text-transform: uppercase;
   color: rgb(101, 101, 101);
   opacity: 0.15;
