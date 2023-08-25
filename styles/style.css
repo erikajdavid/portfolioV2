@@ -564,7 +564,7 @@ header .wrapper .headerBackText {
   right: 0;
 }
 .projects .projectContainer .project .projectInfo .arrowUpRight, .projects .projectContainer .project .projectInfo .gitHubProject {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: rgb(255, 179, 16);
   margin-left: 1rem;
 }
@@ -572,10 +572,11 @@ header .wrapper .headerBackText {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-size: 2.7rem;
+  padding-bottom: 1rem;
 }
 .projects .projectContainer .project .projectInfo .projectDescription p {
-  line-height: 1.34rem;
-  letter-spacing: 0.1rem;
+  line-height: 1.68rem;
+  letter-spacing: 0.05rem;
   margin: 1rem 0 2rem 0;
 }
 .projects .projectContainer .project .projectInfo .projectDescription .tools {
@@ -677,8 +678,8 @@ header .wrapper .headerBackText {
 .about .ourStoryCover img {
   position: absolute;
   bottom: 0;
-  right: 0%;
-  width: 110%;
+  right: -5%;
+  width: 115%;
 }
 .about .ourStory {
   display: flex;

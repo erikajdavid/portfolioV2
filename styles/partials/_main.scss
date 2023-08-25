@@ -65,7 +65,7 @@
                     right: 0;
                 }
                 .arrowUpRight, .gitHubProject {
-                    font-size: 2.25rem;
+                    font-size: 2rem;
                     color: $yellow;
                     margin-left: 1rem;
                 }
@@ -74,11 +74,12 @@
                     text-transform: uppercase;
                     font-family: $secondaryFont;
                     font-size: 2.7rem;
+                    padding-bottom: 1rem;
                 }
                 .projectDescription {
                     p {
-                    line-height: 1.34rem;
-                    letter-spacing: 0.1rem;
+                    line-height: 1.68rem;
+                    letter-spacing: 0.05rem;
                     margin: 1rem 0 2rem 0;
                     }
                     .tools {
@@ -189,8 +190,8 @@
         img {
             position: absolute;
             bottom: 0;
-            right: 0%;
-            width: 110%;
+            right: -5%;
+            width: 115%;
         }
     }
     .ourStory {
