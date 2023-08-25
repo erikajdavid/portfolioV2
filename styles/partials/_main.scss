@@ -58,13 +58,18 @@
                 flex-direction: column;
                 justify-content: space-around;
                 position: relative;
-                .arrowUpRight {
-                    font-size: 3.36rem;
+                .projectLinks {
+                    display: flex;
                     position: absolute;
                     top: 0;
                     right: 0;
-                    color: $yellow;
                 }
+                .arrowUpRight, .gitHubProject {
+                    font-size: 2.25rem;
+                    color: $yellow;
+                    margin-left: 1rem;
+                }
+
                 h3 {
                     text-transform: uppercase;
                     font-family: $secondaryFont;

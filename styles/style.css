@@ -557,12 +557,16 @@ header .wrapper .headerBackText {
   justify-content: space-around;
   position: relative;
 }
-.projects .projectContainer .project .projectInfo .arrowUpRight {
-  font-size: 3.36rem;
+.projects .projectContainer .project .projectInfo .projectLinks {
+  display: flex;
   position: absolute;
   top: 0;
   right: 0;
+}
+.projects .projectContainer .project .projectInfo .arrowUpRight, .projects .projectContainer .project .projectInfo .gitHubProject {
+  font-size: 2.25rem;
   color: rgb(255, 179, 16);
+  margin-left: 1rem;
 }
 .projects .projectContainer .project .projectInfo h3 {
   text-transform: uppercase;
