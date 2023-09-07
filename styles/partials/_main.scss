@@ -3,7 +3,7 @@
 //projects
 
 .projects {
-    padding: 5rem 0 10rem 0;
+    padding: 5rem 0 5rem 0;
     .projectTitle {
         display: flex;
         justify-content: flex-end;
@@ -75,7 +75,7 @@
                     align-items: center;
                     }
                     .arrowUpRight, .gitHubProject {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         color: $yellow; 
                         margin-left: 0.5rem;
                         transition: all 0.25s;
