@@ -534,15 +534,17 @@ header .wrapper .headerBackText {
 .projects .projectContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: rgb(250, 250, 250);
-  padding-top: 15rem;
+  padding: 8rem 0;
 }
 .projects .projectContainer .project {
   width: 85%;
   height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .projects .projectContainer .project .mockUp {
   width: 450px;
@@ -555,24 +557,31 @@ header .wrapper .headerBackText {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  position: relative;
 }
-.projects .projectContainer .project .projectInfo .projectLinks {
+.projects .projectContainer .project .projectInfo .projectTitle {
+  all: revert;
   display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.projects .projectContainer .project .projectInfo .arrowUpRight, .projects .projectContainer .project .projectInfo .gitHubProject {
-  font-size: 2rem;
-  color: rgb(255, 179, 16);
-  margin-left: 1rem;
-}
-.projects .projectContainer .project .projectInfo h3 {
+.projects .projectContainer .project .projectInfo .projectTitle h3 {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-size: 2.7rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.projects .projectContainer .project .projectInfo .projectTitle .projectLinks {
+  display: flex;
+  align-items: center;
+}
+.projects .projectContainer .project .projectInfo .projectTitle .arrowUpRight, .projects .projectContainer .project .projectInfo .projectTitle .gitHubProject {
+  font-size: 2rem;
+  color: rgb(255, 179, 16);
+  margin-left: 0.5rem;
+  transition: all 0.25s;
+}
+.projects .projectContainer .project .projectInfo .projectTitle .arrowUpRight:hover, .projects .projectContainer .project .projectInfo .projectTitle .gitHubProject:hover {
+  color: rgb(211, 170, 252);
 }
 .projects .projectContainer .project .projectInfo .projectDescription p {
   line-height: 1.68rem;

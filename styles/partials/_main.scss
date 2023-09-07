@@ -38,14 +38,16 @@
     .projectContainer {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         color: $white;
-        padding-top: 15rem;
+        padding: 8rem 0;
         .project {
             width: 85%;
             height: 100%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .mockUp {
                 width: 450px;
                 height: 450px;
@@ -57,24 +59,30 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                position: relative;
-                .projectLinks {
+                .projectTitle {
+                    all: revert;
                     display: flex;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                }
-                .arrowUpRight, .gitHubProject {
-                    font-size: 2rem;
-                    color: $yellow;
-                    margin-left: 1rem;
-                }
-
-                h3 {
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    h3 {
                     text-transform: uppercase;
                     font-family: $secondaryFont;
                     font-size: 2.7rem;
-                    padding-bottom: 1rem;
+                    margin-bottom: 1rem;
+                    }
+                    .projectLinks {
+                    display: flex;
+                    align-items: center;
+                    }
+                    .arrowUpRight, .gitHubProject {
+                        font-size: 2rem;
+                        color: $yellow; 
+                        margin-left: 0.5rem;
+                        transition: all 0.25s;
+                        &:hover {
+                            color: $purple;
+                        }
+                    }
                 }
                 .projectDescription {
                     p {
