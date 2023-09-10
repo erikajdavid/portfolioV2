@@ -88,7 +88,7 @@
                     p {
                     line-height: 1.68rem;
                     letter-spacing: 0.05rem;
-                    margin: 1rem 0 2rem 0;
+                    margin: 1.5rem 0 2rem 0;
                     }
                     .tools {
                         display: flex;
@@ -229,9 +229,10 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: flex-end;
                 p {
-                    line-height: 1.34rem;
+                    line-height: 1.68rem;
+                    padding-bottom: 1.1rem;
                 }
             }
         }
