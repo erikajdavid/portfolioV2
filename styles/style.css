@@ -541,19 +541,46 @@ header .wrapper .headerBackText {
   padding: 8rem 0;
 }
 .projects .projectContainer .project {
-  width: 85%;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .projects .projectContainer .project .mockUp {
-  width: 450px;
   height: 450px;
-  background-color: rgb(255, 179, 16);
+  position: relative;
+}
+.projects .projectContainer .project .mockUp .projectImg {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2rem;
+  border: 3px solid rgb(83, 83, 83);
+}
+.projects .projectContainer .project .mockUp .projectIcon {
+  position: absolute;
+  width: 55%;
+  bottom: -20%;
+  left: -15%;
+}
+.projects .projectContainer .project .mockUp .cartAppMobile {
+  position: absolute;
+  height: 120%;
+  bottom: -10%;
+  left: -4%;
+  border-radius: 1.5rem;
+  border: 3px solid green;
+}
+.projects .projectContainer .project .mockUp .strideCastLogo {
+  position: absolute;
+  width: 30%;
+  bottom: -20%;
+  left: -5%;
 }
 .projects .projectContainer .project .projectInfo {
-  width: 450px;
+  width: 500px;
   padding: 2rem 2rem 2rem 3rem;
   display: flex;
   flex-direction: column;

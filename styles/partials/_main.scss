@@ -43,18 +43,44 @@
         color: $white;
         padding: 8rem 0;
         .project {
-            width: 85%;
+            width: 100%;
             height: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             .mockUp {
-                width: 450px;
                 height: 450px;
-                background-color: $yellow;
+                position: relative;
+                .projectImg {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 2rem;
+                    border: 3px solid rgb(83, 83, 83);
+                }
+                .projectIcon {
+                    position: absolute;
+                    width: 55%;
+                    bottom: -20%;
+                    left: -15%;;
+                }
+                .cartAppMobile {
+                    position: absolute;
+                    height: 120%;
+                    bottom: -10%;
+                    left: -4%;
+                    border-radius: 1.5rem;
+                    border: 3px solid green;
+                }
+                .strideCastLogo {
+                    position: absolute;
+                    width: 30%;
+                    bottom: -20%;
+                    left: -5%;
+                }
             }
             .projectInfo {
-                width: 450px;
+                width: 500px;
                 padding: 2rem 2rem 2rem 3rem;
                 display: flex;
                 flex-direction: column;
