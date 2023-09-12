@@ -714,9 +714,9 @@ header .wrapper .headerBackText {
 }
 .about .ourStoryCover img {
   position: absolute;
-  bottom: -35%;
-  right: -18%;
-  width: 100%;
+  bottom: 0%;
+  right: -10%;
+  width: 120%;
 }
 .about .ourStory {
   display: flex;
