@@ -557,7 +557,7 @@ header .wrapper .headerBackText {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 2rem;
-  border: 3px solid rgb(83, 83, 83);
+  border: 2px solid white;
 }
 .projects .projectContainer .project .mockUp .projectIcon {
   position: absolute;
