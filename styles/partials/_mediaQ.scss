@@ -113,6 +113,10 @@
         width: 60%;
     }
 
+    .projects .projectContainer .project .mockUp {
+        height: 350px;
+    }
+    
     .about .ourStoryCover .blackStrip .storyBackText {
         right: -17%;
         top: 10%;
@@ -170,7 +174,7 @@
     .projects {
         padding-bottom: 1rem;
     };
-
+    
     .projects .wrapper .projectTitle .projectAdjs p {
         font-size: 1rem;
     }
@@ -179,6 +183,10 @@
         font-size: 10rem;
         top: 40%;
         right: -15%;
+    }
+
+    .projects .projectContainer .project .mockUp {
+        height: 275px;
     }
 
     .about .ourStoryCover .blackStrip .storyBackText {
@@ -264,6 +272,10 @@
         }
     }
 
+    .projects .projectContainer .project .mockUp {
+        height: 250px;
+    }
+
     footer .footerMainTitle {
         font-size: 3.36rem;
         width: 90%;
@@ -290,9 +302,8 @@
         display: none;
     }
 
-    .projects .wrapper .projectContainer .project .mockUp {
-        width: 375px;
-        height: 375px;
+    .projects .projectContainer .project .mockUp {
+        height: 225px;
     }
 
     .projects .wrapper .projectContainer .project .projectInfo {
@@ -337,9 +348,8 @@
         padding: 0 2rem;
     }
 
-    .projects .wrapper .projectContainer .project .mockUp {
-        width: 300px;
-        height: 300px;
+    .projects .projectContainer .project .mockUp {
+        height: 180px;
     }
 
     .projects .wrapper .projectContainer .project .projectInfo {
