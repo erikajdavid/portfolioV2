@@ -975,9 +975,10 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .wrapper .projectTitle {
     justify-content: center;
+    padding-bottom: 4rem;
   }
   .projects .projectContainer {
-    padding-top: 8rem;
+    padding: 5rem 0;
   }
   .projects .projectContainer .project {
     flex-direction: column;
@@ -993,6 +994,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .projectContainer .project .projectInfo h3 {
     margin-bottom: 1.5rem;
+    width: 75%;
   }
   .about .ourStoryCover img {
     width: 80%;
@@ -1231,6 +1233,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .wrapper .projectContainer .project .projectInfo {
     width: 300px;
+  }
+  .projects .wrapper .projectContainer .project .projectInfo h3 {
+    font-size: 2rem;
   }
   .about .ourStory .ourStoryTextContainer {
     flex-direction: column;
