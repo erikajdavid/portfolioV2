@@ -1051,6 +1051,14 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .hero .heroImg {
     width: 100%;
   }
+  .projects .projectTitle {
+    padding-top: 5rem;
+  }
+  .projects .projectTitle .projectBackText {
+    top: -10%;
+    right: -80%;
+    font-size: 15rem;
+  }
   .projects .projectContainer .project .mockUp {
     height: 350px;
   }
@@ -1076,7 +1084,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     padding-bottom: 2rem;
   }
   footer .wrapper .footerMainContainer .footerImgContainer {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
   }
   footer .wrapper .footerMainContainer .footerImgContainer img {
@@ -1084,8 +1092,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     text-align: right;
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-    height: 200px;
-    top: 30%;
+    height: 400px;
     left: 10%;
   }
   footer .wrapper .footerMainContainer .formContainer {
@@ -1094,6 +1101,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
 }
 @media (max-width: 750px) {
+  .projects .projectTitle {
+    padding-top: 5rem;
+  }
   .projects .projectContainer {
     padding: 4rem 0;
   }
@@ -1102,7 +1112,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .wrapper .projectTitle .projectBackText {
     font-size: 10rem;
-    top: 40%;
+    top: 13%;
     right: -15%;
   }
   .projects .projectContainer .project .mockUp {
@@ -1125,6 +1135,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     top: -10%;
     right: -18%;
   }
+  footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+    height: 350px;
+  }
   footer .copyrightContainer .wrapper {
     flex-direction: column-reverse;
     text-align: center;
@@ -1143,6 +1156,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .headerBackText {
     left: 0%;
   }
+  header .wrapper .hero .heroText h1 {
+    font-size: 2.75rem;
+  }
   .firstQuote {
     margin-top: 0;
   }
@@ -1159,7 +1175,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     text-align: center;
   }
   .projects .projectTitle h2 {
-    font-size: 3.36rem;
+    font-size: 5rem;
   }
   .projects .projectsContainer {
     padding-top: 10rem;
@@ -1169,6 +1185,11 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .wrapper .projectContainer .project .projectInfo {
     width: 375px;
+  }
+  .projects .wrapper .projectTitle .projectBackText {
+    font-size: 10rem;
+    top: 35%;
+    right: -15%;
   }
   .about .ourStoryCover .blackStrip .storyBackText {
     right: -10%;
@@ -1186,7 +1207,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     padding: 0 5rem;
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-    top: 40%;
+    height: 250px;
   }
 }
 @media (max-width: 505px) {
@@ -1221,7 +1242,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     display: none;
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-    display: none;
+    height: 200px;
   }
 }
 @media (max-width: 479px) {
@@ -1234,6 +1255,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
   .projects .projectContainer .project .mockUp {
     height: 180px;
+  }
+  .projects .projectTitle h2 {
+    font-size: 3.6rem;
   }
   .projects .wrapper .projectContainer .project .projectInfo {
     width: 300px;
@@ -1276,6 +1300,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
 }
 @media (max-width: 421px) {
+  header .wrapper .hero .heroText h1 {
+    font-size: 2.25rem;
+  }
   .about .ourStoryCover .purpleStrip {
     height: 45vh;
     align-items: flex-start;

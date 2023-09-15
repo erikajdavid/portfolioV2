@@ -131,6 +131,15 @@
         }
     }
 
+    .projects .projectTitle {
+        padding-top: 5rem;
+        .projectBackText {
+            top: -10%;
+            right: -80%;
+            font-size: 15rem;
+        }
+    }
+
     .projects .projectContainer .project .mockUp {
         height: 350px;
     }
@@ -160,15 +169,14 @@
         flex-direction: column;
         padding-bottom: 2rem;
         .footerImgContainer {
-            width: 75%;
+            width: 100%;
             margin: 0 auto;
             img {
                 width: 100%;
                 text-align: right;
             }
             .colorStrip {
-                height: 200px;
-                top: 30%;
+                height: 400px;
                 left: 10%;
             }
         }
@@ -181,6 +189,10 @@
 
 @media (max-width: 750px) {
 
+    .projects .projectTitle {
+        padding-top: 5rem;
+    }
+
     .projects .projectContainer {
         padding: 4rem 0;
     }
@@ -192,7 +204,7 @@
 
     .projects .wrapper .projectTitle .projectBackText {
         font-size: 10rem;
-        top: 40%;
+        top: 13%;
         right: -15%;
     }
 
@@ -221,6 +233,10 @@
         right: -18%;
     }
 
+    footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+        height: 350px;
+    }
+
     footer .copyrightContainer .wrapper {
         flex-direction: column-reverse;
         text-align: center;
@@ -243,6 +259,10 @@
         left: 0%;
     }
 
+    header .wrapper .hero .heroText h1 {
+        font-size: 2.75rem;
+    }
+
     .firstQuote {
         margin-top: 0;
     }
@@ -258,7 +278,7 @@
                 text-align: center;
             }
             h2 {
-                font-size: 3.36rem;
+                font-size: 5rem;
             }
         }
         .projectsContainer {
@@ -274,6 +294,11 @@
         width: 375px;
     }
 
+    .projects .wrapper .projectTitle .projectBackText {
+        font-size: 10rem;
+        top: 35%;
+        right: -15%;
+    }
      
     .about .ourStoryCover .blackStrip .storyBackText {
         right: -10%;
@@ -295,7 +320,7 @@
     }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-        top: 40%;
+        height: 250px;
     }
 }
 
@@ -341,7 +366,7 @@
     }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-        display: none;
+        height: 200px;
     }
 
 }
@@ -359,6 +384,10 @@
 
     .projects .projectContainer .project .mockUp {
         height: 180px;
+    }
+
+    .projects .projectTitle h2 {
+        font-size: 3.6rem;
     }
 
     .projects .wrapper .projectContainer .project .projectInfo {
@@ -406,6 +435,10 @@
 }
 
 @media (max-width: 421px) {
+
+    header .wrapper .hero .heroText h1 {
+        font-size: 2.25rem;
+    }
     .about .ourStoryCover .purpleStrip {
         height: 45vh;
         align-items: flex-start;
