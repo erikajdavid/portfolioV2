@@ -57,7 +57,7 @@
             align-items: center;
             justify-content: center;
             .projectInfo {
-                margin-top: 10rem;
+                margin-top: 8rem;
                 padding: 0;
                 .arrowUpRight {
                     font-size: 1.68rem;
@@ -171,9 +171,10 @@
         }
     }
 
-    .projects {
-        padding-bottom: 1rem;
-    };
+    .projects .projectContainer {
+        padding: 4rem 0;
+    }
+
     
     .projects .wrapper .projectTitle .projectAdjs p {
         font-size: 1rem;
@@ -276,6 +277,10 @@
         height: 250px;
     }
 
+    .projects .wrapper .projectContainer .project .projectInfo {
+        width: 375px;
+    }
+
     footer .footerMainTitle {
         font-size: 3.36rem;
         width: 90%;
@@ -304,10 +309,6 @@
 
     .projects .projectContainer .project .mockUp {
         height: 225px;
-    }
-
-    .projects .wrapper .projectContainer .project .projectInfo {
-        width: 375px;
     }
 
     .about .ourStoryCover .blackStrip {
