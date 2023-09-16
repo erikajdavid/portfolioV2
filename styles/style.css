@@ -581,6 +581,9 @@ header .wrapper .headerBackText {
   bottom: -20%;
   left: -5%;
 }
+.projects .projectContainer .project .mockUp .projectIconMobile {
+  display: none;
+}
 .projects .projectContainer .project .projectInfo {
   width: 40%;
   padding-left: 3em;
@@ -714,12 +717,14 @@ header .wrapper .headerBackText {
   padding-left: 0.3rem;
   font-size: 1.34rem;
 }
-.about .ourStoryCover .purpleStrip img {
+.about .ourStoryCover .purpleStrip .aboutImgContainer {
   position: absolute;
-  top: 50%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  bottom: -25%;
+  width: 100vw;
+  height: auto;
+}
+.about .ourStoryCover .purpleStrip .aboutImgContainer img {
+  width: 110%;
 }
 .about .ourStory {
   display: flex;
@@ -1055,6 +1060,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   .about .ourStoryCover .purpleStrip h2 {
     font-size: 4rem;
   }
+  .about .ourStoryCover .purpleStrip img {
+    top: 30%;
+  }
   footer .wrapper .footerMainContainer .formContainer .footerBackText {
     display: none;
   }
@@ -1071,12 +1079,13 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .hero .heroText {
     width: 100%;
     text-align: center;
+    padding: 1rem 0;
   }
   header .wrapper .hero .heroText h1 {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 1.5rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   header .wrapper .hero .heroText h2 {
     font-size: 1.34rem;
@@ -1088,7 +1097,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     margin: 0 auto;
   }
   header .wrapper .hero .heroImg {
-    width: 100%;
+    width: 85%;
   }
   header .headerBackText {
     display: none;
@@ -1116,7 +1125,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   height: 40vh;
 }
 .about .ourStoryCover .purpleStrip h2 {
-  font-size: 3.7rem;
+  font-size: 3.25rem;
 }
 
 .about .ourStory .ourStoryTextContainer {
@@ -1168,6 +1177,9 @@ footer .wrapper .footerMainContainer .formContainer {
   .about .ourStoryCover .purpleStrip h2 {
     font-size: 3rem;
   }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextLeft h3 {
+    font-size: 1.68rem;
+  }
   h2, footer .footerMainTitle {
     font-size: 4.02rem;
   }
@@ -1203,7 +1215,7 @@ footer .wrapper .footerMainContainer .formContainer {
     display: none;
   }
   header .wrapper .hero .heroText h1 {
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
   .projects .projectTitle {
     flex-direction: column-reverse;
@@ -1276,11 +1288,13 @@ footer .wrapper .footerMainContainer .formContainer {
   .about .ourStory .ourStoryTextContainer .ourStoryTextLeft {
     width: 100%;
     text-align: center;
-    margin-bottom: 2rem;
+  }
+  .about .ourStory .ourStoryTextContainer .ourStoryTextLeft h3 {
+    line-height: 1.68rem;
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextLeft p {
     font-size: 1.34rem;
-    line-height: 1.68rem;
+    line-height: 2rem;
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextRight {
     width: 100%;

@@ -139,6 +139,10 @@
         }
     };
 
+    .about .ourStoryCover .purpleStrip img {
+        top: 30%;
+    }
+
     footer .wrapper .footerMainContainer .formContainer .footerBackText {
         display: none;
     }
@@ -155,11 +159,12 @@
             .heroText {
                 width: 100%;
                 text-align: center;
+                padding: 1rem 0;
                 h1 {
                     width: 80%;
                     margin: 0 auto;
                     padding-bottom: 1.5rem;
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
                 h2 {
                     font-size: 1.34rem;
@@ -172,7 +177,7 @@
                 }
             }
             .heroImg {
-                width: 100%;
+                width: 85%;
             }
         }
         .headerBackText {
@@ -204,10 +209,10 @@
     .about .ourStoryCover .purpleStrip {
         height: 40vh;
         h2 {
-            font-size: 3.7rem;
+            font-size: 3.25rem;
         }
     }
-
+    
     .about .ourStory .ourStoryTextContainer {
         padding: 8rem 1.5rem;
     }
@@ -264,6 +269,10 @@
             font-size: 3rem;
         }
     }
+
+    .about .ourStory .ourStoryTextContainer .ourStoryTextLeft h3 {
+        font-size: 1.68rem;
+    }
     
     h2, footer .footerMainTitle {
         font-size: 4.02rem;
@@ -309,7 +318,7 @@
     }
 
     header .wrapper .hero .heroText h1 {
-        font-size: 2.75rem;
+        font-size: 2rem;
     }
 
     .projects {
@@ -401,10 +410,12 @@
         .ourStoryTextLeft {
             width: 100%;
             text-align: center;
-            margin-bottom: 2rem;
+            h3 {
+                line-height: 1.68rem;
+            }
             p {
                 font-size: 1.34rem;
-                line-height: 1.68rem;
+                line-height: 2rem;
             }
         }
         .ourStoryTextRight {

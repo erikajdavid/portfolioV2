@@ -78,6 +78,9 @@
                     bottom: -20%;
                     left: -5%;
                 }
+                .projectIconMobile {
+                    display: none;
+                }
             }
             .projectInfo {
                 width: 40%;
@@ -220,15 +223,16 @@
                 padding-left: 0.3rem;
                 font-size: 1.34rem;
             }
-            img {
+            .aboutImgContainer {
                 position: absolute;
-                top: 50%;
-                left: 55%;
-                transform: translate(-50%, -50%);
-                width: 100%;
+                bottom: -25%;
+                width: 100vw;
+                height: auto;
+                img {
+                    width: 110%;
+                }
             }
         }
-       
     }
     .ourStory {
         display: flex;
