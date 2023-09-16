@@ -779,8 +779,8 @@ footer .footerMainTitle {
   letter-spacing: 0.3rem;
   font-weight: 700;
   text-align: center;
-  margin: 9rem auto;
-  width: 60%;
+  margin: 0 auto 5rem auto;
+  width: 70%;
 }
 footer .footerMainTitle span {
   color: rgb(255, 179, 16);
