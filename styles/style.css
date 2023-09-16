@@ -448,6 +448,7 @@ header .wrapper .sideBarIcons {
   position: fixed;
   bottom: 10%;
   right: 1.5%;
+  z-index: 100;
 }
 header .wrapper .sideBarIcons .faIcons {
   color: rgb(255, 179, 16);
@@ -697,6 +698,7 @@ header .wrapper .headerBackText {
   z-index: -5;
   opacity: 0.15;
   -webkit-text-stroke: 0.4px rgb(250, 250, 250);
+  border: 1px solid;
 }
 .about .ourStoryCover .purpleStrip {
   height: 45vh;
@@ -712,10 +714,10 @@ header .wrapper .headerBackText {
   padding-left: 0.3rem;
   font-size: 1.34rem;
 }
-.about .ourStoryCover img {
+.about .ourStoryCover .purpleStrip img {
   position: absolute;
   bottom: 0%;
-  right: -10%;
+  right: -9%;
   width: 120%;
 }
 .about .ourStory {
@@ -801,10 +803,10 @@ footer .wrapper .footerMainContainer {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  border: 1px solid red;
 }
 footer .wrapper .footerMainContainer .footerImgContainer {
   width: 55%;
-  height: 100%;
   position: relative;
   z-index: 6;
 }
@@ -823,7 +825,6 @@ footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
   top: 50%;
   left: -10%;
   transform: translate(-40%, -50%);
-  z-index: 5;
 }
 footer .wrapper .footerMainContainer .formContainer {
   width: 35%;
@@ -1017,9 +1018,6 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     font-size: 16rem;
     top: -30%;
   }
-  .about .ourStoryCover img {
-    width: 155%;
-  }
   .about .ourStory .ourStoryTextContainer {
     padding: 7rem 3rem;
   }
@@ -1131,11 +1129,6 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   font-size: 3.7rem;
 }
 
-.about .ourStoryCover img {
-  width: 190%;
-  right: -30%;
-}
-
 .about .ourStory .ourStoryTextContainer {
   padding: 8rem 1.5rem;
 }
@@ -1229,17 +1222,13 @@ footer .wrapper .footerMainContainer .formContainer {
     text-align: center;
   }
   .projects .projectTitle h2 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .projects .projectContainer {
     padding-top: 2rem;
   }
   .projects .projectContainer .project .projectInfo .projectTitle h3 {
     font-size: 1.5rem;
-  }
-  .about .ourStoryCover img {
-    right: -40%;
-    width: 200%;
   }
   footer .footerMainTitle {
     font-size: 3.36rem;
@@ -1254,6 +1243,9 @@ footer .wrapper .footerMainContainer .formContainer {
   header .wrapper .sideBarIcons {
     display: none;
   }
+  .projects {
+    padding-bottom: 0;
+  }
   .projects .projectContainer .project .mockUp {
     height: 225px;
   }
@@ -1267,10 +1259,6 @@ footer .wrapper .footerMainContainer .formContainer {
     margin-top: 3rem;
     text-align: center;
   }
-  .about .ourStoryCover img {
-    width: 200%;
-    right: -15%;
-  }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 200px;
   }
@@ -1282,11 +1270,11 @@ footer .wrapper .footerMainContainer .formContainer {
   .projects .projectTitle h2 {
     font-size: 3.6rem;
   }
-  .projects .wrapper .projectContainer .project .projectInfo {
-    width: 300px;
+  .projects .wrapper .projectContainer .project .mockUp {
+    height: auto;
   }
-  .projects .wrapper .projectContainer .project .projectInfo h3 {
-    font-size: 2rem;
+  .projects .wrapper .projectContainer .project .projectInfo {
+    margin-top: 4rem;
   }
   .about .ourStory .ourStoryTextContainer {
     flex-direction: column;

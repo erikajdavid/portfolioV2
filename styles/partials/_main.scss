@@ -204,6 +204,7 @@
                 z-index: -5;
                 opacity: 0.15;
                 -webkit-text-stroke: 0.4px $white;
+                border: 1px solid
             }
         }
         .purpleStrip {
@@ -219,13 +220,14 @@
                 padding-left: 0.3rem;
                 font-size: 1.34rem;
             }
+            img {
+                position: absolute;
+                bottom: 0%;
+                right: -9%;
+                width: 120%;
+            }
         }
-        img {
-            position: absolute;
-            bottom: 0%;
-            right: -10%;
-            width: 120%;
-        }
+       
     }
     .ourStory {
         display: flex;

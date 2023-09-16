@@ -47,9 +47,9 @@ footer {
             justify-content: space-between;
             align-items: center;
             position: relative;
+            border: 1px solid red;
             .footerImgContainer {
                 width: 55%;
-                height: 100%;
                 position: relative;
                 z-index: 6;
                 img {
@@ -67,7 +67,6 @@ footer {
                     top: 50%;
                     left: -10%;
                     transform: translate(-40%, -50%);
-                    z-index: 5;
                 }
             }
             .formContainer {

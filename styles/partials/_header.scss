@@ -112,6 +112,7 @@ header {
             position: fixed;
             bottom: 10%;
             right: 1.5%;
+            z-index: 100;
             .faIcons {
                 color: $yellow;
                 font-size: 1.25rem;

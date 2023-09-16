@@ -90,10 +90,6 @@
         }
     }
 
-    .about .ourStoryCover img {
-        width: 155%;
-    }
-
     .about .ourStory .ourStoryTextContainer {
         padding: 7rem 3rem;
         .ourStoryTextLeft {
@@ -218,10 +214,6 @@
         }
     }
 
-    .about .ourStoryCover img {
-        width: 190%;
-        right: -30%;
-    }
     .about .ourStory .ourStoryTextContainer {
         padding: 8rem 1.5rem;
     }
@@ -331,7 +323,7 @@
                 text-align: center;
             }
             h2 {
-                font-size: 5rem;
+                font-size: 3rem;
             }
         }
         .projectContainer {
@@ -341,11 +333,6 @@
 
     .projects .projectContainer .project .projectInfo .projectTitle h3 {
         font-size: 1.5rem;
-    }
-
-    .about .ourStoryCover img {
-        right: -40%;
-        width: 200%;
     }
 
     footer .footerMainTitle {
@@ -365,6 +352,10 @@
         display: none;
     }
 
+    .projects {
+        padding-bottom: 0;
+    }
+
     .projects .projectContainer .project .mockUp {
         height: 225px;
     }
@@ -379,11 +370,6 @@
         padding-top: 2rem;
         margin-top: 3rem;
         text-align: center;
-    }
-
-    .about .ourStoryCover img {
-        width: 200%;
-        right: -15%;
     }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
@@ -401,11 +387,12 @@
         font-size: 3.6rem;
     }
 
+    .projects .wrapper .projectContainer .project .mockUp {
+        height: auto;
+    }
+
     .projects .wrapper .projectContainer .project .projectInfo {
-        width: 300px;
-        h3 {
-            font-size: 2rem;
-        }
+        margin-top: 4rem;
     }
 
     .about .ourStory .ourStoryTextContainer {
@@ -457,5 +444,4 @@
         margin-top: 3rem;
         text-align: center;
     }
-
 }
