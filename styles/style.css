@@ -692,7 +692,7 @@ header .wrapper .headerBackText {
 .about .ourStoryCover .purpleStrip .aboutImgContainer {
   position: absolute;
   width: 50%;
-  left: 45%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1004,13 +1004,19 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   font-size: 2rem;
 }
 
+.about .ourStoryCover .purpleStrip {
+  padding-top: 1rem;
+  align-items: flex-start;
+  height: 40vh;
+}
+
 .about .ourStoryCover .purpleStrip h2 {
   font-size: 2.5rem;
   align-self: flex-start;
 }
 
 .about .ourStoryCover .purpleStrip .aboutImgContainer {
-  width: 60%;
+  width: 80%;
 }
 
 footer .footerMainTitle {
@@ -1035,15 +1041,6 @@ footer .footerMainTitle {
   }
   .about .ourStoryCover .purpleStrip h2 {
     font-size: 2rem;
-  }
-  .about .ourStoryCover .purpleStrip {
-    padding-top: 1rem;
-    align-items: flex-start;
-    height: 40vh;
-  }
-  .about .ourStoryCover .purpleStrip .aboutImgContainer {
-    width: 80%;
-    left: 40%;
   }
   h2, footer .footerMainTitle {
     font-size: 4.02rem;
@@ -1117,6 +1114,9 @@ footer .footerMainTitle {
   }
   .projects .projectContainer .project .mockUp {
     height: 225px;
+  }
+  .about .ourStoryCover .purpleStrip .aboutImgContainer {
+    width: 100%;
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 200px;
