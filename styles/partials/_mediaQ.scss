@@ -93,10 +93,10 @@
     .about .ourStory .ourStoryTextContainer {
         padding: 7rem 3rem;
         .ourStoryTextLeft {
-            width: 47%;
+            width: 100%;
         }
         .ourStoryTextRight {
-            width: 47%;
+            width: 100%;
             p {
                 margin-bottom: 2rem;
             }
@@ -199,12 +199,6 @@
 
     .projects .projectContainer .project .projectInfo .projectTitle h3 {
         font-size: 2rem;
-    }
-    
-    .about .ourStoryCover .blackStrip .storyBackText {
-        font-size: 13rem;
-        right: -10%;
-        top: -10%;
     }
 
     .about .ourStoryCover .purpleStrip {
