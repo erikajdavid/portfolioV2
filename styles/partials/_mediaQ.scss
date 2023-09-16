@@ -1,6 +1,6 @@
 @use "./variables" as *;
 
-@media (max-width: 1179px) {
+@media (max-width: 1200px) {
     header {
         height: 70vh;
         .wrapper {
@@ -36,9 +36,6 @@
                     padding: 0.45rem;
                 }
             }
-            .headerBackText {
-                font-size: 24rem;
-            }
         }
     }
 
@@ -47,15 +44,9 @@
     }
 
     .projects {
-        padding: 0;
         .wrapper .projectTitle {
             justify-content: center;
             padding: 8rem 0 3rem 0;
-            .projectBackText {
-                top: 13%;
-                right: -73%;
-                font-size: 15rem;
-            }
         }
         .projectContainer {
             padding: 5rem 0;
@@ -82,27 +73,6 @@
         }
     }
 
-    .about .ourStoryCover .blackStrip {
-        height: 20vh;
-        .storyBackText {
-            font-size: 16rem;
-            top: -30%;
-        }
-    }
-
-    .about .ourStory .ourStoryTextContainer {
-        padding: 7rem 3rem;
-        .ourStoryTextLeft {
-            width: 100%;
-        }
-        .ourStoryTextRight {
-            width: 100%;
-            p {
-                margin-bottom: 2rem;
-            }
-        }
-    }
-
     footer {
         padding: 0;
         .footerMainTitle {
@@ -113,34 +83,12 @@
 
 @media (max-width: 1080px) {
 
-    header .wrapper .headerBackText {
-        font-size: 22rem;
-    }
-
     .firstQuote {
         margin-top: 4rem;
     }
 
     .projects {
         padding-bottom: 10rem;
-    }
-
-    .about .ourStoryCover .blackStrip {
-        display: none;
-        .storyBackText {
-            display: none;
-        }
-    }
-
-    .about .ourStoryCover .purpleStrip {
-        height: 40vh;
-        h2 {
-            font-size: 4rem;
-        }
-    };
-
-    .about .ourStoryCover .purpleStrip img {
-        top: 30%;
     }
 
     footer .wrapper .footerMainContainer .formContainer .footerBackText {
@@ -206,38 +154,17 @@
         font-size: 2rem;
     }
 
-    .about .ourStoryCover .purpleStrip {
-        height: 40vh;
-        h2 {
-            font-size: 3.25rem;
-        }
+    .about .ourStoryCover .purpleStrip h2 {
+            font-size: 2.5rem;
+            align-self: flex-start;
     }
-    
-    .about .ourStory .ourStoryTextContainer {
-        padding: 8rem 1.5rem;
+
+    .about .ourStoryCover .purpleStrip .aboutImgContainer {
+        width: 60%;
     }
 
     footer .footerMainTitle {
         padding: 0 5rem;
-    }
-
-    footer .wrapper .footerMainContainer {
-        padding-bottom: 2rem;
-        .footerImgContainer {
-            width: 100%;
-            margin: 0 auto;
-            img {
-                width: 100%;
-                text-align: right;
-            }
-            .colorStrip {
-                left: -30%
-            }
-        }
-        .formContainer {
-            width: 80%;
-            padding-top: 0;
-        }
     }
 
 @media (max-width: 750px) {
@@ -263,17 +190,21 @@
         display: none;
     }
 
-    .about .ourStoryCover .purpleStrip {
-        height: 35vh;
-        h2 {
-            font-size: 3rem;
-        }
+    .about .ourStoryCover .purpleStrip h2 {
+        font-size: 2rem;
     }
 
-    .about .ourStory .ourStoryTextContainer .ourStoryTextLeft h3 {
-        font-size: 1.68rem;
+    .about .ourStoryCover .purpleStrip {
+        padding-top: 1rem;
+        align-items: flex-start;
+        height: 40vh;
     }
-    
+
+    .about .ourStoryCover .purpleStrip .aboutImgContainer {
+        width: 80%;
+        left: 40%;
+    }
+
     h2, footer .footerMainTitle {
         font-size: 4.02rem;
     }
@@ -367,21 +298,6 @@
         height: 225px;
     }
 
-    .about .ourStoryCover .blackStrip {
-        display: none;
-    }
-
-    .about .ourStoryCover .purpleStrip {
-        align-items: flex-start;
-        padding-top: 2rem;
-        margin-top: 3rem;
-        text-align: center;
-    }
-
-    .about .ourStoryCover .purpleStrip img {
-        right: 10%;
-    }
-
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
         height: 200px;
     }
@@ -403,28 +319,6 @@
 
     .projects .wrapper .projectContainer .project .projectInfo {
         margin-top: 4rem;
-    }
-
-    .about .ourStory .ourStoryTextContainer {
-        flex-direction: column;
-        .ourStoryTextLeft {
-            width: 100%;
-            text-align: center;
-            h3 {
-                line-height: 1.68rem;
-            }
-            p {
-                font-size: 1.34rem;
-                line-height: 2rem;
-            }
-        }
-        .ourStoryTextRight {
-            width: 100%;
-            text-align: center;
-            .fakeBtn {
-               margin: 0 auto;
-            }
-        }
     }
 
     footer .wrapper .contactNav {
