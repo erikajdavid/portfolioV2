@@ -7,14 +7,20 @@
             height: 100%;
         }
     }
+
     header .wrapper .hero {
         display: flex;
         height: 100%;
         .heroText {
             padding: 4rem 0;
             width: 100%;
-            text-align: center;
             width: 40%;
+            h1 {
+                font-size: 3rem;
+            }
+            h2 {
+                font-size: 1.34rem;
+            }
         }
         .heroImg {
             width: 60%;
@@ -22,9 +28,6 @@
             img {
                 width: 100%;
             }
-        }
-        .fakeBtn {
-            margin: 0 auto;
         }
     }
 
@@ -38,13 +41,26 @@
         }
     }
 
+    header .wrapper .headerBackText {
+        font-size: 24rem;
+    }
+
     .feedback .wrapper {
         padding: 0 4rem;
     }
 
+    .projects {
+        padding: 0;
+    }
+
     .projects .wrapper .projectTitle {
         justify-content: center;
-        padding-bottom: 4rem;
+        padding: 8rem 0 3rem 0;
+        .projectBackText {
+            top: 13%;
+            right: -73%;
+            font-size: 15rem;
+        }
     }
 
     .projects .projectContainer {
@@ -53,10 +69,13 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            .mockUp {
+                width: 85%;
+            }
             .projectInfo {
                 margin-top: 10rem;
                 padding: 0;
-                width: 65%;
+                width: 85%;
                 .arrowUpRight {
                     font-size: 1.68rem;
                 }
@@ -77,7 +96,7 @@
     }
 
     .about .ourStoryCover img {
-        width: 150%;
+        width: 155%;
     }
 
     .about .ourStory .ourStoryTextContainer {
@@ -101,18 +120,57 @@
     }
 }
 
+@media (max-width: 1080px) {
+
+    header .wrapper .headerBackText {
+        font-size: 22rem;
+    }
+
+    .firstQuote {
+        margin-top: 2rem;
+    }
+
+    .projects {
+        padding-bottom: 10rem;
+    }
+
+    .about .ourStoryCover .blackStrip {
+        display: none;
+        .storyBackText {
+            display: none;
+        }
+    }
+
+    .about .ourStoryCover .purpleStrip h2 {
+        font-size: 4rem;
+    }
+    
+    .about .ourStoryCover .purpleStrip {
+        height: 40vh;
+    };
+
+    footer .wrapper .footerMainContainer .formContainer .footerBackText {
+        display: none;
+    }
+}
+
 @media (max-width: 940px) {
 
     header {
         height: auto;
     }
+
+    header .wrapper .headerBackText {
+        display: none;
+    }
+
     header .wrapper .hero {
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
         .heroText {
-            width: 90%;
-            margin: 0 auto;
+            width: 100%;
+            text-align: center;
             h1 {
                 width: 80%;
                 margin: 0 auto;
@@ -124,6 +182,9 @@
                 span {
                     font-size: 1.68rem;
                 }
+            }
+            .fakeBtn {
+                margin: 0 auto;
             }
         }
         .heroImg {
@@ -139,10 +200,6 @@
             font-size: 15rem;
         }
     }
-
-    .projects .projectContainer .project .mockUp {
-        height: 350px;
-    }
     
     .about .ourStoryCover .blackStrip .storyBackText {
         font-size: 13rem;
@@ -151,11 +208,15 @@
     }
 
     .about .ourStoryCover .purpleStrip {
-        height: 30vh;
+        height: 40vh;
+        h2 {
+            font-size: 3.7rem;
+        }
     }
 
     .about .ourStoryCover img {
-        width: 130%;
+        width: 190%;
+        right: -30%;
     }
     .about .ourStory .ourStoryTextContainer {
         padding: 8rem 1.5rem;
@@ -189,6 +250,10 @@
 
 @media (max-width: 750px) {
 
+    .projects {
+        padding-bottom: 6rem;
+    }
+
     .projects .projectTitle {
         padding-top: 5rem;
     }
@@ -208,14 +273,17 @@
         right: -15%;
     }
 
-    .projects .projectContainer .project .mockUp {
-        height: 275px;
-    }
-
     .about .ourStoryCover .blackStrip .storyBackText {
         top: 30%;
         right: -5%;
         font-size: 12rem;
+    }
+
+    .about .ourStoryCover .purpleStrip {
+        height: 35vh;
+        h2 {
+            font-size: 3rem;
+        }
     }
     
     h2, footer .footerMainTitle {
@@ -268,8 +336,6 @@
     }
 
     .projects {
-        padding-top: 0;
-        padding-bottom: 3rem;
         .projectTitle {
             flex-direction: column-reverse;
             justify-content: center;
@@ -281,17 +347,9 @@
                 font-size: 5rem;
             }
         }
-        .projectsContainer {
-            padding-top: 10rem;
+        .projectContainer {
+            padding-top: 2rem;
         }
-    }
-
-    .projects .projectContainer .project .mockUp {
-        height: 250px;
-    }
-
-    .projects .wrapper .projectContainer .project .projectInfo {
-        width: 375px;
     }
 
     .projects .wrapper .projectTitle .projectBackText {
@@ -305,12 +363,9 @@
         top: 0%;
     }
 
-    .about .ourStoryCover .purpleStrip {
-        height: 18vh;
-    } 
-
     .about .ourStoryCover img {
-        width: 120%;
+        right: -40%;
+        width: 200%;
     }
 
     footer .footerMainTitle {
@@ -380,10 +435,6 @@
 
     .feedback .wrapper {
         padding: 0 2rem;
-    }
-
-    .projects .projectContainer .project .mockUp {
-        height: 180px;
     }
 
     .projects .projectTitle h2 {

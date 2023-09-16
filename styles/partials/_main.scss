@@ -49,12 +49,11 @@
             justify-content: space-between;
             align-items: center;
             .mockUp {
-                height: 450px;
                 position: relative;
+                width: 60%;
+                object-fit: cover;
                 .projectImg {
-                    height: 100%;
                     width: 100%;
-                    object-fit: cover;
                     border-radius: 2rem;
                     border: 2px solid $white;
                 }
@@ -80,8 +79,8 @@
                 }
             }
             .projectInfo {
-                width: 500px;
-                padding: 2rem 2rem 2rem 3rem;
+                width: 40%;
+                padding-left: 3em;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
