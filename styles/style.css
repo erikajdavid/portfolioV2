@@ -815,16 +815,6 @@ footer .wrapper .footerMainContainer .footerImgContainer img {
   position: relative;
   z-index: 6;
 }
-footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-  height: 250px;
-  width: 200%;
-  background-color: rgb(211, 170, 252);
-  border-radius: 10px;
-  position: absolute;
-  top: 50%;
-  left: -10%;
-  transform: translate(-40%, -50%);
-}
 footer .wrapper .footerMainContainer .formContainer {
   width: 35%;
   display: flex;
@@ -1137,7 +1127,6 @@ footer .footerMainTitle {
 }
 
 footer .wrapper .footerMainContainer {
-  flex-direction: column;
   padding-bottom: 2rem;
 }
 footer .wrapper .footerMainContainer .footerImgContainer {
@@ -1149,8 +1138,7 @@ footer .wrapper .footerMainContainer .footerImgContainer img {
   text-align: right;
 }
 footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-  height: 400px;
-  left: 10%;
+  left: -30%;
 }
 footer .wrapper .footerMainContainer .formContainer {
   width: 80%;
@@ -1185,6 +1173,10 @@ footer .wrapper .footerMainContainer .formContainer {
   footer .footerMainTitle {
     font-size: 3.36rem;
     width: 70%;
+  }
+  footer .wrapper .footerMainContainer {
+    display: flex;
+    flex-direction: column;
   }
   footer .wrapper .footerMainContainer .formContainer .footerBackText {
     font-size: 12rem;
@@ -1295,6 +1287,9 @@ footer .wrapper .footerMainContainer .formContainer {
   }
   .about .ourStory .ourStoryTextContainer .ourStoryTextRight .fakeBtn {
     margin: 0 auto;
+  }
+  footer .wrapper .contactNav {
+    display: none;
   }
   footer .footerMainTitle {
     font-size: 3.36rem;

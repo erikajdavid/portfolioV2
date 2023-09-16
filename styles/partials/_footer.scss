@@ -57,16 +57,16 @@ footer {
                     position: relative;
                     z-index: 6;
                 }
-                .colorStrip {
-                    height: 250px;
-                    width: 200%;
-                    background-color: $purple;
-                    border-radius: 10px;
-                    position: absolute;
-                    top: 50%;
-                    left: -10%;
-                    transform: translate(-40%, -50%);
-                }
+                // .colorStrip {
+                //     height: 250px;
+                //     width: 200%;
+                //     background-color: $purple;
+                //     border-radius: 10px;
+                //     position: absolute;
+                //     top: 50%;
+                //     left: -10%;
+                //     transform: translate(-40%, -50%);
+                // }
             }
             .formContainer {
                 width: 35%;

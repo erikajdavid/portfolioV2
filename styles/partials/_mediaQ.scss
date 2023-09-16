@@ -223,7 +223,6 @@
     }
 
     footer .wrapper .footerMainContainer {
-        flex-direction: column;
         padding-bottom: 2rem;
         .footerImgContainer {
             width: 100%;
@@ -233,8 +232,7 @@
                 text-align: right;
             }
             .colorStrip {
-                height: 400px;
-                left: 10%;
+                left: -30%
             }
         }
         .formContainer {
@@ -282,6 +280,12 @@
         width: 70%;
     }
 
+    footer .wrapper .footerMainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
     footer .wrapper .footerMainContainer .formContainer .footerBackText {
         font-size: 12rem;
         top: -10%;
@@ -418,6 +422,10 @@
         }
     }
 
+    footer .wrapper .contactNav {
+        display: none;
+    }
+
     footer .footerMainTitle {
         font-size: 3.36rem;
         width: 90%;
@@ -428,6 +436,7 @@
     footer .wrapper .footerMainContainer .formContainer {
         width: 90%;
     } 
+    
     footer .copyrightContainer .wrapper {
         flex-direction: column-reverse;
         text-align: center;
