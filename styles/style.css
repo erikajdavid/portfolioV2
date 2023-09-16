@@ -500,7 +500,7 @@ header .wrapper .headerBackText {
 }
 
 .projects {
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 0;
 }
 .projects .projectTitle {
   display: flex;
@@ -1044,7 +1044,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     font-size: 22rem;
   }
   .firstQuote {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   .projects {
     padding-bottom: 10rem;
@@ -1055,11 +1055,11 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   .about .ourStoryCover .blackStrip .storyBackText {
     display: none;
   }
-  .about .ourStoryCover .purpleStrip h2 {
-    font-size: 4rem;
-  }
   .about .ourStoryCover .purpleStrip {
     height: 40vh;
+  }
+  .about .ourStoryCover .purpleStrip h2 {
+    font-size: 4rem;
   }
   footer .wrapper .footerMainContainer .formContainer .footerBackText {
     display: none;
@@ -1068,9 +1068,6 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
 @media (max-width: 940px) {
   header {
     height: auto;
-  }
-  header .wrapper .headerBackText {
-    display: none;
   }
   header .wrapper .hero {
     flex-direction: column-reverse;
@@ -1099,6 +1096,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .hero .heroImg {
     width: 100%;
   }
+  header .headerBackText {
+    display: none;
+  }
   .projects .projectTitle {
     padding-top: 5rem;
   }
@@ -1107,48 +1107,64 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     right: -80%;
     font-size: 15rem;
   }
-  .about .ourStoryCover .blackStrip .storyBackText {
-    font-size: 13rem;
-    right: -10%;
-    top: -10%;
+  .projects .projectContainer {
+    padding: 5rem 0;
   }
-  .about .ourStoryCover .purpleStrip {
-    height: 40vh;
-  }
-  .about .ourStoryCover .purpleStrip h2 {
-    font-size: 3.7rem;
-  }
-  .about .ourStoryCover img {
-    width: 190%;
-    right: -30%;
-  }
-  .about .ourStory .ourStoryTextContainer {
-    padding: 8rem 1.5rem;
-  }
-  footer .footerMainTitle {
-    padding: 0 5rem;
-  }
-  footer .wrapper .footerMainContainer {
-    flex-direction: column;
-    padding-bottom: 2rem;
-  }
-  footer .wrapper .footerMainContainer .footerImgContainer {
-    width: 100%;
-    margin: 0 auto;
-  }
-  footer .wrapper .footerMainContainer .footerImgContainer img {
-    width: 100%;
-    text-align: right;
-  }
-  footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
-    height: 400px;
-    left: 10%;
-  }
-  footer .wrapper .footerMainContainer .formContainer {
-    width: 80%;
-    padding-top: 5rem;
+  .projects .projectContainer .project .projectInfo {
+    margin-top: 6rem;
   }
 }
+.projects .projectContainer .project .projectInfo .projectTitle h3 {
+  font-size: 2rem;
+}
+
+.about .ourStoryCover .blackStrip .storyBackText {
+  font-size: 13rem;
+  right: -10%;
+  top: -10%;
+}
+
+.about .ourStoryCover .purpleStrip {
+  height: 40vh;
+}
+.about .ourStoryCover .purpleStrip h2 {
+  font-size: 3.7rem;
+}
+
+.about .ourStoryCover img {
+  width: 190%;
+  right: -30%;
+}
+
+.about .ourStory .ourStoryTextContainer {
+  padding: 8rem 1.5rem;
+}
+
+footer .footerMainTitle {
+  padding: 0 5rem;
+}
+
+footer .wrapper .footerMainContainer {
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+footer .wrapper .footerMainContainer .footerImgContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .wrapper .footerMainContainer .footerImgContainer img {
+  width: 100%;
+  text-align: right;
+}
+footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
+  height: 400px;
+  left: 10%;
+}
+footer .wrapper .footerMainContainer .formContainer {
+  width: 80%;
+  padding-top: 0;
+}
+
 @media (max-width: 750px) {
   .projects {
     padding-bottom: 6rem;
@@ -1163,14 +1179,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     font-size: 1rem;
   }
   .projects .wrapper .projectTitle .projectBackText {
-    font-size: 10rem;
-    top: 13%;
-    right: -15%;
-  }
-  .about .ourStoryCover .blackStrip .storyBackText {
-    top: 30%;
-    right: -5%;
-    font-size: 12rem;
+    display: none;
   }
   .about .ourStoryCover .purpleStrip {
     height: 35vh;
@@ -1208,14 +1217,8 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .topNav nav {
     display: none;
   }
-  header .wrapper .headerBackText {
-    left: 0%;
-  }
   header .wrapper .hero .heroText h1 {
     font-size: 2.75rem;
-  }
-  .firstQuote {
-    margin-top: 0;
   }
   .projects .projectTitle {
     flex-direction: column-reverse;
@@ -1231,14 +1234,8 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   .projects .projectContainer {
     padding-top: 2rem;
   }
-  .projects .wrapper .projectTitle .projectBackText {
-    font-size: 10rem;
-    top: 35%;
-    right: -15%;
-  }
-  .about .ourStoryCover .blackStrip .storyBackText {
-    right: -10%;
-    top: 0%;
+  .projects .projectContainer .project .projectInfo .projectTitle h3 {
+    font-size: 1.5rem;
   }
   .about .ourStoryCover img {
     right: -40%;
@@ -1254,14 +1251,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   }
 }
 @media (max-width: 505px) {
-  header .wrapper .headerBackText {
-    font-size: 18rem;
-    right: -35%;
-  }
   header .wrapper .sideBarIcons {
-    display: none;
-  }
-  .projects .projectTitle .projectBackText {
     display: none;
   }
   .projects .projectContainer .project .mockUp {
@@ -1281,18 +1271,11 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     width: 200%;
     right: -15%;
   }
-  footer .wrapper .footerMainContainer .formContainer .footerBackText {
-    display: none;
-  }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 200px;
   }
 }
 @media (max-width: 479px) {
-  header .wrapper .headerBackText {
-    font-size: 15rem;
-    left: -13%;
-  }
   .feedback .wrapper {
     padding: 0 2rem;
   }
