@@ -365,11 +365,14 @@
     }
 
     .about .ourStoryCover .purpleStrip {
-        height: 50vh;
         align-items: flex-start;
         padding-top: 2rem;
         margin-top: 3rem;
         text-align: center;
+    }
+
+    .about .ourStoryCover .purpleStrip img {
+        right: 10%;
     }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
@@ -432,16 +435,9 @@
     }
 }
 
-@media (max-width: 421px) {
+@media (max-width: 420px) {
 
     header .wrapper .hero .heroText h1 {
         font-size: 2.25rem;
-    }
-    .about .ourStoryCover .purpleStrip {
-        height: 45vh;
-        align-items: flex-start;
-        padding-top: 2rem;
-        margin-top: 3rem;
-        text-align: center;
     }
 }
