@@ -170,17 +170,8 @@
 @media (max-width: 750px) {
 
     .projects {
-        padding-bottom: 6rem;
+        all: revert;
     }
-
-    .projects .projectTitle {
-        padding-top: 5rem;
-    }
-
-    .projects .projectContainer {
-        padding: 4rem 0;
-    }
-
     
     .projects .wrapper .projectTitle .projectAdjs p {
         font-size: 1rem;
@@ -220,13 +211,6 @@
         width: 100%;
     }
 
-
-    footer .wrapper .footerMainContainer .formContainer .footerBackText {
-        font-size: 12rem;
-        top: -10%;
-        right: -18%;
-    }
-
     footer .copyrightContainer .wrapper {
         flex-direction: column-reverse;
         text-align: center;
@@ -254,7 +238,6 @@
     }
 
     .projects {
-        padding-top: 0;
         .projectTitle {
             flex-direction: column-reverse;
             justify-content: center;
@@ -268,6 +251,14 @@
         .projectContainer {
             padding-top: 2rem;
         }
+    }
+
+    .projects .projectContainer .project .mockUp {
+        width: 95%;
+    }
+
+    .projects .projectContainer .project .projectInfo {
+        width: 95%;
     }
 
     .projects .projectContainer .project .projectInfo .projectTitle h3 {
@@ -293,10 +284,6 @@
 
     .projects {
         padding-bottom: 0;
-    }
-
-    .projects .projectContainer .project .mockUp {
-        width: 95%;
     }
 
     .projects .projectContainer .project .projectInfo .projectDescription p {
