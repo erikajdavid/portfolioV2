@@ -723,6 +723,71 @@ header .wrapper .headerBackText {
   margin: 0 auto;
 }
 
+header .wrapper .topNav .faMobileMenu {
+  color: rgb(255, 179, 16);
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+header .wrapper .topNav .mobileMenu {
+  background-color: rgb(255, 179, 16);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  right: -100%;
+  transition: 0.4s ease-in;
+}
+header .wrapper .topNav .mobileMenu .faMobileMenuClose {
+  font-size: 1.5rem;
+  color: rgb(255, 179, 16);
+  background-color: rgb(18, 18, 18);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 3%;
+}
+header .wrapper .topNav .mobileMenu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+header .wrapper .topNav .mobileMenu ul li {
+  width: 100%;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+header .wrapper .topNav .mobileMenu ul a {
+  color: rgb(18, 18, 18);
+  font-weight: 500;
+}
+header .wrapper .topNav .mobileMenu ul a:hover {
+  color: rgb(18, 18, 18);
+  text-decoration: underline;
+}
+
+@media (max-width: 628px) {
+  header .wrapper .topNav .faMobileMenu {
+    display: block;
+  }
+  header .wrapper .topNav .mobileMenu.activated {
+    right: 0%;
+    display: block;
+  }
+}
 footer {
   position: relative;
   padding-top: 3rem;

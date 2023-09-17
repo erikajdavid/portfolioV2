@@ -98,6 +98,17 @@ splitTypes.forEach((char, i) => {
 
 //hamburger menu for tablet and mobile
 
+const hamburgerEl = document.querySelector('.faMobileMenu');
+const mobileMenuEl = document.querySelector('.mobileMenu');
+const closeMenuEl = document.querySelector('.faMobileMenuClose')
+
+function toggleMobileMenu() {
+  mobileMenuEl.classList.toggle("activated");
+}
+
+hamburgerEl.addEventListener("click", toggleMobileMenu);
+closeMenuEl.addEventListener("click", toggleMobileMenu);
+
 //error handling for contact form
 
 //404 error 

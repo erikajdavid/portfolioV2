@@ -232,3 +232,71 @@
     } 
 }
 
+//mobile menu
+header .wrapper .topNav .faMobileMenu {
+    color: $yellow;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+header .wrapper .topNav .mobileMenu {
+    background-color: $yellow;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    right: -100%;
+    transition: 0.4s ease-in;
+    .faMobileMenuClose {
+        font-size: 1.5rem;
+        color: $yellow;
+        background-color: $black;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        cursor: pointer; 
+        position: absolute;
+        top: 35px;
+        right: 3%;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        li {
+            width: 100%;
+            padding: 2rem 0;
+            margin: 0;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        a {
+            color: $black;
+            font-weight: 500;
+            &:hover {
+                color: $black;
+                text-decoration: underline;
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 628px) {
+    header .wrapper .topNav .faMobileMenu {
+        display: block;
+    }
+
+    header .wrapper .topNav .mobileMenu.activated {
+        right: 0%;
+        display: block;
+    }
+}
