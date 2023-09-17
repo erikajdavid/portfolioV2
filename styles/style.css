@@ -1035,7 +1035,11 @@ footer .footerMainTitle {
     padding: 4rem 0;
   }
   .about .ourStory h4 {
-    width: 100%;
+    width: 90%;
+  }
+  .about .ourStory p {
+    width: 90%;
+    margin: 0 auto;
   }
   h2, footer .footerMainTitle {
     font-size: 4.02rem;
@@ -1050,6 +1054,9 @@ footer .footerMainTitle {
   }
   footer .wrapper .footerMainContainer .footerImgContainer {
     width: 100%;
+  }
+  footer .copyrightContainer {
+    margin-top: 2rem;
   }
   footer .copyrightContainer .wrapper {
     flex-direction: column-reverse;

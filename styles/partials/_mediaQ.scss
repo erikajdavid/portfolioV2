@@ -188,7 +188,11 @@
    .about .ourStory {
         padding: 4rem 0;
         h4 {
-            width: 100%;
+            width: 90%;
+        }
+        p {
+            width: 90%;
+            margin: 0 auto;
         }
 
    }
@@ -209,6 +213,10 @@
 
     footer .wrapper .footerMainContainer .footerImgContainer {
         width: 100%;
+    }
+
+    footer .copyrightContainer {
+        margin-top: 2rem;
     }
 
     footer .copyrightContainer .wrapper {
