@@ -246,7 +246,7 @@ header .wrapper .topNav .mobileMenu {
     height: 100vh;
     position: fixed;
     top: 0;
-    z-index: 20;
+    z-index: 100;
     right: -100%;
     transition: 0.4s ease-in;
     .faMobileMenuClose {
