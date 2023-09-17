@@ -97,6 +97,15 @@ footer {
                     }
                 }
             }  
+            .footerSocialBar {
+                display: none;
+                margin-top: 3rem;
+                .faIcons {
+                    color: $yellow;
+                    font-size: 1.5rem;
+                    margin: 0 1rem;
+                }
+            }
         }
     }
     .copyrightContainer {
