@@ -55,7 +55,7 @@
                 align-items: center;
                 justify-content: center;
                 .mockUp {
-                    width: 85%;
+                    width: 90%;
                 }
                 .projectInfo {
                     margin-top: 10rem;
@@ -197,6 +197,14 @@
         font-size: 2rem;
     }
 
+   .about .ourStory {
+        padding: 4rem 0;
+        h4 {
+            width: 100%;
+        }
+
+   }
+
     h2, footer .footerMainTitle {
         font-size: 4.02rem;
     }
@@ -287,7 +295,11 @@
     }
 
     .projects .projectContainer .project .mockUp {
-        height: 225px;
+        width: 95%;
+    }
+
+    .projects .projectContainer .project .projectInfo .projectDescription p {
+        font-size: 0.95rem;
     }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {

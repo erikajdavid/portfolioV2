@@ -693,6 +693,7 @@ header .wrapper .headerBackText {
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 55%;
   transform: translate(-50%, -50%);
 }
 .about .ourStoryCover .purpleStrip .aboutImgContainer img {
@@ -917,7 +918,7 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
     justify-content: center;
   }
   .projects .projectContainer .project .mockUp {
-    width: 85%;
+    width: 90%;
   }
   .projects .projectContainer .project .projectInfo {
     margin-top: 10rem;
@@ -1037,6 +1038,12 @@ footer .footerMainTitle {
   .about .ourStoryCover .purpleStrip h2 {
     font-size: 2rem;
   }
+  .about .ourStory {
+    padding: 4rem 0;
+  }
+  .about .ourStory h4 {
+    width: 100%;
+  }
   h2, footer .footerMainTitle {
     font-size: 4.02rem;
   }
@@ -1108,7 +1115,10 @@ footer .footerMainTitle {
     padding-bottom: 0;
   }
   .projects .projectContainer .project .mockUp {
-    height: 225px;
+    width: 95%;
+  }
+  .projects .projectContainer .project .projectInfo .projectDescription p {
+    font-size: 0.95rem;
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 200px;
