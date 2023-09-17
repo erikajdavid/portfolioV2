@@ -693,7 +693,7 @@ header .wrapper .headerBackText {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 65%;
+  width: 55%;
   transform: translate(-50%, -50%);
 }
 .about .ourStoryCover .purpleStrip .aboutImgContainer img {
