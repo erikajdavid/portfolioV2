@@ -752,8 +752,8 @@ header .wrapper .topNav .mobileMenu .faMobileMenuClose {
   align-items: center;
   cursor: pointer;
   position: absolute;
-  top: 35px;
-  right: 3%;
+  top: 31px;
+  right: 4%;
 }
 header .wrapper .topNav .mobileMenu ul {
   display: flex;
