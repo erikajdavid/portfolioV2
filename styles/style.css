@@ -784,7 +784,7 @@ header .wrapper .topNav .mobileMenu ul a:hover {
     display: block;
   }
   header .wrapper .topNav .mobileMenu.activated {
-    right: 0%;
+    right: 0;
     display: block;
   }
 }
@@ -1155,8 +1155,20 @@ footer .footerMainTitle {
   header .wrapper .topNav nav {
     display: none;
   }
+  header .wrapper .hero .heroImg {
+    width: 115%;
+  }
   header .wrapper .hero .heroText h1 {
-    font-size: 2rem;
+    font-size: 1.68rem;
+  }
+  header .wrapper .hero .heroText h2 {
+    line-height: 1.68rem;
+  }
+  header .wrapper .hero .heroText h2 {
+    font-size: 1.25rem;
+  }
+  header .wrapper .hero .heroText h2 span {
+    font-size: 1.5rem;
   }
   .feedback {
     padding: 6rem 0;
@@ -1232,10 +1244,5 @@ footer .footerMainTitle {
     flex-direction: column-reverse;
     text-align: center;
     width: 70%;
-  }
-}
-@media (max-width: 420px) {
-  header .wrapper .hero .heroText h1 {
-    font-size: 2.25rem;
   }
 }
