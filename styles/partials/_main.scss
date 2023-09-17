@@ -263,8 +263,12 @@ header .wrapper .topNav .mobileMenu {
         position: absolute;
         top: 31px;
         right: 4%;
+        transition: all 0.25s;
+        &:hover {
+            background-color: rgb(59, 59, 59);
+        }
     }
-    ul {
+    .mobileMenuNav {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -281,11 +285,27 @@ header .wrapper .topNav .mobileMenu {
         a {
             color: $black;
             font-weight: 500;
+            letter-spacing: 0.1rem;
+            transition: all 0.25s;
             &:hover {
                 color: $black;
-                text-decoration: underline;
+                letter-spacing: 0.5rem;
             }
             
+        }
+    }
+    .mobileMenuSocials {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        li {
+            width: auto;
+            .mobileSocialIcon {
+                all: revert;
+                color: $black;
+                padding: 0 1rem;
+            }
         }
     }
 }
@@ -298,5 +318,6 @@ header .wrapper .topNav .mobileMenu {
     header .wrapper .topNav .mobileMenu.activated {
         right: 0;
         display: block;
+        
     }
 }

@@ -754,8 +754,12 @@ header .wrapper .topNav .mobileMenu .faMobileMenuClose {
   position: absolute;
   top: 31px;
   right: 4%;
+  transition: all 0.25s;
 }
-header .wrapper .topNav .mobileMenu ul {
+header .wrapper .topNav .mobileMenu .faMobileMenuClose:hover {
+  background-color: rgb(59, 59, 59);
+}
+header .wrapper .topNav .mobileMenu .mobileMenuNav {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -763,20 +767,36 @@ header .wrapper .topNav .mobileMenu ul {
   height: 100%;
   margin: 0;
 }
-header .wrapper .topNav .mobileMenu ul li {
+header .wrapper .topNav .mobileMenu .mobileMenuNav li {
   width: 100%;
   padding: 2rem 0;
   margin: 0;
   font-size: 1.5rem;
   text-align: center;
 }
-header .wrapper .topNav .mobileMenu ul a {
+header .wrapper .topNav .mobileMenu .mobileMenuNav a {
   color: rgb(18, 18, 18);
   font-weight: 500;
+  letter-spacing: 0.1rem;
+  transition: all 0.25s;
 }
-header .wrapper .topNav .mobileMenu ul a:hover {
+header .wrapper .topNav .mobileMenu .mobileMenuNav a:hover {
   color: rgb(18, 18, 18);
-  text-decoration: underline;
+  letter-spacing: 0.5rem;
+}
+header .wrapper .topNav .mobileMenu .mobileMenuSocials {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .wrapper .topNav .mobileMenu .mobileMenuSocials li {
+  width: auto;
+}
+header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
+  all: revert;
+  color: rgb(18, 18, 18);
+  padding: 0 1rem;
 }
 
 @media (max-width: 628px) {
@@ -1165,7 +1185,7 @@ footer .footerMainTitle {
     line-height: 1.68rem;
   }
   header .wrapper .hero .heroText h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   header .wrapper .hero .heroText h2 span {
     font-size: 1.5rem;
