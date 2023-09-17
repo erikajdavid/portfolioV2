@@ -691,10 +691,10 @@ header .wrapper .headerBackText {
 }
 .about .ourStoryCover .purpleStrip .aboutImgContainer {
   position: absolute;
-  width: 50%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  border: 1px solid red;
 }
 .about .ourStoryCover .purpleStrip .aboutImgContainer img {
   width: 100%;
@@ -1015,10 +1015,6 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   align-self: flex-start;
 }
 
-.about .ourStoryCover .purpleStrip .aboutImgContainer {
-  width: 80%;
-}
-
 footer .footerMainTitle {
   padding: 0 5rem;
 }
@@ -1114,9 +1110,6 @@ footer .footerMainTitle {
   }
   .projects .projectContainer .project .mockUp {
     height: 225px;
-  }
-  .about .ourStoryCover .purpleStrip .aboutImgContainer {
-    width: 100%;
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 200px;
