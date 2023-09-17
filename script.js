@@ -101,6 +101,7 @@ splitTypes.forEach((char, i) => {
 const hamburgerEl = document.querySelector('.faMobileMenu');
 const mobileMenuEl = document.querySelector('.mobileMenu');
 const closeMenuEl = document.querySelector('.faMobileMenuClose')
+const mobileMenuRedirects = document.querySelectorAll('.mobileMenu a')
 
 function toggleMobileMenu() {
   mobileMenuEl.classList.toggle("activated");
@@ -109,6 +110,9 @@ function toggleMobileMenu() {
 hamburgerEl.addEventListener("click", toggleMobileMenu);
 closeMenuEl.addEventListener("click", toggleMobileMenu);
 
+mobileMenuRedirects.forEach((link) => {
+  link.addEventListener("click", toggleMobileMenu);
+})
 //error handling for contact form
 
 //404 error 
