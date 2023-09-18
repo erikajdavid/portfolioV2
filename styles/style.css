@@ -810,7 +810,7 @@ header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
 }
 .mockMobile {
   display: none;
-  width: 85%;
+  width: 70%;
   text-align: center;
 }
 .mockMobile img {
@@ -818,7 +818,7 @@ header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
 }
 .mockMobile .faShoppingCart {
   color: rgb(2, 137, 82);
-  font-size: 15rem;
+  font-size: 13rem;
 }
 
 @media (max-width: 505px) {
@@ -938,6 +938,17 @@ footer .wrapper .footerMainContainer .footerSocialBar .faIcons {
   color: rgb(255, 179, 16);
   font-size: 1.5rem;
   margin: 0 1rem;
+}
+footer .wrapper .footerMainContainer .footerBackToTopBtn {
+  background-color: rgb(18, 18, 18);
+  border: 1px solid rgb(255, 179, 16);
+  margin-top: 2rem;
+}
+footer .wrapper .footerMainContainer .footerBackToTopBtn a {
+  color: rgb(255, 179, 16);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
 }
 footer .copyrightContainer {
   color: rgb(101, 101, 101);

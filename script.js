@@ -113,6 +113,3 @@ closeMenuEl.addEventListener("click", toggleMobileMenu);
 mobileMenuRedirects.forEach((link) => {
   link.addEventListener("click", toggleMobileMenu);
 })
-//error handling for contact form
-
-//404 error 
