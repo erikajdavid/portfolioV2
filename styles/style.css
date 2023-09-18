@@ -808,6 +808,27 @@ header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
     display: block;
   }
 }
+.mockMobile {
+  display: none;
+  width: 85%;
+  text-align: center;
+}
+.mockMobile img {
+  width: 100%;
+}
+.mockMobile .faShoppingCart {
+  color: rgb(2, 137, 82);
+  font-size: 15rem;
+}
+
+@media (max-width: 505px) {
+  .mockUp {
+    display: none;
+  }
+  .mockMobile {
+    display: block;
+  }
+}
 footer {
   position: relative;
   padding-top: 3rem;
@@ -1185,7 +1206,7 @@ footer .footerMainTitle {
     line-height: 1.68rem;
   }
   header .wrapper .hero .heroText h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   header .wrapper .hero .heroText h2 span {
     font-size: 1.5rem;

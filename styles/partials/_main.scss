@@ -321,3 +321,25 @@ header .wrapper .topNav .mobileMenu {
         
     }
 }
+
+.mockMobile {
+    display: none;
+    width: 85%;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+    .faShoppingCart {
+        color: rgb(2, 137, 82);
+        font-size: 15rem;
+    }
+}
+
+@media (max-width: 505px) {
+    .mockUp {
+        display: none;
+    }
+    .mockMobile {
+        display: block;
+    }
+}
