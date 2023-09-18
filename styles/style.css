@@ -1030,6 +1030,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   header .wrapper .sideBarIcons .backToTopBtn {
     padding: 0.45rem;
   }
+  header .wrapper .headerBackText {
+    font-size: 23rem;
+  }
   .feedback .wrapper {
     padding: 0 4rem;
   }
@@ -1073,6 +1076,9 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
 @media (max-width: 1080px) {
   .firstQuote {
     margin-top: 4rem;
+  }
+  header .wrapper .headerBackText {
+    font-size: 21rem;
   }
   .projects {
     padding-bottom: 10rem;

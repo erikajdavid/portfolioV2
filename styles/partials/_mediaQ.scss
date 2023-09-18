@@ -36,6 +36,9 @@
                     padding: 0.45rem;
                 }
             }
+            .headerBackText {
+                font-size: 23rem;
+            }
         }
     }
 
@@ -89,6 +92,10 @@
 
     .firstQuote {
         margin-top: 4rem;
+    }
+
+    header .wrapper .headerBackText {
+        font-size: 21rem;
     }
 
     .projects {
