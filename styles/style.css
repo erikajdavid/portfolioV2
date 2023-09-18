@@ -943,6 +943,7 @@ footer .wrapper .footerMainContainer .footerBackToTopBtn {
   background-color: rgb(18, 18, 18);
   border: 1px solid rgb(255, 179, 16);
   margin-top: 2rem;
+  display: none;
 }
 footer .wrapper .footerMainContainer .footerBackToTopBtn a {
   color: rgb(255, 179, 16);
@@ -1260,6 +1261,9 @@ footer .footerMainTitle {
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 250px;
+  }
+  footer .wrapper .footerMainContainer .footerBackToTopBtn {
+    display: block;
   }
 }
 @media (max-width: 505px) {

@@ -314,6 +314,10 @@
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
         height: 250px;
     }
+
+    footer .wrapper .footerMainContainer .footerBackToTopBtn {
+        display: block;
+    } 
 }
 
 @media (max-width: 505px) {
