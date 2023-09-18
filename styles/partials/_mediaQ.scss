@@ -315,9 +315,18 @@
         padding-bottom: 0;
     }
 
+    .projects .projectContainer .project .projectInfo .projectTitle h3 {
+        font-size: 1.45rem;
+    }
+
     .projects .projectContainer .project .projectInfo .projectDescription p {
         font-size: 0.95rem;
     }
+
+    .about .ourStory h3,
+    .about .ourStory h4 {
+        font-size: 1.45rem;
+}
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
         height: 200px;
