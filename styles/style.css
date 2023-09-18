@@ -617,6 +617,9 @@ header .wrapper .headerBackText {
   font-size: 1.5rem;
   color: rgb(211, 170, 252);
 }
+.projects .projectContainer .project .projectInfo .projectDescription .tools li .apiIcon {
+  width: 25px;
+}
 
 .firstQuote {
   margin-top: 7rem;
