@@ -254,7 +254,7 @@
     }
 
     header .wrapper .hero .heroImg {
-        width: 115%;
+        width: 118%;
     }
 
     header .wrapper .hero .heroText {
@@ -274,8 +274,15 @@
     }
 
     .feedback {
-        padding: 6rem 0;
-    }
+        padding: 4rem 0;
+        .wrapper .quote {
+            padding-top: 3rem;
+            font-size: 0.9rem;
+        }
+        .wrapper .quoteCredit {
+             font-size: 0.7rem;
+            }
+        }
 
     .projects {
         .projectTitle {
@@ -294,7 +301,7 @@
     }
 
     .projects .projectContainer .project .mockUp {
-        width: 95%;
+        width: 95%;   
     }
 
     .projects .projectContainer .project .projectInfo {
@@ -306,9 +313,9 @@
     }
 
     footer .footerMainTitle {
-        font-size: 3.36rem;
-        width: 90%;
-        padding: 0 5rem;
+        font-size: 2.75rem;
+        width: 100%;
+        margin-bottom: 2.5rem;
     }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
@@ -331,16 +338,28 @@
     }
 
     .projects .projectContainer .project .projectInfo .projectDescription p {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+    }
+
+    .feedback .wrapper .quoteSymbol {
+        font-size: 4rem;
     }
 
     .about .ourStory h3,
     .about .ourStory h4 {
-        font-size: 1.45rem;
-}
+        font-size: 1.3rem;
+    }
+
+    .about .ourStory p {
+        font-size: 0.9rem;
+    }
 
     footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
         height: 200px;
+    }
+
+    footer .footerMainTitle {
+        font-size: 2rem;
     }
 }
 
@@ -364,13 +383,6 @@
 
     footer .wrapper .contactNav {
         display: none;
-    }
-
-    footer .footerMainTitle {
-        font-size: 3.36rem;
-        width: 90%;
-        padding: 0;
-        justify-content: center;
     }
 
     footer .wrapper .footerMainContainer .formContainer {
