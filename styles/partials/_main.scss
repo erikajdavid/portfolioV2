@@ -339,11 +339,41 @@ header .wrapper .topNav .mobileMenu {
     }
 }
 
+
+
+//mobile about
+
+.about .mobileOurStoryCover {
+    display: none;
+    .mobileAboutImgContainer img {
+        width: 100%;
+    }
+    .wrapper p,
+    .wrapper h2 {
+        color: $black;
+        text-align: center;
+    }
+    .wrapper h2 {
+        font-size: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+
 @media (max-width: 505px) {
     .mockUp {
         display: none;
     }
     .mockMobile {
         display: block;
+    }
+
+    .about .ourStoryCover {
+        display: none;
+    }
+
+    .about .mobileOurStoryCover {
+        display: block;
+        background-color: $purple;
     }
 }

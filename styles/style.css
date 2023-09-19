@@ -825,12 +825,35 @@ header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
   font-size: 13rem;
 }
 
+.about .mobileOurStoryCover {
+  display: none;
+}
+.about .mobileOurStoryCover .mobileAboutImgContainer img {
+  width: 100%;
+}
+.about .mobileOurStoryCover .wrapper p,
+.about .mobileOurStoryCover .wrapper h2 {
+  color: rgb(18, 18, 18);
+  text-align: center;
+}
+.about .mobileOurStoryCover .wrapper h2 {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
 @media (max-width: 505px) {
   .mockUp {
     display: none;
   }
   .mockMobile {
     display: block;
+  }
+  .about .ourStoryCover {
+    display: none;
+  }
+  .about .mobileOurStoryCover {
+    display: block;
+    background-color: rgb(211, 170, 252);
   }
 }
 footer {
