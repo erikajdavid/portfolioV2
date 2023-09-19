@@ -236,7 +236,7 @@
     } 
 }
 
-//mobile menu
+//mobile menu/about/projects
 header .wrapper .topNav .faMobileMenu {
     color: $yellow;
     font-size: 2rem;
@@ -314,18 +314,6 @@ header .wrapper .topNav .mobileMenu {
     }
 }
 
-@media (max-width: 628px) {
-    header .wrapper .topNav .faMobileMenu {
-        display: block;
-    }
-
-    header .wrapper .topNav .mobileMenu.activated {
-        right: 0;
-        display: block;
-        
-    }
-}
-
 .mockMobile {
     display: none;
     width: 70%;
@@ -338,10 +326,6 @@ header .wrapper .topNav .mobileMenu {
         font-size: 13rem;
     }
 }
-
-
-
-//mobile about
 
 .about .mobileOurStoryCover {
     display: none;
@@ -359,21 +343,3 @@ header .wrapper .topNav .mobileMenu {
     }
 }
 
-
-@media (max-width: 505px) {
-    .mockUp {
-        display: none;
-    }
-    .mockMobile {
-        display: block;
-    }
-
-    .about .ourStoryCover {
-        display: none;
-    }
-
-    .about .mobileOurStoryCover {
-        display: block;
-        background-color: $purple;
-    }
-}

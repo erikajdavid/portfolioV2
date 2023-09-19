@@ -803,15 +803,6 @@ header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
   padding: 0 1rem;
 }
 
-@media (max-width: 628px) {
-  header .wrapper .topNav .faMobileMenu {
-    display: block;
-  }
-  header .wrapper .topNav .mobileMenu.activated {
-    right: 0;
-    display: block;
-  }
-}
 .mockMobile {
   display: none;
   width: 70%;
@@ -841,21 +832,6 @@ header .wrapper .topNav .mobileMenu .mobileMenuSocials li .mobileSocialIcon {
   padding-bottom: 3rem;
 }
 
-@media (max-width: 505px) {
-  .mockUp {
-    display: none;
-  }
-  .mockMobile {
-    display: block;
-  }
-  .about .ourStoryCover {
-    display: none;
-  }
-  .about .mobileOurStoryCover {
-    display: block;
-    background-color: rgb(211, 170, 252);
-  }
-}
 footer {
   position: relative;
   padding-top: 3rem;
@@ -1267,6 +1243,13 @@ footer .footerMainTitle {
   header .wrapper .hero .heroText h2 span {
     font-size: 1.5rem;
   }
+  header .wrapper .topNav .faMobileMenu {
+    display: block;
+  }
+  header .wrapper .topNav .mobileMenu.activated {
+    right: 0;
+    display: block;
+  }
   .feedback {
     padding: 4rem 0;
   }
@@ -1309,6 +1292,19 @@ footer .footerMainTitle {
   }
 }
 @media (max-width: 505px) {
+  .mockUp {
+    display: none;
+  }
+  .mockMobile {
+    display: block;
+  }
+  .about .ourStoryCover {
+    display: none;
+  }
+  .about .mobileOurStoryCover {
+    display: block;
+    background-color: rgb(211, 170, 252);
+  }
   .projects {
     padding-bottom: 0;
   }

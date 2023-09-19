@@ -287,6 +287,16 @@
         }
     }
 
+    header .wrapper .topNav .faMobileMenu {
+        display: block;
+    }
+
+    header .wrapper .topNav .mobileMenu.activated {
+        right: 0;
+        display: block;
+        
+    }
+
     .feedback {
         padding: 4rem 0;
         .wrapper .quote {
@@ -339,6 +349,21 @@
 }
 
 @media (max-width: 505px) {
+    .mockUp {
+        display: none;
+    }
+    .mockMobile {
+        display: block;
+    }
+
+    .about .ourStoryCover {
+        display: none;
+    }
+
+    .about .mobileOurStoryCover {
+        display: block;
+        background-color: $purple;
+    }
 
     .projects {
         padding-bottom: 0;
