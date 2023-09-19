@@ -968,14 +968,14 @@ footer .wrapper .footerMainContainer .footerSocialBar .faIcons {
 }
 footer .wrapper .footerMainContainer .footerBackToTopBtn {
   background-color: rgb(18, 18, 18);
-  border: 1px solid rgb(255, 179, 16);
   margin-top: 2rem;
   display: none;
+  border: none;
 }
 footer .wrapper .footerMainContainer .footerBackToTopBtn a {
   color: rgb(255, 179, 16);
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
 }
 footer .copyrightContainer {
@@ -1233,6 +1233,16 @@ footer .footerMainTitle {
   footer .wrapper .footerMainContainer .footerSocialBar {
     display: flex;
   }
+  footer .wrapper .footerMainContainer .footerBackToTopBtn {
+    display: block;
+  }
+  footer .copyrightContainer .wrapper,
+  footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit {
+    font-size: 0.6rem;
+  }
+  footer .copyrightContainer .wrapper .creditsContainer .erikaCredit {
+    font-size: 0.75rem;
+  }
 }
 @media (max-width: 628px) {
   header {
@@ -1295,9 +1305,6 @@ footer .footerMainTitle {
   }
   footer .wrapper .footerMainContainer .footerImgContainer .colorStrip {
     height: 250px;
-  }
-  footer .wrapper .footerMainContainer .footerBackToTopBtn {
-    display: block;
   }
 }
 @media (max-width: 505px) {

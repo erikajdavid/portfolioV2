@@ -243,6 +243,20 @@
     footer .wrapper .footerMainContainer .footerSocialBar {
         display: flex;
     }
+
+    footer .wrapper .footerMainContainer .footerBackToTopBtn {
+        display: block;
+    } 
+
+    footer .copyrightContainer .wrapper,
+    footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit {
+        font-size: 0.6rem;
+       
+    }
+
+    footer .copyrightContainer .wrapper .creditsContainer .erikaCredit {
+        font-size: 0.75rem;
+    }
 }
 
 @media (max-width: 628px) {
@@ -322,9 +336,6 @@
         height: 250px;
     }
 
-    footer .wrapper .footerMainContainer .footerBackToTopBtn {
-        display: block;
-    } 
 }
 
 @media (max-width: 505px) {
