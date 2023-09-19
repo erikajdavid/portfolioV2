@@ -239,7 +239,7 @@
 //mobile menu/about/projects
 header .wrapper .topNav .faMobileMenu {
     color: $yellow;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     display: none;
 }
@@ -265,8 +265,8 @@ header .wrapper .topNav .mobileMenu {
         align-items: center; 
         cursor: pointer; 
         position: absolute;
-        top: 31px;
-        right: 4%;
+        top: 34px;
+        right: 3%;
         transition: all 0.25s;
         &:hover {
             background-color: rgb(59, 59, 59);
@@ -283,7 +283,7 @@ header .wrapper .topNav .mobileMenu {
             width: 100%;
             padding: 2rem 0;
             margin: 0;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             text-align: center;
         }
         a {

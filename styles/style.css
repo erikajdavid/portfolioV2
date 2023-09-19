@@ -729,7 +729,7 @@ header .wrapper .headerBackText {
 
 header .wrapper .topNav .faMobileMenu {
   color: rgb(255, 179, 16);
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   display: none;
 }
@@ -756,8 +756,8 @@ header .wrapper .topNav .mobileMenu .faMobileMenuClose {
   align-items: center;
   cursor: pointer;
   position: absolute;
-  top: 31px;
-  right: 4%;
+  top: 34px;
+  right: 3%;
   transition: all 0.25s;
 }
 header .wrapper .topNav .mobileMenu .faMobileMenuClose:hover {
@@ -775,7 +775,7 @@ header .wrapper .topNav .mobileMenu .mobileMenuNav li {
   width: 100%;
   padding: 2rem 0;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 header .wrapper .topNav .mobileMenu .mobileMenuNav a {
