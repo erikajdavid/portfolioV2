@@ -899,6 +899,7 @@ footer .wrapper .footerMainContainer .formContainer {
   position: relative;
   z-index: 0;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 footer .wrapper .footerMainContainer .formContainer .footerBackText {
   font-size: 17rem;
@@ -959,7 +960,7 @@ footer .wrapper .footerMainContainer .formContainer form button:hover {
 }
 footer .wrapper .footerMainContainer .footerSocialBar {
   display: none;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 footer .wrapper .footerMainContainer .footerSocialBar .faIcons {
   color: rgb(255, 179, 16);
@@ -968,7 +969,7 @@ footer .wrapper .footerMainContainer .footerSocialBar .faIcons {
 }
 footer .wrapper .footerMainContainer .footerBackToTopBtn {
   background-color: rgb(18, 18, 18);
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: none;
   border: none;
 }
