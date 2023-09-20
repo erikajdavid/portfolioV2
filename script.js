@@ -118,13 +118,17 @@ mobileMenuRedirects.forEach((link) => {
 // Define the media query condition
 const mediaQuery = window.matchMedia("(max-width: 505px)");
 
-// Function to remove the "quickReveal" class from elements
+// Function to remove the "quickReveal" class from elements within the "project" section
 function removeQuickRevealClass() {
-  const quickRevealEL = document.querySelectorAll('.quickReveal');
+  const projectsEl = document.querySelector('.projects'); // Assuming there is a parent element with the class "project"
+  
+  if (projectsEl && mediaQuery.matches) {
+    const quickRevealEL = projectsEl.querySelectorAll('.quickReveal');
 
-  quickRevealEL.forEach((quickReveal) => {
-    quickReveal.classList.remove('quickReveal'); // Remove the class
-  });
+    quickRevealEL.forEach((quickReveal) => {
+      quickReveal.classList.remove('quickReveal'); // Remove the class
+    });
+  }
 }
 
 // Initial call to remove the class if the condition is met
@@ -132,9 +136,3 @@ if (mediaQuery.matches) {
   removeQuickRevealClass();
 }
 
-// Add a listener to remove the class when the condition is met
-mediaQuery.addListener((event) => {
-  if (event.matches) {
-    removeQuickRevealClass();
-  }
-});
