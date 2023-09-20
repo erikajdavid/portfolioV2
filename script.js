@@ -65,8 +65,6 @@ function raf(time) {
 requestAnimationFrame(raf)
 */
 
-
-
 //GSAP animation
 
 gsap.registerPlugin(ScrollTrigger)
@@ -113,3 +111,30 @@ closeMenuEl.addEventListener("click", toggleMobileMenu);
 mobileMenuRedirects.forEach((link) => {
   link.addEventListener("click", toggleMobileMenu);
 })
+
+
+//remove reveal scroll for media queries at 505px
+
+// Define the media query condition
+const mediaQuery = window.matchMedia("(max-width: 505px)");
+
+// Function to remove the "quickReveal" class from elements
+function removeQuickRevealClass() {
+  const quickRevealEL = document.querySelectorAll('.quickReveal');
+
+  quickRevealEL.forEach((quickReveal) => {
+    quickReveal.classList.remove('quickReveal'); // Remove the class
+  });
+}
+
+// Initial call to remove the class if the condition is met
+if (mediaQuery.matches) {
+  removeQuickRevealClass();
+}
+
+// Add a listener to remove the class when the condition is met
+mediaQuery.addListener((event) => {
+  if (event.matches) {
+    removeQuickRevealClass();
+  }
+});
