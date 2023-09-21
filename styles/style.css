@@ -351,7 +351,6 @@ header .wrapper .topNav {
   align-items: center;
   height: 12vh;
   width: 100%;
-  background-color: rgb(18, 18, 18);
 }
 header .wrapper .topNav nav ul {
   display: flex;
