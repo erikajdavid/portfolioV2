@@ -570,6 +570,7 @@ header .wrapper .headerBackText {
   width: 30%;
   bottom: -20%;
   left: -5%;
+  border-radius: 50%;
 }
 .projects .projectContainer .project .mockUp .projectIconMobile {
   display: none;
