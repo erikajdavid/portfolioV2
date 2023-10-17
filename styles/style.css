@@ -611,6 +611,7 @@ header .wrapper .headerBackText {
   line-height: 1.68rem;
   letter-spacing: 0.05rem;
   margin: 1.5rem 0 2rem 0;
+  color: rgb(149, 149, 149);
 }
 .projects .projectContainer .project .projectInfo .projectDescription .tools {
   display: flex;
