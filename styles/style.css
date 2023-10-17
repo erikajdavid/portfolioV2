@@ -598,13 +598,13 @@ header .wrapper .headerBackText {
   display: flex;
   align-items: center;
 }
-.projects .projectContainer .project .projectInfo .projectTitle .arrowUpRight, .projects .projectContainer .project .projectInfo .projectTitle .gitHubProject {
+.projects .projectContainer .project .projectInfo .projectTitle .arrowUpRight, .projects .projectContainer .project .projectInfo .projectTitle .gitHubProject, .projects .projectContainer .project .projectInfo .projectTitle .youTubeIcon {
   font-size: 1.5rem;
   color: rgb(255, 179, 16);
   margin-left: 0.5rem;
   transition: all 0.25s;
 }
-.projects .projectContainer .project .projectInfo .projectTitle .arrowUpRight:hover, .projects .projectContainer .project .projectInfo .projectTitle .gitHubProject:hover {
+.projects .projectContainer .project .projectInfo .projectTitle .arrowUpRight:hover, .projects .projectContainer .project .projectInfo .projectTitle .gitHubProject:hover, .projects .projectContainer .project .projectInfo .projectTitle .youTubeIcon:hover {
   color: rgb(211, 170, 252);
 }
 .projects .projectContainer .project .projectInfo .projectDescription p {
