@@ -551,12 +551,12 @@ header .wrapper .headerBackText {
   border-radius: 2rem;
   border: 2px solid rgb(49, 49, 49);
 }
-.projects .projectContainer .project .mockUp .projectIcon {
+/* .projects .projectContainer .project .mockUp .projectIcon {
   position: absolute;
-  width: 55%;
+  width: 20%;
   bottom: -20%;
   left: -15%;
-}
+} */
 .projects .projectContainer .project .mockUp .cartAppMobile {
   position: absolute;
   height: 120%;
