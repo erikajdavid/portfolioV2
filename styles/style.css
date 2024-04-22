@@ -611,7 +611,8 @@ header .wrapper .headerBackText {
   line-height: 1.68rem;
   letter-spacing: 0.05rem;
   margin: 1.5rem 0 2rem 0;
-  color: rgb(149, 149, 149);
+  color: rgb(96, 96, 96);
+  font-size: 0.95rem;
 }
 .projects .projectContainer .project .projectInfo .projectDescription .tools {
   display: flex;
@@ -726,6 +727,7 @@ header .wrapper .headerBackText {
   padding-bottom: 2rem;
   line-height: 1.68rem;
   letter-spacing: 0.05rem;
+  color: rgb(96, 96, 96);
 }
 .about .ourStory .fakeBtn {
   margin: 0 auto;
@@ -1316,7 +1318,7 @@ footer .footerMainTitle {
     font-size: 1.45rem;
   }
   .projects .projectContainer .project .projectInfo .projectDescription p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
   .feedback .wrapper .quoteSymbol {
     font-size: 4rem;
