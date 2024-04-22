@@ -915,6 +915,9 @@ footer .wrapper .footerMainContainer .formContainer form input[type=text]::-moz-
 footer .wrapper .footerMainContainer .formContainer form input[type=text]::placeholder,
 footer .wrapper .footerMainContainer .formContainer form textarea::placeholder {
   font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
 }
 footer .wrapper .footerMainContainer .formContainer form textarea {
   height: 30vh;
