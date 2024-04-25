@@ -1150,6 +1150,11 @@ footer .copyrightContainer .wrapper .creditsContainer .dimpleCredit a:hover {
   font-size: 2rem;
 }
 
+.projects .projectContainer .project .projectInfo .projectTitle h3 span {
+  color: rgb(96, 96, 96);
+  font-weight: 300;
+}
+
 .about .ourStoryCover .purpleStrip {
   padding-top: 2.5rem;
   align-items: flex-start;
