@@ -906,6 +906,11 @@ footer .wrapper .footerMainContainer .formContainer form input, footer .wrapper 
   border-radius: 6px;
   outline: none;
 }
+
+footer .wrapper .footerMainContainer .formContainer form input, footer .wrapper .footerMainContainer .formContainer form textarea {
+  border: 3px solid white;
+}
+
 footer .wrapper .footerMainContainer .formContainer form input:focus, footer .wrapper .footerMainContainer .formContainer form textarea:focus {
   border: 3px solid rgb(255, 179, 16);
 }
