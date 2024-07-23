@@ -542,7 +542,7 @@ header .wrapper .headerBackText {
 }
 .projects .projectContainer .project .mockUp {
   position: relative;
-  width: 60%;
+  width: 55%;
   -o-object-fit: cover;
      object-fit: cover;
 }
